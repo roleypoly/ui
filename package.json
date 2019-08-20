@@ -1,0 +1,64 @@
+{
+  "name": "ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tslint --project ."
+  },
+  "dependencies": {
+    "next": "9.0.4",
+    "prettier-plugin-packagejson": "^2.0.1",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/node": "^12.7.2",
+    "@types/jest": "^24.0.18",
+    "@types/react": "^16.9.2",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
+    "husky": "^3.0.4",
+    "jest": "^24.9.0",
+    "jest-styled-components": "^6.3.3",
+    "lint-staged": "^9.2.3",
+    "prettier": "^1.18.2",
+    "stylelint": "^10.1.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-prettier": "^1.1.1",
+    "stylelint-processor-styled-components": "^1.8.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{ts,tsx}": [
+      "tslint --fix",
+      "git add"
+    ],
+    "*.css": [
+      "stylelint --fix",
+      "git add"
+    ]
+  }
+}
