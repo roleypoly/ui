@@ -3,6 +3,7 @@ import { atomStories } from '../atoms.story'
 import { palette } from './colors'
 import styled from 'styled-components'
 import chroma from 'chroma-js'
+import { ratioNames } from 'polished/lib/helpers/modularScale'
 
 type RatioList = {
   color1: string[]
@@ -55,7 +56,7 @@ story.add('Colors', () => {
 const ContrastTable = styled.table`
   td,
   th {
-    padding: 3px 5px;
+    padding: 6px 10px;
   }
 `
 
@@ -106,6 +107,24 @@ story.add('Contrast Ratios', () => {
             </td>
             <td>{ratio.color1[0]}</td>
             <td>{ratio.color2[0]}</td>
+            <td
+              style={{
+                color: ratio.color1[1],
+                backgroundColor: ratio.color2[1],
+                paddingRight: '0.1em',
+              }}
+            >
+              oh my god my
+            </td>
+            <td
+              style={{
+                color: ratio.color2[1],
+                backgroundColor: ratio.color1[1],
+                paddingLeft: '0.1em',
+              }}
+            >
+              shin how dare you
+            </td>
           </tr>
         ))}
       </tbody>
