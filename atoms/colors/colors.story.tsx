@@ -3,7 +3,6 @@ import { atomStories } from '../atoms.story'
 import { palette } from './colors'
 import styled from 'styled-components'
 import chroma from 'chroma-js'
-import { ratioNames } from 'polished/lib/helpers/modularScale'
 
 type RatioList = {
   color1: string[]
@@ -11,7 +10,7 @@ type RatioList = {
   ratio: string
 }
 
-const story = atomStories('Colors', module)
+const story = atomStories('Colors', module, { withInfo: false, withA11y: false })
 
 const Swatch = styled.div`
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -60,8 +59,20 @@ const ContrastTable = styled.table`
   }
 `
 
-story.add('Contrast Ratios', () => {
-  const allRatios = Object.entries(palette)
+const getWCAGStyle = (ratio: number): React.CSSProperties => {
+  if (ratio >= 7) {
+    return { color: 'green', fontWeight: 'bold' }
+  }
+
+  if (ratio >= 4.5) {
+    return { color: 'orange', fontWeight: 'bold' }
+  }
+
+  return {}
+}
+
+const getAllRatios = (input: typeof palette) =>
+  Object.entries(input)
     .filter(([name]) => !name.startsWith('discord'))
     .reduce(
       (acc, [name, color]) => {
@@ -87,47 +98,61 @@ story.add('Contrast Ratios', () => {
     })
     .filter((_, i) => i % 2 === 0)
 
+story.add('Contrast Ratios', () => {
+  const allRatios = getAllRatios(palette)
+
   return (
-    <ContrastTable>
-      <thead>
-        <tr>
-          <th colSpan={2}>Swatch</th>
-          <th>Ratio</th>
-          <th>Color 1</th>
-          <th>Color 2</th>
-        </tr>
-      </thead>
-      <tbody>
-        {allRatios.map((ratio, i) => (
-          <tr key={i}>
-            <td style={{ backgroundColor: ratio.color1[1] }}>&nbsp;</td>
-            <td style={{ backgroundColor: ratio.color2[1] }}>&nbsp;</td>
-            <td style={+ratio.ratio >= 4.5 ? { color: 'green', fontWeight: 'bold' } : {}}>
-              {ratio.ratio}
-            </td>
-            <td>{ratio.color1[0]}</td>
-            <td>{ratio.color2[0]}</td>
-            <td
-              style={{
-                color: ratio.color1[1],
-                backgroundColor: ratio.color2[1],
-                paddingRight: '0.1em',
-              }}
-            >
-              oh my god my
-            </td>
-            <td
-              style={{
-                color: ratio.color2[1],
-                backgroundColor: ratio.color1[1],
-                paddingLeft: '0.1em',
-              }}
-            >
-              shin how dare you
-            </td>
+    <div>
+      <p>
+        <b>WCAG Contrast Calculations.</b>
+        <br />
+        Marked in <span style={getWCAGStyle(7.1)}>Green</span> is 7.0+ or AAA. Acceptable
+        for Text.
+        <br />
+        Marked in <span style={getWCAGStyle(4.6)}>Orange</span> is 4.5+ or AA. Acceptable
+        for UI.
+        <br />
+        All below 4.5 is unacceptable.
+      </p>
+      <ContrastTable>
+        <thead>
+          <tr>
+            <th colSpan={2}>Swatch</th>
+            <th>Ratio</th>
+            <th>Color 1</th>
+            <th>Color 2</th>
           </tr>
-        ))}
-      </tbody>
-    </ContrastTable>
+        </thead>
+        <tbody>
+          {allRatios.map((ratio, i) => (
+            <tr key={i}>
+              <td style={{ backgroundColor: ratio.color1[1] }}>&nbsp;</td>
+              <td style={{ backgroundColor: ratio.color2[1] }}>&nbsp;</td>
+              <td style={getWCAGStyle(+ratio.ratio)}>{ratio.ratio}</td>
+              <td>{ratio.color1[0]}</td>
+              <td>{ratio.color2[0]}</td>
+              <td
+                style={{
+                  color: ratio.color1[1],
+                  backgroundColor: ratio.color2[1],
+                  paddingRight: '0.1em',
+                }}
+              >
+                oh my god my
+              </td>
+              <td
+                style={{
+                  color: ratio.color2[1],
+                  backgroundColor: ratio.color1[1],
+                  paddingLeft: '0.1em',
+                }}
+              >
+                shin how dare you
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </ContrastTable>
+    </div>
   )
 })

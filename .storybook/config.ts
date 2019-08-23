@@ -1,7 +1,4 @@
 import { configure } from '@storybook/react'
-import '@storybook/addon-knobs/register'
-import '@storybook/addon-actions/register'
-import '@storybook/addon-a11y/register'
 
 // automatically import all files ending in *.stories.tsx
 const reqs = [

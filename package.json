@@ -3,17 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "tslint --project .",
-    "storybook": "start-storybook --port 6001",
     "build-storybook": "build-storybook -c .storybook -o sb-out",
-    "now-build": "build-storybook"
+    "dev": "next dev",
+    "lint": "tslint --project .",
+    "now-build": "build-storybook",
+    "start": "next start",
+    "storybook": "start-storybook --port 6001"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.css": [
+      "stylelint --fix",
+      "git add"
+    ],
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{ts,tsx}": [
+      "tslint --fix",
+      "git add"
+    ]
   },
   "dependencies": {
     "next": "9.0.4",
-    "prettier-plugin-packagejson": "^2.0.1",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "styled-components": "^4.3.2"
@@ -23,8 +41,10 @@
     "@storybook/addon-actions": "^5.1.11",
     "@storybook/addon-info": "^5.1.11",
     "@storybook/addon-knobs": "^5.1.11",
+    "@storybook/addon-links": "^5.1.11",
     "@storybook/addon-storyshots": "^5.1.11",
     "@storybook/addon-storysource": "^5.1.11",
+    "@storybook/addon-viewport": "^5.1.11",
     "@storybook/react": "^5.1.11",
     "@types/chroma-js": "^1.4.1",
     "@types/enzyme": "^3.10.3",
@@ -33,8 +53,10 @@
     "@types/node": "^12.7.2",
     "@types/react": "^16.9.2",
     "@types/storybook__addon-actions": "^3.4.3",
+    "@types/storybook__addon-info": "^4.1.2",
     "@types/storybook__addon-knobs": "^5.0.3",
     "@types/storybook__addon-storyshots": "^5.1.1",
+    "@types/storybook__addon-viewport": "^4.1.1",
     "@types/storybook__react": "^4.0.2",
     "@types/styled-components": "^4.1.18",
     "awesome-typescript-loader": "^5.2.1",
@@ -49,6 +71,7 @@
     "jest-styled-components": "^6.3.3",
     "lint-staged": "^9.2.3",
     "prettier": "^1.18.2",
+    "prettier-plugin-packagejson": "^2.0.1",
     "react-docgen-typescript-loader": "^3.1.1",
     "stylelint": "^10.1.0",
     "stylelint-config-prettier": "^5.2.0",
@@ -62,24 +85,5 @@
     "tslint-config-standard": "^8.0.1",
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.5.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,css,json,md}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.{ts,tsx}": [
-      "tslint --fix",
-      "git add"
-    ],
-    "*.css": [
-      "stylelint --fix",
-      "git add"
-    ]
   }
 }
