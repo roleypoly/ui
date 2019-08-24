@@ -2,6 +2,7 @@ import * as React from 'react'
 import { atomStories } from '../atoms.story'
 import { UseFontStyled } from './fonts'
 import styled from 'styled-components'
+import { text400, MediumTitle, Text as TextBlock } from '../typography'
 
 const story = atomStories('Fonts', module, { withInfo: false })
 
@@ -11,7 +12,7 @@ const FontReset = styled.div`
 
 const CorrectlyFontedH2 = (props: { children: React.ReactNode }) => (
   <UseFontStyled>
-    <h2>{props.children}</h2>
+    <MediumTitle>{props.children}</MediumTitle>
   </UseFontStyled>
 )
 
@@ -39,7 +40,7 @@ const Text = () => (
 )
 
 story.add('Fonts', () => (
-  <div>
+  <TextBlock>
     <section>
       <CorrectlyFontedH2>Unstyled Default</CorrectlyFontedH2>
       <Text />
@@ -50,5 +51,5 @@ story.add('Fonts', () => (
         <Text />
       </UseFontStyled>
     </section>
-  </div>
+  </TextBlock>
 ))
