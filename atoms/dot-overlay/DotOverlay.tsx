@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import * as React from 'react'
 
-export const DotOverlay = styled.div`
+const dotOverlayBase = styled.div`
   opacity: 0.6;
   pointer-events: none;
   position: fixed;
@@ -9,6 +10,10 @@ export const DotOverlay = styled.div`
   left: 0;
   right: 0;
   z-index: -10;
+  background-size: 27px 27px;
+`
+
+const DotOverlayDark = styled(dotOverlayBase)`
   background-image: radial-gradient(
     circle,
     #332d2d,
@@ -16,5 +21,18 @@ export const DotOverlay = styled.div`
     transparent 1px,
     transparent
   );
-  background-size: 27px 27px;
 `
+
+const DotOverlayLight = styled(dotOverlayBase)`
+  background-image: radial-gradient(
+    circle,
+    #dbd9d9,
+    #dbd9d9 1px,
+    transparent 1px,
+    transparent
+  );
+`
+
+export const DotOverlay = ({ light }: { light?: boolean }) => {
+  return light ? <DotOverlayLight /> : <DotOverlayDark />
+}

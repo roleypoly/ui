@@ -18,6 +18,7 @@ const Swatch = styled.div`
   height: 100px;
   margin: 10px;
   display: inline-block;
+  background-color: #fff;
 `
 
 const SwatchColor = styled.div`

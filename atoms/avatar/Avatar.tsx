@@ -21,6 +21,9 @@ const Container = styled.div<ContainerProps>`
   position: relative;
   background-color: var(--grey500);
   font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
 `
 
 type ImageProps = Pick<AvatarProps, 'src'>
