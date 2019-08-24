@@ -1,4 +1,14 @@
-import { configure } from '@storybook/react'
+import { addParameters, configure } from '@storybook/react'
+// import { themes } from '@storybook/theming'
+import { roleypolyTheme } from './roleypoly-theme'
+
+// Option defaults.
+addParameters({
+  options: {
+    theme: roleypolyTheme,
+    panelPosition: 'right',
+  },
+})
 
 // automatically import all files ending in *.stories.tsx
 const reqs = [
