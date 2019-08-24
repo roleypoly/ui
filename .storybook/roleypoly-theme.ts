@@ -24,7 +24,7 @@ export const roleypolyTheme = create({
   // Toolbar default and active colors
   barTextColor: palette.taupe500,
   barSelectedColor: palette.taupe600,
-  barBg: palette.taupe300,
+  barBg: palette.taupe100,
 
   // Form colors
   inputBg: 'rgba(0,0,0,0.24)',
