@@ -4,8 +4,8 @@ import { palette } from '../atoms/colors'
 export const roleypolyTheme = create({
   base: 'dark',
 
-  colorPrimary: 'hotpink',
-  colorSecondary: palette.taupe500,
+  colorPrimary: palette.green400,
+  colorSecondary: palette.taupe200,
 
   // UI
   appBg: palette.taupe300,
@@ -18,8 +18,8 @@ export const roleypolyTheme = create({
   fontCode: 'monospace',
 
   // Text colors
-  textColor: '#efefef',
-  textInverseColor: 'rgba(255,255,255,0.9)',
+  textColor: palette.grey600,
+  textInverseColor: palette.grey100,
 
   // Toolbar default and active colors
   barTextColor: palette.taupe500,
