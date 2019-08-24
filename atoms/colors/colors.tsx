@@ -19,7 +19,8 @@ export const palette = {
   red400: '#E95353',
 
   grey100: '#1C1010',
-  grey600: '#EFEFEF',
+  grey500: '#DBD9D9',
+  grey600: '#F2EFEF',
 }
 
 const getPaletteCSS = () =>
