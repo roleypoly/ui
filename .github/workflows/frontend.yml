@@ -14,14 +14,10 @@ jobs:
           node-version: 12.x
 
       - name: Install
-        uses: nuxt/actions-yarn@master
-        with:
-          args: install --frozen-lockfile
+        run: npm ci
 
       - name: Lint
-        uses: nuxt/actions-yarn@master
-        with:
-          args: lint
+        run: npm run lint
 
   test:
     name: Test
@@ -36,14 +32,10 @@ jobs:
           node-version: 12.x
 
       - name: Install
-        uses: nuxt/actions-yarn@master
-        with:
-          args: install --frozen-lockfile
+        run: npm ci
 
       - name: Test
-        uses: nuxt/actions-yarn@master
-        with:
-          args: test
+        run: npm run test
 
   build_storybook:
     name: Storybook
@@ -57,10 +49,11 @@ jobs:
         with:
           node-version: 12.x
 
+      - name: Install
+        run: npm ci
+
       - name: Build Storybook
-        uses: nuxt/actions-yarn@master
-        with:
-          args: build-storybook
+        run: npm run build-storybook
       # run tests?
       # deploy? ??? ? ?? ?????
 
@@ -76,8 +69,9 @@ jobs:
         with:
           node-version: 12.x
 
-      - name: Build Storybook
-        uses: nuxt/actions-yarn@master
-        with:
-          args: build
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npm run build
 # missing: final output build. docker? at least this is still useful as it is.

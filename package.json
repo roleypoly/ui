@@ -12,7 +12,8 @@
     "lint:ts": "tslint --project .",
     "now-build": "build-storybook",
     "start": "next start",
-    "storybook": "start-storybook --port 6001"
+    "storybook": "start-storybook --port 6001",
+    "test": "jest"
   },
   "husky": {
     "hooks": {
