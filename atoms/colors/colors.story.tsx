@@ -1,8 +1,9 @@
 import * as React from 'react'
-import { atomStories } from '../atoms.story'
+import { atomStories } from 'atoms/atoms.story'
 import { palette } from './colors'
 import styled from 'styled-components'
 import chroma from 'chroma-js'
+import { AmbientSmall } from 'atoms/typography'
 
 type RatioList = {
   color1: string[]
@@ -19,6 +20,7 @@ const Swatch = styled.div`
   margin: 10px;
   display: inline-block;
   background-color: #fff;
+  border: 1px solid #fff;
 `
 
 const SwatchColor = styled.div`
@@ -30,6 +32,7 @@ const Label = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 6px;
+  color: ${palette.taupe100};
   p {
     margin: 0;
   }
@@ -99,61 +102,78 @@ const getAllRatios = (input: typeof palette) =>
     })
     .filter((_, i) => i % 2 === 0)
 
-story.add('Contrast Ratios', () => {
-  const allRatios = getAllRatios(palette)
+story.add(
+  'Contrast Ratios',
+  () => {
+    const allRatios = getAllRatios(palette)
 
-  return (
-    <div>
-      <p>
-        <b>WCAG Contrast Calculations.</b>
-        <br />
-        Marked in <span style={getWCAGStyle(7.1)}>Green</span> is 7.0+ or AAA. Acceptable
-        for Text.
-        <br />
-        Marked in <span style={getWCAGStyle(4.6)}>Orange</span> is 4.5+ or AA. Acceptable
-        for UI.
-        <br />
-        All below 4.5 is unacceptable.
-      </p>
-      <ContrastTable>
-        <thead>
-          <tr>
-            <th colSpan={2}>Swatch</th>
-            <th>Ratio</th>
-            <th>Color 1</th>
-            <th>Color 2</th>
-          </tr>
-        </thead>
-        <tbody>
-          {allRatios.map((ratio, i) => (
-            <tr key={i}>
-              <td style={{ backgroundColor: ratio.color1[1] }}>&nbsp;</td>
-              <td style={{ backgroundColor: ratio.color2[1] }}>&nbsp;</td>
-              <td style={getWCAGStyle(+ratio.ratio)}>{ratio.ratio}</td>
-              <td>{ratio.color1[0]}</td>
-              <td>{ratio.color2[0]}</td>
-              <td
-                style={{
-                  color: ratio.color1[1],
-                  backgroundColor: ratio.color2[1],
-                  paddingRight: '0.1em',
-                }}
-              >
-                oh my god my
-              </td>
-              <td
-                style={{
-                  color: ratio.color2[1],
-                  backgroundColor: ratio.color1[1],
-                  paddingLeft: '0.1em',
-                }}
-              >
-                shin how dare you
-              </td>
+    return (
+      <div>
+        <p>
+          <b>WCAG Contrast Calculations.</b>
+          <br />
+          Marked in <span style={getWCAGStyle(7.1)}>Green</span> is 7.0+ or AAA.
+          Acceptable for Text.
+          <br />
+          Marked in <span style={getWCAGStyle(4.6)}>Orange</span> is 4.5+ or AA.
+          Acceptable for UI.
+          <br />
+          All below 4.5 is unacceptable.
+          <br />
+          <AmbientSmall>WCAG Contrast testing disabled for this page.</AmbientSmall>
+        </p>
+        <ContrastTable>
+          <thead>
+            <tr>
+              <th colSpan={2}>Swatch</th>
+              <th>Ratio</th>
+              <th>Color 1</th>
+              <th>Color 2</th>
             </tr>
-          ))}
-        </tbody>
-      </ContrastTable>
-    </div>
-  )
-})
+          </thead>
+          <tbody>
+            {allRatios.map((ratio, i) => (
+              <tr key={i}>
+                <td style={{ backgroundColor: ratio.color1[1] }}>&nbsp;</td>
+                <td style={{ backgroundColor: ratio.color2[1] }}>&nbsp;</td>
+                <td style={getWCAGStyle(+ratio.ratio)}>{ratio.ratio}</td>
+                <td>{ratio.color1[0]}</td>
+                <td>{ratio.color2[0]}</td>
+                <td
+                  style={{
+                    color: ratio.color1[1],
+                    backgroundColor: ratio.color2[1],
+                    paddingRight: '0.1em',
+                  }}
+                >
+                  oh my god my
+                </td>
+                <td
+                  style={{
+                    color: ratio.color2[1],
+                    backgroundColor: ratio.color1[1],
+                    paddingLeft: '0.1em',
+                  }}
+                >
+                  shin how dare you
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </ContrastTable>
+      </div>
+    )
+  },
+  {
+    a11y: {
+      config: {
+        rules: [
+          {
+            id: 'color-contrast',
+            enabled: false,
+          },
+        ],
+      },
+    },
+  }
+)

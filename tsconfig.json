@@ -4,11 +4,7 @@
     "module": "esnext",
     "strict": true,
     "esModuleInterop": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -17,13 +13,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "atoms/*": ["./atoms/*"],
+      "molecules/*": ["./molecules/*"],
+      "organisms/*": ["./organisms/*"],
+      "templates/*": ["./templates/*"],
+      "pages/*": ["./pages/*"],
+      "hack/*": ["./hack/*"]
+    }
   },
-  "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ]
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }

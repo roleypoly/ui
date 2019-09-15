@@ -1,6 +1,7 @@
 import NextApp from 'next/app'
-import { GlobalStyleColors } from '../atoms/colors'
+import { GlobalStyleColors } from 'atoms/colors'
 import * as React from 'react'
+import { InjectTypekitFont, UseFontStyled } from 'atoms/fonts'
 
 export default class App extends NextApp {
   render() {
@@ -8,7 +9,10 @@ export default class App extends NextApp {
     return (
       <main>
         <GlobalStyleColors />
-        <Component {...pageProps} router={router} />
+        <InjectTypekitFont />
+        <UseFontStyled>
+          <Component {...pageProps} router={router} />
+        </UseFontStyled>
       </main>
     )
   }

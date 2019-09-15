@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
-import { text400 } from '../typography'
+import { text400 } from 'atoms/typography'
 
 export type AvatarProps = {
   src?: string
@@ -10,7 +10,7 @@ export type AvatarProps = {
 
 type ContainerProps = Pick<AvatarProps, 'size'>
 const Container = styled.div<ContainerProps>`
-  ${text400}
+  /* ${text400} */
   border-radius: 100%;
   width: ${(props: ContainerProps) => props.size || 48}px;
   height: ${(props: ContainerProps) => props.size || 48}px;
@@ -24,6 +24,7 @@ const Container = styled.div<ContainerProps>`
   text-align: center;
   line-height: 1;
   overflow: hidden;
+  font-size: ${(props: ContainerProps) => props.size}
 `
 
 type ImageProps = Pick<AvatarProps, 'src'>

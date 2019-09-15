@@ -53,34 +53,34 @@ export const text100 = css`
   font-size: 0.5rem;
 `
 
-export const LargeTitle = styled.h1`
+export const LargeTitle = styled.span`
   ${text900}
 `
 
-export const MediumTitle = styled.h2`
+export const MediumTitle = styled.span`
   ${text800}
 `
 
-export const SmallTitle = styled.h3`
+export const SmallTitle = styled.span`
   ${text700}
 `
 
-export const AccentTitle = styled.h4`
+export const AccentTitle = styled.span`
   ${text600}
 `
 
-export const LargeText = styled.p`
+export const LargeText = styled.span`
   ${text500}
 `
 
-export const Text = styled.p`
+export const Text = styled.span`
   ${text400}
 `
 
-export const AmbientLarge = styled.p`
+export const AmbientLarge = styled.span`
   ${text200}
 `
 
-export const AmbientSmall = styled.p`
+export const AmbientSmall = styled.span`
   ${text100}
 `

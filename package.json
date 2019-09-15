@@ -6,7 +6,10 @@
     "build": "next build",
     "build-storybook": "build-storybook -c .storybook -o sb-out",
     "dev": "next dev",
-    "lint": "tslint --project .",
+    "lint": "run-p lint:*",
+    "lint:css": "stylelint '**/*.{ts,tsx}'",
+    "lint:prettier": "prettier -c '**/*.{ts,tsx,css,yml,yaml,md,json,js,jsx}'",
+    "lint:ts": "tslint --project .",
     "now-build": "build-storybook",
     "start": "next start",
     "storybook": "start-storybook --port 6001"
@@ -26,12 +29,13 @@
       "git add"
     ],
     "*.{ts,tsx}": [
+      "prettier --write",
       "tslint --fix",
       "git add"
     ]
   },
   "dependencies": {
-    "next": "9.0.4",
+    "next": "9.0.5",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "styled-components": "^4.3.2"
@@ -46,11 +50,11 @@
     "@storybook/addon-storysource": "^5.1.11",
     "@storybook/addon-viewport": "^5.1.11",
     "@storybook/react": "^5.1.11",
-    "@types/chroma-js": "^1.4.1",
+    "@types/chroma-js": "^1.4.2",
     "@types/enzyme": "^3.10.3",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "^24.0.18",
-    "@types/node": "^12.7.2",
+    "@types/node": "^12.7.4",
     "@types/react": "^16.9.2",
     "@types/storybook__addon-actions": "^3.4.3",
     "@types/storybook__addon-info": "^4.1.2",
@@ -60,19 +64,20 @@
     "@types/storybook__react": "^4.0.2",
     "@types/styled-components": "^4.1.18",
     "awesome-typescript-loader": "^5.2.1",
-    "chroma-js": "^2.0.4",
+    "chroma-js": "^2.0.6",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.4.0",
-    "husky": "^3.0.4",
+    "husky": "^3.0.5",
     "jest": "^24.9.0",
-    "jest-environment-enzyme": "^7.1.0",
-    "jest-enzyme": "^7.1.0",
+    "jest-environment-enzyme": "^7.1.1",
+    "jest-enzyme": "^7.1.1",
     "jest-styled-components": "^6.3.3",
-    "lint-staged": "^9.2.3",
+    "lint-staged": "^9.2.5",
+    "npm-run-all": "^4.1.5",
     "prettier": "^1.18.2",
     "prettier-plugin-packagejson": "^2.0.1",
-    "react-docgen-typescript-loader": "^3.1.1",
+    "react-docgen-typescript-loader": "^3.2.0",
     "stylelint": "^10.1.0",
     "stylelint-config-prettier": "^5.2.0",
     "stylelint-config-standard": "^18.3.0",
@@ -84,6 +89,6 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
     "tslint-plugin-prettier": "^2.0.1",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2"
   }
 }

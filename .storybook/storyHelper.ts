@@ -28,11 +28,10 @@ export const makeFactory = (title: string, categoryOpts: Partial<Options> = {}) 
 
   opts.beforeDecorators && opts.beforeDecorators(opts, builtStory)
 
-  opts.withInfo === true && builtStory.addDecorator(withInfo)
-
-  builtStory.addDecorator(withA11y)
   builtStory.addDecorator(withColors)
   builtStory.addDecorator(withKnobs)
+  builtStory.addDecorator(withA11y)
+  opts.withInfo === true && builtStory.addDecorator(withInfo)
 
   opts.afterDecorators && opts.afterDecorators(opts, builtStory)
   return builtStory

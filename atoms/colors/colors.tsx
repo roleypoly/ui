@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { css, createGlobalStyle } from 'styled-components'
+import chroma from 'chroma-js'
 
 export const palette = {
   taupe100: '#332D2D',
@@ -36,3 +37,7 @@ export const GlobalStyleColors = createGlobalStyle`
         ${colorVars}
     }
 `
+
+export const numberToChroma = (colorInt: number) => {
+  return chroma(colorInt)
+}

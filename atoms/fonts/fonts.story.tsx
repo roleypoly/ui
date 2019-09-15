@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { atomStories } from '../atoms.story'
+import { atomStories } from 'atoms/atoms.story'
 import { UseFontStyled } from './fonts'
 import styled from 'styled-components'
-import { text400, MediumTitle, Text as TextBlock } from '../typography'
+import { MediumTitle, Text as TextBlock } from 'atoms/typography'
 
 const story = atomStories('Fonts', module, { withInfo: false })
 

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { atomStories } from '../atoms.story'
+import { atomStories } from 'atoms/atoms.story'
 import * as typography from './typography'
 import styled from 'styled-components'
 
