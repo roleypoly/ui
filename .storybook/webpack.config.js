@@ -1,8 +1,3 @@
-const path = require('path')
-const src = (...subdir) => {
-  return path.join(__dirname, '..', ...subdir)
-}
-
 module.exports = ({ config }) => {
   config.module.rules.push({
     test: /\.(ts|tsx)$/,
@@ -21,14 +16,7 @@ module.exports = ({ config }) => {
     ],
   })
   config.resolve.extensions.push('.ts', '.tsx')
-  config.resolve.alias = {
-    atoms: src(`atoms`),
-    molecules: src(`molecules`),
-    organisms: src(`organisms`),
-    templates: src(`templates`),
-    pages: src(`pages`),
-    hack: src(`hack`),
-  }
+  config.resolve.alias = require('../hack/webpack-aliases')
   return {
     ...config,
     node: {
