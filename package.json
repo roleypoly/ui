@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "build-storybook": "build-storybook -c .storybook -o sb-out",
+    "build-storybook": "build-storybook -c .storybook",
     "dev": "next dev",
     "lint": "run-p lint:*",
     "lint:css": "stylelint '**/*.{ts,tsx}'",

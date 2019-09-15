@@ -9,12 +9,75 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Ensure Node
+        uses: actions/setup-node@master
+        with:
+          node-version: 12.x
+
+      - name: Install
+        uses: nuxt/actions-yarn@master
+        with:
+          args: install --frozen-lockfile
+
+      - name: Lint
+        uses: nuxt/actions-yarn@master
+        with:
+          args: lint
 
   test:
     name: Test
     runs-on: ubuntu-latest
+    needs:
+      - lint
     steps:
       - uses: actions/checkout@v1
       - name: Ensure Node
+        uses: actions/setup-node@master
         with:
           node-version: 12.x
+
+      - name: Install
+        uses: nuxt/actions-yarn@master
+        with:
+          args: install --frozen-lockfile
+
+      - name: Test
+        uses: nuxt/actions-yarn@master
+        with:
+          args: test
+
+  build_storybook:
+    name: Storybook
+    runs-on: ubuntu-latest
+    needs:
+      - test
+    steps:
+      - uses: actions/checkout@v1
+      - name: Ensure Node
+        uses: actions/setup-node@master
+        with:
+          node-version: 12.x
+
+      - name: Build Storybook
+        uses: nuxt/actions-yarn@master
+        with:
+          args: build-storybook
+      # run tests?
+      # deploy? ??? ? ?? ?????
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs:
+      - test
+    steps:
+      - uses: actions/checkout@v1
+      - name: Ensure Node
+        uses: actions/setup-node@master
+        with:
+          node-version: 12.x
+
+      - name: Build Storybook
+        uses: nuxt/actions-yarn@master
+        with:
+          args: build
+# missing: final output build. docker? at least this is still useful as it is.
