@@ -9,7 +9,8 @@
     "lint": "run-p lint:*",
     "lint:css": "stylelint '**/*.{ts,tsx}'",
     "lint:prettier": "prettier -c '**/*.{ts,tsx,css,yml,yaml,md,json,js,jsx}'",
-    "lint:ts": "tslint --project .",
+    "lint:tsc": "tsc --noEmit --isolatedModules",
+    "lint:tslint": "tslint --project .",
     "now-build": "build-storybook",
     "start": "next start",
     "storybook": "start-storybook --port 6001",
@@ -25,7 +26,7 @@
       "stylelint --fix",
       "git add"
     ],
-    "*.{js,css,json,md}": [
+    "*.{js,css,json,md,yml}": [
       "prettier --write",
       "git add"
     ],
