@@ -37,6 +37,7 @@
     ]
   },
   "dependencies": {
+    "@roleypoly/rpc": "^3.0.0-alpha.8",
     "next": "9.0.5",
     "react": "16.9.0",
     "react-dom": "16.9.0",

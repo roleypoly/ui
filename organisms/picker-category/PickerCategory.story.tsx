@@ -13,7 +13,7 @@ const data: () => CategoryProps = () => ({
   roles: roleCategory,
   wikiMode: false,
   onChange: () => action('onChange'),
-  selectedRoles: optionsKnob(
+  selectedRoles: optionsKnob<string[]>(
     'Selected Roles',
     roleCategory.reduce((acc, x) => ({ ...acc, [x.name]: x.id }), {}),
     [roleCategory[0].id],
