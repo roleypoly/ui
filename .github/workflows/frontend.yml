@@ -3,8 +3,8 @@ name: Frontend UI Tests
 on: [push, pull_request]
 
 jobs:
-  lint:
-    name: Lint
+  test:
+    name: Test & Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
