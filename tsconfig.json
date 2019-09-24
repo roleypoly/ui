@@ -12,7 +12,9 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "experimentalDecorators": true,
     "jsx": "preserve",
+    "downlevelIteration": true,
     "baseUrl": ".",
     "paths": {
       "atoms/*": ["./atoms/*"],
@@ -20,7 +22,8 @@
       "organisms/*": ["./organisms/*"],
       "templates/*": ["./templates/*"],
       "pages/*": ["./pages/*"],
-      "hack/*": ["./hack/*"]
+      "hack/*": ["./hack/*"],
+      "utils/*": ["./utils/*"]
     }
   },
   "exclude": ["node_modules"],

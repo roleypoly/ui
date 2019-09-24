@@ -10,4 +10,5 @@ module.exports = {
   templates: src(`templates`),
   pages: src(`pages`),
   hack: src(`hack`),
+  utils: src(`utils`),
 };
