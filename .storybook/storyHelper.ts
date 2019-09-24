@@ -1,18 +1,18 @@
-import { storiesOf } from '@storybook/react'
-import { withKnobs } from '@storybook/addon-knobs'
-import { withA11y } from '@storybook/addon-a11y'
-import { withInfo } from '@storybook/addon-info'
-import { withColors } from '../atoms/colors/withColors'
-import { StoryApi } from '@storybook/addons'
+import { storiesOf } from '@storybook/react';
+import { withKnobs } from '@storybook/addon-knobs';
+import { withA11y } from '@storybook/addon-a11y';
+import { withInfo } from '@storybook/addon-info';
+import { withColors } from '../atoms/colors/withColors';
+import { StoryApi } from '@storybook/addons';
 
 interface Options {
-  withInfo: boolean
-  withA11y: boolean
-  beforeDecorators: OptionFunc
-  afterDecorators: OptionFunc
+  withInfo: boolean;
+  withA11y: boolean;
+  beforeDecorators: OptionFunc;
+  afterDecorators: OptionFunc;
 }
 
-type OptionFunc = (options: Partial<Options>, story: StoryApi<any>) => void
+type OptionFunc = (options: Partial<Options>, story: StoryApi<any>) => void;
 
 export const makeFactory = (title: string, categoryOpts: Partial<Options> = {}) => (
   moduleName: string,
@@ -23,17 +23,17 @@ export const makeFactory = (title: string, categoryOpts: Partial<Options> = {}) 
     withA11y: false,
     ...categoryOpts,
     ...storyOpts,
-  }
+  };
 
-  const builtStory = storiesOf(`${title}|${moduleName}`, nodeModule)
+  const builtStory = storiesOf(`${title}|${moduleName}`, nodeModule);
 
-  opts.beforeDecorators && opts.beforeDecorators(opts, builtStory)
+  opts.beforeDecorators && opts.beforeDecorators(opts, builtStory);
 
-  builtStory.addDecorator(withColors)
-  builtStory.addDecorator(withKnobs)
-  builtStory.addDecorator(withA11y)
+  builtStory.addDecorator(withColors);
+  builtStory.addDecorator(withKnobs);
+  builtStory.addDecorator(withA11y);
   // opts.withInfo === true && builtStory.addDecorator(withInfo)
 
-  opts.afterDecorators && opts.afterDecorators(opts, builtStory)
-  return builtStory
-}
+  opts.afterDecorators && opts.afterDecorators(opts, builtStory);
+  return builtStory;
+};

@@ -6,19 +6,22 @@
     "build": "next build",
     "build-storybook": "build-storybook -c .storybook",
     "dev": "next dev",
+    "format": "npm run lint:prettier -- --write",
     "lint": "run-p lint:*",
+    "lint-staged": "lint-staged",
     "lint:css": "stylelint '**/*.{ts,tsx}'",
     "lint:prettier": "prettier -c '**/*.{ts,tsx,css,yml,yaml,md,json,js,jsx}'",
     "lint:tsc": "tsc --noEmit --isolatedModules",
     "lint:tslint": "tslint --project .",
     "now-build": "build-storybook",
+    "pre-commit": "run-p -c lint-staged lint",
     "start": "next start",
     "storybook": "start-storybook --port 6001",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run pre-commit"
     }
   },
   "lint-staged": {

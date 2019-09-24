@@ -1,4 +1,4 @@
-import { Role } from '@roleypoly/rpc/discord'
+import { Role } from '@roleypoly/rpc/discord';
 
 export const roleCategory: Role.AsObject[] = [
   {
@@ -25,10 +25,10 @@ export const roleCategory: Role.AsObject[] = [
     position: 3,
     managed: false,
   },
-]
+];
 
 export const roleWikiData = {
   aaa: 'Typically used by feminine-identifying people',
   bbb: 'Typically used by masculine-identifying people',
   ccc: 'Typically used to refer to all people as a singular neutral.',
-}
+};

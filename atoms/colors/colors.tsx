@@ -1,6 +1,6 @@
-import * as React from 'react'
-import { css, createGlobalStyle } from 'styled-components'
-import chroma from 'chroma-js'
+import * as React from 'react';
+import { css, createGlobalStyle } from 'styled-components';
+import chroma from 'chroma-js';
 
 export const palette = {
   taupe100: '#332D2D',
@@ -22,22 +22,22 @@ export const palette = {
   grey100: '#1C1010',
   grey500: '#DBD9D9',
   grey600: '#F2EFEF',
-}
+};
 
 const getPaletteCSS = () =>
   Object.entries(palette).reduce(
     (acc, [key, color]) => ({ ...acc, [`--${key}`]: color }),
     {}
-  )
+  );
 
-export const colorVars = css(getPaletteCSS())
+export const colorVars = css(getPaletteCSS());
 
 export const GlobalStyleColors = createGlobalStyle`
     :root {
         ${colorVars}
     }
-`
+`;
 
 export const numberToChroma = (colorInt: number) => {
-  return chroma(colorInt)
-}
+  return chroma(colorInt);
+};

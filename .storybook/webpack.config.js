@@ -14,13 +14,13 @@ module.exports = ({ config }) => {
         loader: require.resolve('react-docgen-typescript-loader'),
       },
     ],
-  })
-  config.resolve.extensions.push('.ts', '.tsx')
-  config.resolve.alias = require('../hack/webpack-aliases')
+  });
+  config.resolve.extensions.push('.ts', '.tsx');
+  config.resolve.alias = require('../hack/webpack-aliases');
   return {
     ...config,
     node: {
       fs: 'empty',
     },
-  }
-}
+  };
+};

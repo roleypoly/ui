@@ -1,17 +1,17 @@
-import * as React from 'react'
-import { atomStories } from 'atoms/atoms.story'
-import { palette } from './colors'
-import styled from 'styled-components'
-import chroma from 'chroma-js'
-import { AmbientSmall } from 'atoms/typography'
+import * as React from 'react';
+import { atomStories } from 'atoms/atoms.story';
+import { palette } from './colors';
+import styled from 'styled-components';
+import chroma from 'chroma-js';
+import { AmbientSmall } from 'atoms/typography';
 
 type RatioList = {
-  color1: string[]
-  color2: string[]
-  ratio: string
-}
+  color1: string[];
+  color2: string[];
+  ratio: string;
+};
 
-const story = atomStories('Colors', module, { withInfo: false, withA11y: false })
+const story = atomStories('Colors', module, { withInfo: false, withA11y: false });
 
 const Swatch = styled.div`
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -21,11 +21,11 @@ const Swatch = styled.div`
   display: inline-block;
   background-color: #fff;
   border: 1px solid #fff;
-`
+`;
 
 const SwatchColor = styled.div`
   height: 72px;
-`
+`;
 
 const Label = styled.div`
   font-size: 12px;
@@ -36,7 +36,7 @@ const Label = styled.div`
   p {
     margin: 0;
   }
-`
+`;
 
 story.add('Colors', () => {
   return (
@@ -53,27 +53,27 @@ story.add('Colors', () => {
         </Swatch>
       ))}
     </div>
-  )
-})
+  );
+});
 
 const ContrastTable = styled.table`
   td,
   th {
     padding: 6px 10px;
   }
-`
+`;
 
 const getWCAGStyle = (ratio: number): React.CSSProperties => {
   if (ratio >= 7) {
-    return { color: 'green', fontWeight: 'bold' }
+    return { color: 'green', fontWeight: 'bold' };
   }
 
   if (ratio >= 4.5) {
-    return { color: 'orange', fontWeight: 'bold' }
+    return { color: 'orange', fontWeight: 'bold' };
   }
 
-  return {}
-}
+  return {};
+};
 
 const getAllRatios = (input: typeof palette) =>
   Object.entries(input)
@@ -89,23 +89,23 @@ const getAllRatios = (input: typeof palette) =>
               color2: [matchName, matchColor],
               ratio: chroma.contrast(color, matchColor).toFixed(2),
             })),
-        ]
+        ];
       },
       [] as RatioList[]
     )
     .filter(({ ratio }) => +ratio !== 1)
     .sort((a, b) => {
       if (+a.ratio > +b.ratio) {
-        return -1
+        return -1;
       }
-      return 1
+      return 1;
     })
-    .filter((_, i) => i % 2 === 0)
+    .filter((_, i) => i % 2 === 0);
 
 story.add(
   'Contrast Ratios',
   () => {
-    const allRatios = getAllRatios(palette)
+    const allRatios = getAllRatios(palette);
 
     return (
       <div>
@@ -162,7 +162,7 @@ story.add(
           </tbody>
         </ContrastTable>
       </div>
-    )
+    );
   },
   {
     a11y: {
@@ -176,4 +176,4 @@ story.add(
       },
     },
   }
-)
+);

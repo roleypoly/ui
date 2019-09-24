@@ -8,4 +8,4 @@ module.exports = {
       tsConfig: '<rootDir>/hack/tsconfig.test.json',
     },
   },
-}
+};

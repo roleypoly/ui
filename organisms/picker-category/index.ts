@@ -1,1 +1,1 @@
-export { PickerCategory } from './PickerCategory'
+export { PickerCategory } from './PickerCategory';

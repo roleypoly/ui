@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { atomStories } from 'atoms/atoms.story'
-import * as typography from './typography'
-import styled from 'styled-components'
+import * as React from 'react';
+import { atomStories } from 'atoms/atoms.story';
+import * as typography from './typography';
+import styled from 'styled-components';
 
-const story = atomStories('Typography', module)
+const story = atomStories('Typography', module);
 
 const Text = () => (
   <>
@@ -24,7 +24,7 @@ const Text = () => (
       👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
     </p>
   </>
-)
+);
 
 const swatches: [string, string | undefined, string][] = [
   ['text900', 'LargeTitle', 'Used for large titles.'],
@@ -36,29 +36,29 @@ const swatches: [string, string | undefined, string][] = [
   ['text300', undefined, 'Used for smaller UI elements.'],
   ['text200', 'AmbientLarge', 'Used for ambient text.'],
   ['text100', 'AmbientSmall', 'Used for ambient text.'],
-]
+];
 
 const Section = styled.section`
   margin: 3.26rem;
-`
+`;
 
 const swatch = (mixin: typeof typography.text900) =>
   styled.p`
     ${mixin}
-  `
+  `;
 
 const Usage = styled.code`
   ${typography.text300}
-`
+`;
 
 const Description = styled.i`
   ${typography.text200}
-`
+`;
 
 story.add('Sizes', () => (
   <div>
     {swatches.map(([mixin, componentName, usage], i) => {
-      const Component = swatch((typography as any)[mixin])
+      const Component = swatch((typography as any)[mixin]);
       return (
         <Section key={i}>
           <div>
@@ -75,24 +75,24 @@ story.add('Sizes', () => (
             <Description>{usage}</Description>
           </div>
         </Section>
-      )
+      );
     })}
   </div>
-))
+));
 
 const SpacingHead = styled.p`
   ${typography.text700}
-`
+`;
 
 const SpacingSection = styled(Section)`
   max-width: 50vw;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-`
+`;
 
 story.add('Spacing', () => (
   <div>
     {swatches.map(([mixin], i) => {
-      const Component = swatch((typography as any)[mixin])
+      const Component = swatch((typography as any)[mixin]);
       return (
         <SpacingSection key={i}>
           <SpacingHead>@{mixin}</SpacingHead>
@@ -100,7 +100,7 @@ story.add('Spacing', () => (
             <Text />
           </Component>
         </SpacingSection>
-      )
+      );
     })}
   </div>
-))
+));

@@ -1,22 +1,22 @@
-import * as React from 'react'
-import { Role } from '@roleypoly/rpc/discord'
-import { LargeText, AmbientLarge } from 'atoms/typography'
-import { numberToChroma } from 'atoms/colors'
+import * as React from 'react';
+import { Role } from '@roleypoly/rpc/discord';
+import { LargeText, AmbientLarge } from 'atoms/typography';
+import { numberToChroma } from 'atoms/colors';
 
 export type CategoryProps = {
-  title: string
-  roles: Role.AsObject[]
-  selectedRoles: string[]
-  onChange: (role: Role.AsObject) => (newState: boolean, oldState: boolean) => void
-  type: 'single' | 'multi'
+  title: string;
+  roles: Role.AsObject[];
+  selectedRoles: string[];
+  onChange: (role: Role.AsObject) => (newState: boolean, oldState: boolean) => void;
+  type: 'single' | 'multi';
 } & (
   | {
-      wikiMode: true
-      roleWikiData: { [roleId: string]: string }
+      wikiMode: true;
+      roleWikiData: { [roleId: string]: string };
     }
   | {
-      wikiMode: false
-    })
+      wikiMode: false;
+    });
 
 export const PickerCategory = (props: CategoryProps) => (
   <div>
@@ -38,4 +38,4 @@ export const PickerCategory = (props: CategoryProps) => (
       ))}
     </div>
   </div>
-)
+);

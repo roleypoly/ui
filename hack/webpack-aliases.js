@@ -1,7 +1,7 @@
-const path = require('path')
+const path = require('path');
 const src = (...subdir) => {
-  return path.join(__dirname, '..', ...subdir)
-}
+  return path.join(__dirname, '..', ...subdir);
+};
 
 module.exports = {
   atoms: src(`atoms`),
@@ -10,4 +10,4 @@ module.exports = {
   templates: src(`templates`),
   pages: src(`pages`),
   hack: src(`hack`),
-}
+};

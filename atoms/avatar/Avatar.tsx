@@ -1,14 +1,14 @@
-import styled from 'styled-components'
-import React from 'react'
-import { text400 } from 'atoms/typography'
+import styled from 'styled-components';
+import React from 'react';
+import { text400 } from 'atoms/typography';
 
 export type AvatarProps = {
-  src?: string
-  children?: string
-  size?: number
-}
+  src?: string;
+  children?: string;
+  size?: number;
+};
 
-type ContainerProps = Pick<AvatarProps, 'size'>
+type ContainerProps = Pick<AvatarProps, 'size'>;
 const Container = styled.div<ContainerProps>`
   /* ${text400} */
   border-radius: 100%;
@@ -25,9 +25,9 @@ const Container = styled.div<ContainerProps>`
   line-height: 1;
   overflow: hidden;
   font-size: ${(props: ContainerProps) => props.size}
-`
+`;
 
-type ImageProps = Pick<AvatarProps, 'src'>
+type ImageProps = Pick<AvatarProps, 'src'>;
 const Image = styled.div<ImageProps>`
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ const Image = styled.div<ImageProps>`
   bottom: 0;
   position: absolute;
   border-radius: 100%;
-`
+`;
 
 /** Chuldren is recommended to not be larger than 2 uppercase letters. */
 export const Avatar = (props: AvatarProps) => (
@@ -51,4 +51,4 @@ export const Avatar = (props: AvatarProps) => (
       )}
     </div>
   </Container>
-)
+);

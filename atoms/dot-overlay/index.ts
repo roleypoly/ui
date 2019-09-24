@@ -1,1 +1,1 @@
-export * from './DotOverlay'
+export * from './DotOverlay';

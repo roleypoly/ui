@@ -1,22 +1,24 @@
-import * as React from 'react'
-import { atomStories } from 'atoms/atoms.story'
-import { UseFontStyled } from './fonts'
-import styled from 'styled-components'
-import { MediumTitle, Text as TextBlock } from 'atoms/typography'
+import * as React from 'react';
+import { atomStories } from 'atoms/atoms.story';
+import { UseFontStyled } from './fonts';
+import styled from 'styled-components';
+import { MediumTitle, Text as TextBlock } from 'atoms/typography';
 
-const story = atomStories('Fonts', module, { withInfo: false })
+const story = atomStories('Fonts', module, { withInfo: false });
 
 const FontReset = styled.div`
   font-family: sans-serif;
-`
+`;
 
 const CorrectlyFontedH2 = (props: { children: React.ReactNode }) => (
   <UseFontStyled>
     <MediumTitle>{props.children}</MediumTitle>
   </UseFontStyled>
-)
+);
 
-story.addDecorator((storyFn: () => React.ReactNode) => <FontReset>{storyFn()}</FontReset>)
+story.addDecorator((storyFn: () => React.ReactNode) => (
+  <FontReset>{storyFn()}</FontReset>
+));
 
 const Text = () => (
   <>
@@ -37,7 +39,7 @@ const Text = () => (
       👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
     </p>
   </>
-)
+);
 
 story.add('Fonts', () => (
   <TextBlock>
@@ -52,4 +54,4 @@ story.add('Fonts', () => (
       </UseFontStyled>
     </section>
   </TextBlock>
-))
+));

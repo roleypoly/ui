@@ -1,5 +1,5 @@
-import { create } from '@storybook/theming'
-import { palette } from '../atoms/colors'
+import { create } from '@storybook/theming';
+import { palette } from '../atoms/colors';
 
 export const roleypolyTheme = create({
   base: 'dark',
@@ -31,4 +31,4 @@ export const roleypolyTheme = create({
   inputBorder: palette.taupe100,
   inputTextColor: palette.grey600,
   inputBorderRadius: 0,
-})
+});
