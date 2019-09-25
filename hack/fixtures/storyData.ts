@@ -1,4 +1,4 @@
-import { Role } from '@roleypoly/rpc/discord';
+import { Role, Guild } from '@roleypoly/rpc/discord';
 
 export const roleCategory: Role.AsObject[] = [
   {
@@ -31,4 +31,13 @@ export const roleWikiData = {
   aaa: 'Typically used by feminine-identifying people',
   bbb: 'Typically used by masculine-identifying people',
   ccc: 'Typically used to refer to all people as a singular neutral.',
+};
+
+export const guild: Guild.AsObject = {
+  name: 'emoji megaporium',
+  id: 'aaa',
+  icon: '',
+  ownerid: 'bbb',
+  membercount: 23453,
+  splash: '',
 };
