@@ -69,7 +69,6 @@
     "@types/storybook__react": "^4.0.2",
     "@types/styled-components": "^4.1.19",
     "awesome-typescript-loader": "^5.2.1",
-    "babel-plugin-require-context-hook": "^1.0.0",
     "chroma-js": "^2.0.6",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",

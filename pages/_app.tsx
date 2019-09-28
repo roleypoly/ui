@@ -1,7 +1,7 @@
-import NextApp from 'next/app';
 import { GlobalStyleColors } from 'atoms/colors';
-import * as React from 'react';
 import { InjectTypekitFont, UseFontStyled } from 'atoms/fonts';
+import NextApp from 'next/app';
+import * as React from 'react';
 
 export default class App extends NextApp {
   render() {
