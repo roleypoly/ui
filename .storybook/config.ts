@@ -1,6 +1,7 @@
 import { addParameters, configure } from '@storybook/react';
 // import { themes } from '@storybook/theming'
 import { roleypolyTheme } from './roleypoly-theme';
+import { requireContext } from './requireContext';
 
 // Option defaults.
 addParameters({
@@ -9,6 +10,14 @@ addParameters({
     panelPosition: 'right',
   },
 });
+
+if (process.env.NODE_ENV === 'test') {
+  if (!require.context) {
+    Object.defineProperty(require, 'context', {
+      get: () => requireContext,
+    });
+  }
+}
 
 // automatically import all files ending in *.stories.tsx
 const reqs = [

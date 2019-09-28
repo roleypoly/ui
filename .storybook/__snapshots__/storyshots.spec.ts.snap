@@ -1,0 +1,4618 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms|Avatar Empty 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div
+    className="sc-dnqmqq cVGALr"
+    size={48}
+  >
+    <div>
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Avatar With Broken Image 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div
+    className="sc-dnqmqq cVGALr"
+    size={48}
+  >
+    <div
+      className="sc-iwsKbI ecFQMq"
+      style={
+        Object {
+          "backgroundImage": "url(data:)",
+        }
+      }
+    />
+    <div>
+      KR
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Avatar With Image 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div
+    className="sc-dnqmqq cVGALr"
+    size={48}
+  >
+    <div
+      className="sc-iwsKbI ecFQMq"
+      style={
+        Object {
+          "backgroundImage": "url(https://i.imgur.com/epMSRQH.png)",
+        }
+      }
+    />
+    <div>
+      KR
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Avatar With Text 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div
+    className="sc-dnqmqq cVGALr"
+    size={48}
+  >
+    <div>
+      KR
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Breakpoints Debug Tool 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div
+    className="sc-gZMcBi hDGMZZ"
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "red",
+          }
+        }
+      >
+        S
+      </div>
+    </div>
+    <div>
+      <div
+        className="sc-gqjmRU iMlnVN"
+        style={
+          Object {
+            "backgroundColor": "red",
+          }
+        }
+      >
+        S
+      </div>
+      <div
+        className="sc-VigVT mqTsr"
+        style={
+          Object {
+            "backgroundColor": "green",
+          }
+        }
+      >
+        T
+      </div>
+      <div
+        className="sc-jTzLTM hkLaRB"
+        style={
+          Object {
+            "backgroundColor": "blue",
+          }
+        }
+      >
+        D
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Colors Colors 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#332D2D",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          taupe100
+        </p>
+        <p>
+          <code>
+            var(--
+            taupe100
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#453E3D",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          taupe200
+        </p>
+        <p>
+          <code>
+            var(--
+            taupe200
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#5D5352",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          taupe300
+        </p>
+        <p>
+          <code>
+            var(--
+            taupe300
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#756867",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          taupe400
+        </p>
+        <p>
+          <code>
+            var(--
+            taupe400
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#AB9B9A",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          taupe500
+        </p>
+        <p>
+          <code>
+            var(--
+            taupe500
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#EBD6D4",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          taupe600
+        </p>
+        <p>
+          <code>
+            var(--
+            taupe600
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#23272A",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          discord100
+        </p>
+        <p>
+          <code>
+            var(--
+            discord100
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#2C2F33",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          discord200
+        </p>
+        <p>
+          <code>
+            var(--
+            discord200
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#7289DA",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          discord400
+        </p>
+        <p>
+          <code>
+            var(--
+            discord400
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#99AAB5",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          discord500
+        </p>
+        <p>
+          <code>
+            var(--
+            discord500
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#46B646",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          green400
+        </p>
+        <p>
+          <code>
+            var(--
+            green400
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#E95353",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          red400
+        </p>
+        <p>
+          <code>
+            var(--
+            red400
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#1C1010",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          grey100
+        </p>
+        <p>
+          <code>
+            var(--
+            grey100
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#DBD9D9",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          grey500
+        </p>
+        <p>
+          <code>
+            var(--
+            grey500
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-fjdhpX kYhlTZ"
+    >
+      <div
+        className="sc-jzJRlG VZuRX"
+        style={
+          Object {
+            "backgroundColor": "#F2EFEF",
+          }
+        }
+      />
+      <div
+        className="sc-cSHVUG brKtRg"
+      >
+        <p>
+          grey600
+        </p>
+        <p>
+          <code>
+            var(--
+            grey600
+            )
+          </code>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Colors Contrast Ratios 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    <p>
+      <b>
+        WCAG Contrast Calculations.
+      </b>
+      <br />
+      Marked in 
+      <span
+        style={
+          Object {
+            "color": "green",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Green
+      </span>
+       is 7.0+ or AAA. Acceptable for Text.
+      <br />
+      Marked in 
+      <span
+        style={
+          Object {
+            "color": "orange",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Orange
+      </span>
+       is 4.5+ or AA. Acceptable for UI.
+      <br />
+      All below 4.5 is unacceptable.
+      <br />
+      <span
+        className="sc-htoDjs jPXECM"
+      >
+        WCAG Contrast testing disabled for this page.
+      </span>
+    </p>
+    <table
+      className="sc-kAzzGY hiQEMZ"
+    >
+      <thead>
+        <tr>
+          <th
+            colSpan={2}
+          >
+            Swatch
+          </th>
+          <th>
+            Ratio
+          </th>
+          <th>
+            Color 1
+          </th>
+          <th>
+            Color 2
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            16.24
+          </td>
+          <td>
+            grey100
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#1C1010",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            13.35
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td>
+            grey100
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#EBD6D4",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#1C1010",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            13.21
+          </td>
+          <td>
+            grey100
+          </td>
+          <td>
+            grey500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#1C1010",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#DBD9D9",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            11.82
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            9.72
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#EBD6D4",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            9.61
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            grey500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#DBD9D9",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            9.14
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#453E3D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            7.52
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#453E3D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#EBD6D4",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            7.43
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td>
+            grey500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#453E3D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#DBD9D9",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "green",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            7.11
+          </td>
+          <td>
+            green400
+          </td>
+          <td>
+            grey100
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#46B646",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#1C1010",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "orange",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            6.97
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td>
+            grey100
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#AB9B9A",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#1C1010",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "orange",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            6.50
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#5D5352",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "orange",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            5.35
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#5D5352",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#EBD6D4",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "orange",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            5.29
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td>
+            grey500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#5D5352",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#DBD9D9",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "orange",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            5.17
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            green400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#46B646",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "orange",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            5.15
+          </td>
+          <td>
+            red400
+          </td>
+          <td>
+            grey100
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#E95353",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#1C1010",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "orange",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            5.08
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#AB9B9A",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "color": "orange",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            4.67
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#756867",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            4.00
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td>
+            green400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#453E3D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#46B646",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            3.92
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#453E3D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#AB9B9A",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            3.84
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#756867",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#EBD6D4",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            3.80
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td>
+            grey500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#756867",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#DBD9D9",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            3.75
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            red400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#E95353",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            3.48
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td>
+            grey100
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#756867",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#1C1010",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            3.15
+          </td>
+          <td>
+            red400
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#E95353",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.90
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td>
+            red400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#453E3D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#E95353",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.85
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td>
+            green400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#5D5352",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#46B646",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.79
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#5D5352",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#AB9B9A",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.59
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td>
+            red400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#EBD6D4",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#E95353",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.56
+          </td>
+          <td>
+            red400
+          </td>
+          <td>
+            grey500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#E95353",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#DBD9D9",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.53
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#756867",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.50
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td>
+            grey100
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#5D5352",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#1C1010",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.33
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#AB9B9A",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.28
+          </td>
+          <td>
+            green400
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#46B646",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.06
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td>
+            red400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#5D5352",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#E95353",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.04
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td>
+            green400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#756867",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#46B646",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            2.01
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#756867",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#AB9B9A",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.96
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#453E3D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#756867",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.91
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#AB9B9A",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#EBD6D4",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.89
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td>
+            grey500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#AB9B9A",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#DBD9D9",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.88
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td>
+            green400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#EBD6D4",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#46B646",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.86
+          </td>
+          <td>
+            green400
+          </td>
+          <td>
+            grey500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#46B646",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#DBD9D9",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.82
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#5D5352",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.78
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td>
+            grey100
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#453E3D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#1C1010",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.48
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td>
+            red400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#756867",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#E95353",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.41
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#453E3D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#5D5352",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.39
+          </td>
+          <td>
+            taupe300
+          </td>
+          <td>
+            taupe400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#756867",
+                "color": "#5D5352",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#5D5352",
+                "color": "#756867",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.38
+          </td>
+          <td>
+            green400
+          </td>
+          <td>
+            red400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#46B646",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#E95353",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.37
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            grey100
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#1C1010",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#1C1010",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.35
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td>
+            red400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#E95353",
+                "color": "#AB9B9A",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#E95353",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.29
+          </td>
+          <td>
+            taupe100
+          </td>
+          <td>
+            taupe200
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#453E3D",
+                "color": "#332D2D",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#332D2D",
+                "color": "#453E3D",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.23
+          </td>
+          <td>
+            grey500
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#DBD9D9",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.22
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td>
+            grey600
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#F2EFEF",
+                "color": "#EBD6D4",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#F2EFEF",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.02
+          </td>
+          <td>
+            taupe500
+          </td>
+          <td>
+            green400
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#46B646",
+                "color": "#AB9B9A",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#AB9B9A",
+                "color": "#46B646",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+        <tr>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+              }
+            }
+          >
+             
+          </td>
+          <td
+            style={Object {}}
+          >
+            1.01
+          </td>
+          <td>
+            taupe600
+          </td>
+          <td>
+            grey500
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#DBD9D9",
+                "color": "#EBD6D4",
+                "paddingRight": "0.1em",
+              }
+            }
+          >
+            oh my god my
+          </td>
+          <td
+            style={
+              Object {
+                "backgroundColor": "#EBD6D4",
+                "color": "#DBD9D9",
+                "paddingLeft": "0.1em",
+              }
+            }
+          >
+            shin how dare you
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Dot Overlay Dark 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div
+    className="sc-chPdSV sc-kgoBCf eFbbVV"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms|Dot Overlay Light 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div
+    className="sc-chPdSV sc-kGXeez jNgvcM"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms|Fonts Fonts 1`] = `
+<div
+  className="sc-dxgOiQ dfFHiT"
+>
+  <div
+    className="sc-bdVaJa dftdwD"
+  >
+    <span
+      className="sc-bZQynM bKSJWl"
+    >
+      <section>
+        <div
+          className="sc-kpOJdX uWnFc"
+        >
+          <span
+            className="sc-htpNat eRAwaM"
+          >
+            Unstyled Default
+          </span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </section>
+      <section>
+        <div
+          className="sc-kpOJdX uWnFc"
+        >
+          <span
+            className="sc-htpNat eRAwaM"
+          >
+            Main (Source Han Sans Japanese, Source Sans)
+          </span>
+        </div>
+        <div
+          className="sc-kpOJdX uWnFc"
+        >
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+          </p>
+          <p>
+            帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+          </p>
+          <p>
+            🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+          </p>
+        </div>
+      </section>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Text Input Common 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    <span
+      className="sc-bxivhb FiLgs"
+    >
+      TextInput
+    </span>
+    <div>
+      <input
+        className="sc-ckVGcZ dwfPgs"
+        onChange={[Function]}
+        placeholder="Placeholder"
+      />
+    </div>
+    <div>
+      <input
+        className="sc-ckVGcZ dwfPgs"
+        disabled={true}
+        onChange={[Function]}
+        placeholder="Placeholder"
+      />
+    </div>
+    <span
+      className="sc-bxivhb FiLgs"
+    >
+      TextInputWithIcon
+    </span>
+    <div>
+      <div
+        className="sc-hMqMXs hsVPJJ"
+      >
+        <div
+          className="sc-eNQAEJ YYjjJ"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
+            />
+          </svg>
+        </div>
+        <input
+          className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+          onChange={[Function]}
+          placeholder="Placeholder"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        className="sc-hMqMXs hsVPJJ"
+      >
+        <div
+          className="sc-eNQAEJ YYjjJ"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
+            />
+          </svg>
+        </div>
+        <input
+          className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+          disabled={true}
+          onChange={[Function]}
+          placeholder="Placeholder"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        className="sc-hMqMXs hsVPJJ"
+      >
+        <div
+          className="sc-eNQAEJ YYjjJ"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
+            />
+          </svg>
+        </div>
+        <input
+          className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+          onChange={[Function]}
+          placeholder="Placeholder"
+          type="password"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Typography Sizes 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    <section
+      className="sc-kEYyzF iFcjsq"
+    >
+      <div>
+        <p
+          className="sc-brqgnP dvOJqG"
+        >
+          The quick brown fox jumped over the lazy dog.
+        </p>
+      </div>
+      <div>
+        <code
+          className="sc-kkGfuU hyFeIk"
+        >
+          <code>
+            @
+            text900
+             
+            &lt;LargeTitle /&gt;
+          </code>
+        </code>
+      </div>
+      <div>
+        <i
+          className="sc-iAyFgw jVNtAQ"
+        >
+          Used for large titles.
+        </i>
+      </div>
+    </section>
+    <section
+      className="sc-kEYyzF iFcjsq"
+    >
+      <div>
+        <p
+          className="sc-cMljjf bVWWJU"
+        >
+          The quick brown fox jumped over the lazy dog.
+        </p>
+      </div>
+      <div>
+        <code
+          className="sc-kkGfuU hyFeIk"
+        >
+          <code>
+            @
+            text800
+             
+            &lt;MediumTitle /&gt;
+          </code>
+        </code>
+      </div>
+      <div>
+        <i
+          className="sc-iAyFgw jVNtAQ"
+        >
+          Used for medium titles.
+        </i>
+      </div>
+    </section>
+    <section
+      className="sc-kEYyzF iFcjsq"
+    >
+      <div>
+        <p
+          className="sc-jAaTju fBjsjV"
+        >
+          The quick brown fox jumped over the lazy dog.
+        </p>
+      </div>
+      <div>
+        <code
+          className="sc-kkGfuU hyFeIk"
+        >
+          <code>
+            @
+            text700
+             
+            &lt;SmallTitle /&gt;
+          </code>
+        </code>
+      </div>
+      <div>
+        <i
+          className="sc-iAyFgw jVNtAQ"
+        >
+          Used for small titles.
+        </i>
+      </div>
+    </section>
+    <section
+      className="sc-kEYyzF iFcjsq"
+    >
+      <div>
+        <p
+          className="sc-jDwBTQ ksdSQu"
+        >
+          The quick brown fox jumped over the lazy dog.
+        </p>
+      </div>
+      <div>
+        <code
+          className="sc-kkGfuU hyFeIk"
+        >
+          <code>
+            @
+            text600
+             
+            &lt;AccentTitle /&gt;
+          </code>
+        </code>
+      </div>
+      <div>
+        <i
+          className="sc-iAyFgw jVNtAQ"
+        >
+          Used for accenting titles.
+        </i>
+      </div>
+    </section>
+    <section
+      className="sc-kEYyzF iFcjsq"
+    >
+      <div>
+        <p
+          className="sc-gPEVay dRpXDU"
+        >
+          The quick brown fox jumped over the lazy dog.
+        </p>
+      </div>
+      <div>
+        <code
+          className="sc-kkGfuU hyFeIk"
+        >
+          <code>
+            @
+            text500
+             
+            &lt;LargeText /&gt;
+          </code>
+        </code>
+      </div>
+      <div>
+        <i
+          className="sc-iAyFgw jVNtAQ"
+        >
+          Used for general large font text blocks.
+        </i>
+      </div>
+    </section>
+    <section
+      className="sc-kEYyzF iFcjsq"
+    >
+      <div>
+        <p
+          className="sc-iRbamj fohYKX"
+        >
+          The quick brown fox jumped over the lazy dog.
+        </p>
+      </div>
+      <div>
+        <code
+          className="sc-kkGfuU hyFeIk"
+        >
+          <code>
+            @
+            text400
+             
+            &lt;Text /&gt;
+          </code>
+        </code>
+      </div>
+      <div>
+        <i
+          className="sc-iAyFgw jVNtAQ"
+        >
+          Used for less important font text blocks.
+        </i>
+      </div>
+    </section>
+    <section
+      className="sc-kEYyzF iFcjsq"
+    >
+      <div>
+        <p
+          className="sc-jlyJG fIhlOn"
+        >
+          The quick brown fox jumped over the lazy dog.
+        </p>
+      </div>
+      <div>
+        <code
+          className="sc-kkGfuU hyFeIk"
+        >
+          <code>
+            @
+            text300
+             
+          </code>
+        </code>
+      </div>
+      <div>
+        <i
+          className="sc-iAyFgw jVNtAQ"
+        >
+          Used for smaller UI elements.
+        </i>
+      </div>
+    </section>
+    <section
+      className="sc-kEYyzF iFcjsq"
+    >
+      <div>
+        <p
+          className="sc-gipzik eEUYyE"
+        >
+          The quick brown fox jumped over the lazy dog.
+        </p>
+      </div>
+      <div>
+        <code
+          className="sc-kkGfuU hyFeIk"
+        >
+          <code>
+            @
+            text200
+             
+            &lt;AmbientLarge /&gt;
+          </code>
+        </code>
+      </div>
+      <div>
+        <i
+          className="sc-iAyFgw jVNtAQ"
+        >
+          Used for ambient text.
+        </i>
+      </div>
+    </section>
+    <section
+      className="sc-kEYyzF iFcjsq"
+    >
+      <div>
+        <p
+          className="sc-csuQGl iqEMaT"
+        >
+          The quick brown fox jumped over the lazy dog.
+        </p>
+      </div>
+      <div>
+        <code
+          className="sc-kkGfuU hyFeIk"
+        >
+          <code>
+            @
+            text100
+             
+            &lt;AmbientSmall /&gt;
+          </code>
+        </code>
+      </div>
+      <div>
+        <i
+          className="sc-iAyFgw jVNtAQ"
+        >
+          Used for ambient text.
+        </i>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Typography Spacing 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    <section
+      className="sc-kEYyzF sc-eHgmQL xohYW"
+    >
+      <p
+        className="sc-hSdWYo jcKQdA"
+      >
+        @
+        text900
+      </p>
+      <p
+        className="sc-Rmtcm bmoAGB"
+      >
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </p>
+    </section>
+    <section
+      className="sc-kEYyzF sc-eHgmQL xohYW"
+    >
+      <p
+        className="sc-hSdWYo jcKQdA"
+      >
+        @
+        text800
+      </p>
+      <p
+        className="sc-bRBYWo iojuxU"
+      >
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </p>
+    </section>
+    <section
+      className="sc-kEYyzF sc-eHgmQL xohYW"
+    >
+      <p
+        className="sc-hSdWYo jcKQdA"
+      >
+        @
+        text700
+      </p>
+      <p
+        className="sc-hzDkRC bxyEes"
+      >
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </p>
+    </section>
+    <section
+      className="sc-kEYyzF sc-eHgmQL xohYW"
+    >
+      <p
+        className="sc-hSdWYo jcKQdA"
+      >
+        @
+        text600
+      </p>
+      <p
+        className="sc-jhAzac gkIEaV"
+      >
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </p>
+    </section>
+    <section
+      className="sc-kEYyzF sc-eHgmQL xohYW"
+    >
+      <p
+        className="sc-hSdWYo jcKQdA"
+      >
+        @
+        text500
+      </p>
+      <p
+        className="sc-fBuWsC gjlDmq"
+      >
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </p>
+    </section>
+    <section
+      className="sc-kEYyzF sc-eHgmQL xohYW"
+    >
+      <p
+        className="sc-hSdWYo jcKQdA"
+      >
+        @
+        text400
+      </p>
+      <p
+        className="sc-fMiknA ezlNlH"
+      >
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </p>
+    </section>
+    <section
+      className="sc-kEYyzF sc-eHgmQL xohYW"
+    >
+      <p
+        className="sc-hSdWYo jcKQdA"
+      >
+        @
+        text300
+      </p>
+      <p
+        className="sc-dVhcbM hfIwJE"
+      >
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </p>
+    </section>
+    <section
+      className="sc-kEYyzF sc-eHgmQL xohYW"
+    >
+      <p
+        className="sc-hSdWYo jcKQdA"
+      >
+        @
+        text200
+      </p>
+      <p
+        className="sc-eqIVtm flikfC"
+      >
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </p>
+    </section>
+    <section
+      className="sc-kEYyzF sc-eHgmQL xohYW"
+    >
+      <p
+        className="sc-hSdWYo jcKQdA"
+      >
+        @
+        text100
+      </p>
+      <p
+        className="sc-fAjcbJ cYUPrd"
+      >
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
+        </p>
+        <p>
+          帯カノ需混モイ一録43旧百12共ドレ能生ホクユ禁度ヨ材図クほはそ護関ラト郵張エノヨ議件クめざ県読れみとぶ論税クょンど慎転リつぎみ松期ほへド. 縦投記ふで覧速っだせあ過先課フ演無ぎぱべ習併相ーす気6元ゆる領気希ぎ投代ラ我関レ森郎由系堂ず. 読ケリ夜指ーっトせ認平引ウシ間花ヱクム年6台ぐ山婦ラスエ子著コア掲中ロ像属戸メソユ職諏ルど詐児題たに書希ク幕値長ラそめド.
+        </p>
+        <p>
+          🔸🐕🔺💱🎊👽🐛 👨📼🕦📞 👱👆🍗👚🌈 🔝🔟🍉🔰🍲🏁🕗 🎡🐉🍲📻🔢🔄 💟💲🍻💜💩🔼 🎱🌸📛👫🌻 🗽🕜🐥👕🍈. 🐒🍚🔓📱🏦 🎦🌑🔛💙👣🔚 🔆🗻🌿🎳📲🍯 🌞💟🎌🍌 🔪📯🐎💮 👌👭🎋🏉🏰 📓🕃🎂💉🔩 🐟🌇👺🌊🌒 📪👅🍂🍁 🌖🐮🔽🌒📊. 🔤🍍🌸📷🎴 💏🍌📎👥👉👒 👝💜🔶🍣 💨🗼👈💉💉💰 🍐🕖🌰👝🕓🏊🐕 🏀📅📼📒 🐕🌈👋
+        </p>
+      </p>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules|Placeholder Placeholder 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    nya!
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms|Picker Category Multi 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    <p>
+      <span
+        className="sc-EHOje clVJWe"
+      >
+        Pronouns
+      </span>
+    </p>
+    <div>
+      <p
+        style={
+          Object {
+            "color": "rgb(255,192,203)",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        She/Her
+      </p>
+      <p
+        style={
+          Object {
+            "color": "rgb(192,235,255)",
+            "fontWeight": "normal",
+          }
+        }
+      >
+        He/Him
+      </p>
+      <p
+        style={
+          Object {
+            "color": "rgb(192,255,213)",
+            "fontWeight": "normal",
+          }
+        }
+      >
+        They/Them
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms|Picker Category Single 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    <p>
+      <span
+        className="sc-EHOje clVJWe"
+      >
+        Pronouns
+      </span>
+      <span
+        className="sc-gzVnrw gqqWHi"
+      >
+        Pick one
+      </span>
+    </p>
+    <div>
+      <p
+        style={
+          Object {
+            "color": "rgb(255,192,203)",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        She/Her
+      </p>
+      <p
+        style={
+          Object {
+            "color": "rgb(192,235,255)",
+            "fontWeight": "normal",
+          }
+        }
+      >
+        He/Him
+      </p>
+      <p
+        style={
+          Object {
+            "color": "rgb(192,255,213)",
+            "fontWeight": "normal",
+          }
+        }
+      >
+        They/Them
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    <p>
+      <span
+        className="sc-EHOje clVJWe"
+      >
+        Pronouns
+      </span>
+    </p>
+    <div>
+      <p
+        style={
+          Object {
+            "color": "rgb(255,192,203)",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        She/Her
+      </p>
+      <p
+        style={
+          Object {
+            "color": "rgb(192,235,255)",
+            "fontWeight": "normal",
+          }
+        }
+      >
+        He/Him
+      </p>
+      <p
+        style={
+          Object {
+            "color": "rgb(192,255,213)",
+            "fontWeight": "normal",
+          }
+        }
+      >
+        They/Them
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div
+    className="sc-jWBwVP gqeCKt"
+  >
+    <button>
+      discord login
+    </button>
+    <div
+      className="sc-cvbbAY ePOcDO"
+    />
+    <div
+      className="sc-hMqMXs hsVPJJ"
+    >
+      <div
+        className="sc-eNQAEJ YYjjJ"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
+          />
+        </svg>
+      </div>
+      <input
+        className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Super secret code..."
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div
+    className="sc-jWBwVP gqeCKt"
+  >
+    <div
+      className="sc-dnqmqq nKoP"
+      size={64}
+    >
+      
+      <div>
+        em
+      </div>
+    </div>
+    <span
+      className="sc-ifAKCX ibGYVW"
+    >
+      Hi there. 
+      <b>
+        emoji megaporium
+      </b>
+       uses Roleypoly to help assign you roles.
+    </span>
+    <div
+      className="sc-cvbbAY ePOcDO"
+    />
+    <div
+      className="sc-cvbbAY ePOcDO"
+    />
+    <button>
+      discord login
+    </button>
+    <div
+      className="sc-cvbbAY ePOcDO"
+    />
+    <div
+      className="sc-hMqMXs hsVPJJ"
+    >
+      <div
+        className="sc-eNQAEJ YYjjJ"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
+          />
+        </svg>
+      </div>
+      <input
+        className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Super secret code..."
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Templates|Placeholder Placeholder 1`] = `
+<div
+  className="sc-bdVaJa dftdwD"
+>
+  <div>
+    nya!
+  </div>
+</div>
+`;
