@@ -4,7 +4,7 @@ const { compilerOptions } = require('./tsconfig');
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'enzyme',
-  setupFilesAfterEnv: ['jest-enzyme'],
+  setupFilesAfterEnv: ['jest-enzyme', 'jest-styled-components'],
   snapshotSerializers: ['enzyme-to-json/serializer'],
   globals: {
     'ts-jest': {

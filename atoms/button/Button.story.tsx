@@ -23,8 +23,8 @@ const storyTemplate = (props: Omit<ButtonProps, 'children'>) => () => {
 
   return (
     <div>
-      {colorModes.map(mode => (
-        <Margin>
+      {colorModes.map((mode, i) => (
+        <Margin key={i}>
           <Button {...props} colorMode={mode}>
             {text}
           </Button>

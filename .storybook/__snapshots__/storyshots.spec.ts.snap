@@ -1,11 +1,55 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Atoms|Avatar Empty 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--grey100);
+  position: relative;
+  background-color: var(--grey500);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  font-size: 48;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div
-    className="sc-dnqmqq cVGALr"
+    className="c1"
     size={48}
   >
     <div>
@@ -16,15 +60,71 @@ exports[`Storyshots Atoms|Avatar Empty 1`] = `
 `;
 
 exports[`Storyshots Atoms|Avatar With Broken Image 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--grey100);
+  position: relative;
+  background-color: var(--grey500);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  font-size: 48;
+}
+
+.c2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  border-radius: 100%;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div
-    className="sc-dnqmqq cVGALr"
+    className="c1"
     size={48}
   >
     <div
-      className="sc-iwsKbI ecFQMq"
+      className="c2"
       style={
         Object {
           "backgroundImage": "url(data:)",
@@ -39,15 +139,71 @@ exports[`Storyshots Atoms|Avatar With Broken Image 1`] = `
 `;
 
 exports[`Storyshots Atoms|Avatar With Image 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--grey100);
+  position: relative;
+  background-color: var(--grey500);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  font-size: 48;
+}
+
+.c2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  border-radius: 100%;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div
-    className="sc-dnqmqq cVGALr"
+    className="c1"
     size={48}
   >
     <div
-      className="sc-iwsKbI ecFQMq"
+      className="c2"
       style={
         Object {
           "backgroundImage": "url(https://i.imgur.com/epMSRQH.png)",
@@ -62,11 +218,55 @@ exports[`Storyshots Atoms|Avatar With Image 1`] = `
 `;
 
 exports[`Storyshots Atoms|Avatar With Text 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--grey100);
+  position: relative;
+  background-color: var(--grey500);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  font-size: 48;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div
-    className="sc-dnqmqq cVGALr"
+    className="c1"
     size={48}
   >
     <div>
@@ -77,11 +277,67 @@ exports[`Storyshots Atoms|Avatar With Text 1`] = `
 `;
 
 exports[`Storyshots Atoms|Breakpoints Debug Tool 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: monospace;
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: block;
+}
+
+.c3 {
+  display: none;
+}
+
+.c4 {
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    display: block;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .c4 {
+    display: block;
+  }
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div
-    className="sc-gZMcBi hDGMZZ"
+    className="c1"
   >
     <div>
       <div
@@ -96,7 +352,7 @@ exports[`Storyshots Atoms|Breakpoints Debug Tool 1`] = `
     </div>
     <div>
       <div
-        className="sc-gqjmRU iMlnVN"
+        className="c2"
         style={
           Object {
             "backgroundColor": "red",
@@ -106,7 +362,7 @@ exports[`Storyshots Atoms|Breakpoints Debug Tool 1`] = `
         S
       </div>
       <div
-        className="sc-VigVT mqTsr"
+        className="c3"
         style={
           Object {
             "backgroundColor": "green",
@@ -116,7 +372,7 @@ exports[`Storyshots Atoms|Breakpoints Debug Tool 1`] = `
         T
       </div>
       <div
-        className="sc-jTzLTM hkLaRB"
+        className="c4"
         style={
           Object {
             "backgroundColor": "blue",
@@ -130,16 +386,1298 @@ exports[`Storyshots Atoms|Breakpoints Debug Tool 1`] = `
 </div>
 `;
 
-exports[`Storyshots Atoms|Colors Colors 1`] = `
+exports[`Storyshots Atoms|Button Large 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: var(--green400);
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c1:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c1:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c1:active::after {
+  opacity: 0.1;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c2:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c2:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c2:active::after {
+  opacity: 0.1;
+}
+
+.c3 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+}
+
+.c3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c3:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c3:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c3:active::after {
+  opacity: 0.1;
+}
+
+.c4 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+}
+
+.c4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c4:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c4:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c4:active::after {
+  opacity: 0.1;
+}
+
+.c4:hover {
+  background-color: var(--taupe200);
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="css-y77wuh"
+    >
+      <button
+        className="c1"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c2"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c3"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c4"
+      >
+        Example Button
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: var(--green400);
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c1:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c1:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c1:active::after {
+  opacity: 0.1;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c2:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c2:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c2:active::after {
+  opacity: 0.1;
+}
+
+.c3 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+}
+
+.c3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c3:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c3:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c3:active::after {
+  opacity: 0.1;
+}
+
+.c4 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+}
+
+.c4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c4:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c4:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c4:active::after {
+  opacity: 0.1;
+}
+
+.c4:hover {
+  background-color: var(--taupe200);
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c1"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c2"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c3"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c4"
+      >
+        Example Button
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: var(--green400);
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c1:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c1:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c1:active::after {
+  opacity: 0.1;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c2:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c2:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c2:active::after {
+  opacity: 0.1;
+}
+
+.c3 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+}
+
+.c3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c3:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c3:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c3:active::after {
+  opacity: 0.1;
+}
+
+.c4 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+}
+
+.c4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c4:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c4:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c4:active::after {
+  opacity: 0.1;
+}
+
+.c4:hover {
+  background-color: var(--taupe200);
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c1"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c2"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c3"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c4"
+      >
+        Example Button
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Button Small 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: var(--green400);
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c1:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c1:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c1:active::after {
+  opacity: 0.1;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c2:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c2:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c2:active::after {
+  opacity: 0.1;
+}
+
+.c3 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+}
+
+.c3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c3:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c3:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c3:active::after {
+  opacity: 0.1;
+}
+
+.c4 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  padding: 12px 32px;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+}
+
+.c4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c4:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c4:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c4:active::after {
+  opacity: 0.1;
+}
+
+.c4:hover {
+  background-color: var(--taupe200);
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c1"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c2"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c3"
+      >
+        Example Button
+      </button>
+    </div>
+    <div
+      className="css-y77wuh"
+    >
+      <button
+        className="c4"
+      >
+        Example Button
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Colors Colors 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+  width: 250px;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.c2 {
+  height: 72px;
+}
+
+.c3 {
+  font-size: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 6px;
+  color: #332D2D;
+}
+
+.c3 p {
+  margin: 0;
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <div
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#332D2D",
@@ -147,7 +1685,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           taupe100
@@ -162,10 +1700,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#453E3D",
@@ -173,7 +1711,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           taupe200
@@ -188,10 +1726,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#5D5352",
@@ -199,7 +1737,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           taupe300
@@ -214,10 +1752,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#756867",
@@ -225,7 +1763,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           taupe400
@@ -240,10 +1778,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#AB9B9A",
@@ -251,7 +1789,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           taupe500
@@ -266,10 +1804,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#EBD6D4",
@@ -277,7 +1815,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           taupe600
@@ -292,10 +1830,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#23272A",
@@ -303,7 +1841,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           discord100
@@ -318,10 +1856,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#2C2F33",
@@ -329,7 +1867,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           discord200
@@ -344,10 +1882,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#7289DA",
@@ -355,7 +1893,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           discord400
@@ -370,10 +1908,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#99AAB5",
@@ -381,7 +1919,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           discord500
@@ -396,10 +1934,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#46B646",
@@ -407,7 +1945,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           green400
@@ -422,10 +1960,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#E95353",
@@ -433,7 +1971,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           red400
@@ -448,10 +1986,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#1C1010",
@@ -459,7 +1997,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           grey100
@@ -474,10 +2012,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#DBD9D9",
@@ -485,7 +2023,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           grey500
@@ -500,10 +2038,10 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
       </div>
     </div>
     <div
-      className="sc-fjdhpX kYhlTZ"
+      className="c1"
     >
       <div
-        className="sc-jzJRlG VZuRX"
+        className="c2"
         style={
           Object {
             "backgroundColor": "#F2EFEF",
@@ -511,7 +2049,7 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
         }
       />
       <div
-        className="sc-cSHVUG brKtRg"
+        className="c3"
       >
         <p>
           grey600
@@ -530,8 +2068,41 @@ exports[`Storyshots Atoms|Colors Colors 1`] = `
 `;
 
 exports[`Storyshots Atoms|Colors Contrast Ratios 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.5rem;
+}
+
+.c2 td,
+.c2 th {
+  padding: 6px 10px;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     <p>
@@ -568,13 +2139,13 @@ exports[`Storyshots Atoms|Colors Contrast Ratios 1`] = `
       All below 4.5 is unacceptable.
       <br />
       <span
-        className="sc-htoDjs jPXECM"
+        className="c1"
       >
         WCAG Contrast testing disabled for this page.
       </span>
     </p>
     <table
-      className="sc-kAzzGY hiQEMZ"
+      className="c2"
     >
       <thead>
         <tr>
@@ -3607,41 +5178,149 @@ exports[`Storyshots Atoms|Colors Contrast Ratios 1`] = `
 `;
 
 exports[`Storyshots Atoms|Dot Overlay Dark 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  opacity: 0.6;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+  background-size: 27px 27px;
+  background-image: radial-gradient( circle, #332d2d, #332d2d 1px, transparent 1px, transparent );
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div
-    className="sc-chPdSV sc-kgoBCf eFbbVV"
+    className="c1"
   />
 </div>
 `;
 
 exports[`Storyshots Atoms|Dot Overlay Light 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  opacity: 0.6;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+  background-size: 27px 27px;
+  background-image: radial-gradient( circle, #dbd9d9, #dbd9d9 1px, transparent 1px, transparent );
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div
-    className="sc-chPdSV sc-kGXeez jNgvcM"
+    className="c1"
   />
 </div>
 `;
 
 exports[`Storyshots Atoms|Fonts Fonts 1`] = `
+.c1 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c4 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.c3 {
+  font-family: 'source-han-sans-japanese','Source Sans Pro',sans-serif, 'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol' !important;
+}
+
+.c0 {
+  font-family: sans-serif;
+}
+
 <div
-  className="sc-dxgOiQ dfFHiT"
+  className="c0"
 >
   <div
-    className="sc-bdVaJa dftdwD"
+    className="c1"
   >
     <span
-      className="sc-bZQynM bKSJWl"
+      className="c2"
     >
       <section>
         <div
-          className="sc-kpOJdX uWnFc"
+          className="c3"
         >
           <span
-            className="sc-htpNat eRAwaM"
+            className="c4"
           >
             Unstyled Default
           </span>
@@ -3658,16 +5337,16 @@ exports[`Storyshots Atoms|Fonts Fonts 1`] = `
       </section>
       <section>
         <div
-          className="sc-kpOJdX uWnFc"
+          className="c3"
         >
           <span
-            className="sc-htpNat eRAwaM"
+            className="c4"
           >
             Main (Source Han Sans Japanese, Source Sans)
           </span>
         </div>
         <div
-          className="sc-kpOJdX uWnFc"
+          className="c3"
         >
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -3686,41 +5365,198 @@ exports[`Storyshots Atoms|Fonts Fonts 1`] = `
 `;
 
 exports[`Storyshots Atoms|Text Input Common 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid var(--taupe200);
+  border-radius: 3px;
+  line-height: 163%;
+  padding: 12px 16px;
+  font-size: 1.2rem;
+  background-color: var(--taupe300);
+  color: var(--grey600);
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  position: relative;
+  width: 20em;
+  box-sizing: border-box;
+  max-width: 97vw;
+}
+
+.c2:focus {
+  outline: none;
+  border-color: var(--grey100);
+  box-shadow: 1px 0 3px rgba(0,0,0,0.25);
+}
+
+.c2 [disabled],
+.c2:disabled {
+  cursor: not-allowed;
+  color: rgba(255,255,255,0.75);
+  font-style: italic;
+}
+
+.c2:hover:not([disabled]) {
+  border-color: var(--grey100);
+}
+
+.c2::-webkit-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c2::-moz-placeholder {
+  color: var(--taupe500);
+}
+
+.c2:-ms-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c2::placeholder {
+  color: var(--taupe500);
+}
+
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid var(--taupe200);
+  border-radius: 3px;
+  line-height: 163%;
+  padding: 12px 16px;
+  font-size: 1.2rem;
+  background-color: var(--taupe300);
+  color: var(--grey600);
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  position: relative;
+  width: 20em;
+  box-sizing: border-box;
+  max-width: 97vw;
+  padding-left: 36px;
+}
+
+.c5:focus {
+  outline: none;
+  border-color: var(--grey100);
+  box-shadow: 1px 0 3px rgba(0,0,0,0.25);
+}
+
+.c5 [disabled],
+.c5:disabled {
+  cursor: not-allowed;
+  color: rgba(255,255,255,0.75);
+  font-style: italic;
+}
+
+.c5:hover:not([disabled]) {
+  border-color: var(--grey100);
+}
+
+.c5::-webkit-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c5::-moz-placeholder {
+  color: var(--taupe500);
+}
+
+.c5:-ms-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c5::placeholder {
+  color: var(--taupe500);
+}
+
+.c4 {
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  position: relative;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     <span
-      className="sc-bxivhb FiLgs"
+      className="c1"
     >
       TextInput
     </span>
     <div>
       <input
-        className="sc-ckVGcZ dwfPgs"
+        className="c2"
         onChange={[Function]}
         placeholder="Placeholder"
       />
     </div>
     <div>
       <input
-        className="sc-ckVGcZ dwfPgs"
+        className="c2"
         disabled={true}
         onChange={[Function]}
         placeholder="Placeholder"
       />
     </div>
     <span
-      className="sc-bxivhb FiLgs"
+      className="c1"
     >
       TextInputWithIcon
     </span>
     <div>
       <div
-        className="sc-hMqMXs hsVPJJ"
+        className="c3"
       >
         <div
-          className="sc-eNQAEJ YYjjJ"
+          className="c4"
         >
           <svg
             fill="none"
@@ -3744,7 +5580,7 @@ exports[`Storyshots Atoms|Text Input Common 1`] = `
           </svg>
         </div>
         <input
-          className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+          className="c5"
           onChange={[Function]}
           placeholder="Placeholder"
         />
@@ -3752,10 +5588,10 @@ exports[`Storyshots Atoms|Text Input Common 1`] = `
     </div>
     <div>
       <div
-        className="sc-hMqMXs hsVPJJ"
+        className="c3"
       >
         <div
-          className="sc-eNQAEJ YYjjJ"
+          className="c4"
         >
           <svg
             fill="none"
@@ -3779,7 +5615,7 @@ exports[`Storyshots Atoms|Text Input Common 1`] = `
           </svg>
         </div>
         <input
-          className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+          className="c5"
           disabled={true}
           onChange={[Function]}
           placeholder="Placeholder"
@@ -3788,10 +5624,10 @@ exports[`Storyshots Atoms|Text Input Common 1`] = `
     </div>
     <div>
       <div
-        className="sc-hMqMXs hsVPJJ"
+        className="c3"
       >
         <div
-          className="sc-eNQAEJ YYjjJ"
+          className="c4"
         >
           <svg
             fill="none"
@@ -3815,7 +5651,7 @@ exports[`Storyshots Atoms|Text Input Common 1`] = `
           </svg>
         </div>
         <input
-          className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+          className="c5"
           onChange={[Function]}
           placeholder="Placeholder"
           type="password"
@@ -3827,23 +5663,155 @@ exports[`Storyshots Atoms|Text Input Common 1`] = `
 `;
 
 exports[`Storyshots Atoms|Typography Sizes 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 3.26rem;
+}
+
+.c3 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.c4 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 2.3rem;
+}
+
+.c5 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.c6 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+.c7 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.c8 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.c9 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.c10 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.c11 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.c12 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.5rem;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     <section
-      className="sc-kEYyzF iFcjsq"
+      className="c1"
     >
       <div>
         <p
-          className="sc-brqgnP dvOJqG"
+          className="c2"
         >
           The quick brown fox jumped over the lazy dog.
         </p>
       </div>
       <div>
         <code
-          className="sc-kkGfuU hyFeIk"
+          className="c3"
         >
           <code>
             @
@@ -3855,25 +5823,25 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
       </div>
       <div>
         <i
-          className="sc-iAyFgw jVNtAQ"
+          className="c4"
         >
           Used for large titles.
         </i>
       </div>
     </section>
     <section
-      className="sc-kEYyzF iFcjsq"
+      className="c1"
     >
       <div>
         <p
-          className="sc-cMljjf bVWWJU"
+          className="c5"
         >
           The quick brown fox jumped over the lazy dog.
         </p>
       </div>
       <div>
         <code
-          className="sc-kkGfuU hyFeIk"
+          className="c3"
         >
           <code>
             @
@@ -3885,25 +5853,25 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
       </div>
       <div>
         <i
-          className="sc-iAyFgw jVNtAQ"
+          className="c4"
         >
           Used for medium titles.
         </i>
       </div>
     </section>
     <section
-      className="sc-kEYyzF iFcjsq"
+      className="c1"
     >
       <div>
         <p
-          className="sc-jAaTju fBjsjV"
+          className="c6"
         >
           The quick brown fox jumped over the lazy dog.
         </p>
       </div>
       <div>
         <code
-          className="sc-kkGfuU hyFeIk"
+          className="c3"
         >
           <code>
             @
@@ -3915,25 +5883,25 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
       </div>
       <div>
         <i
-          className="sc-iAyFgw jVNtAQ"
+          className="c4"
         >
           Used for small titles.
         </i>
       </div>
     </section>
     <section
-      className="sc-kEYyzF iFcjsq"
+      className="c1"
     >
       <div>
         <p
-          className="sc-jDwBTQ ksdSQu"
+          className="c7"
         >
           The quick brown fox jumped over the lazy dog.
         </p>
       </div>
       <div>
         <code
-          className="sc-kkGfuU hyFeIk"
+          className="c3"
         >
           <code>
             @
@@ -3945,25 +5913,25 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
       </div>
       <div>
         <i
-          className="sc-iAyFgw jVNtAQ"
+          className="c4"
         >
           Used for accenting titles.
         </i>
       </div>
     </section>
     <section
-      className="sc-kEYyzF iFcjsq"
+      className="c1"
     >
       <div>
         <p
-          className="sc-gPEVay dRpXDU"
+          className="c8"
         >
           The quick brown fox jumped over the lazy dog.
         </p>
       </div>
       <div>
         <code
-          className="sc-kkGfuU hyFeIk"
+          className="c3"
         >
           <code>
             @
@@ -3975,25 +5943,25 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
       </div>
       <div>
         <i
-          className="sc-iAyFgw jVNtAQ"
+          className="c4"
         >
           Used for general large font text blocks.
         </i>
       </div>
     </section>
     <section
-      className="sc-kEYyzF iFcjsq"
+      className="c1"
     >
       <div>
         <p
-          className="sc-iRbamj fohYKX"
+          className="c9"
         >
           The quick brown fox jumped over the lazy dog.
         </p>
       </div>
       <div>
         <code
-          className="sc-kkGfuU hyFeIk"
+          className="c3"
         >
           <code>
             @
@@ -4005,25 +5973,25 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
       </div>
       <div>
         <i
-          className="sc-iAyFgw jVNtAQ"
+          className="c4"
         >
           Used for less important font text blocks.
         </i>
       </div>
     </section>
     <section
-      className="sc-kEYyzF iFcjsq"
+      className="c1"
     >
       <div>
         <p
-          className="sc-jlyJG fIhlOn"
+          className="c10"
         >
           The quick brown fox jumped over the lazy dog.
         </p>
       </div>
       <div>
         <code
-          className="sc-kkGfuU hyFeIk"
+          className="c3"
         >
           <code>
             @
@@ -4034,25 +6002,25 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
       </div>
       <div>
         <i
-          className="sc-iAyFgw jVNtAQ"
+          className="c4"
         >
           Used for smaller UI elements.
         </i>
       </div>
     </section>
     <section
-      className="sc-kEYyzF iFcjsq"
+      className="c1"
     >
       <div>
         <p
-          className="sc-gipzik eEUYyE"
+          className="c11"
         >
           The quick brown fox jumped over the lazy dog.
         </p>
       </div>
       <div>
         <code
-          className="sc-kkGfuU hyFeIk"
+          className="c3"
         >
           <code>
             @
@@ -4064,25 +6032,25 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
       </div>
       <div>
         <i
-          className="sc-iAyFgw jVNtAQ"
+          className="c4"
         >
           Used for ambient text.
         </i>
       </div>
     </section>
     <section
-      className="sc-kEYyzF iFcjsq"
+      className="c1"
     >
       <div>
         <p
-          className="sc-csuQGl iqEMaT"
+          className="c12"
         >
           The quick brown fox jumped over the lazy dog.
         </p>
       </div>
       <div>
         <code
-          className="sc-kkGfuU hyFeIk"
+          className="c3"
         >
           <code>
             @
@@ -4094,7 +6062,7 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
       </div>
       <div>
         <i
-          className="sc-iAyFgw jVNtAQ"
+          className="c4"
         >
           Used for ambient text.
         </i>
@@ -4105,21 +6073,145 @@ exports[`Storyshots Atoms|Typography Sizes 1`] = `
 `;
 
 exports[`Storyshots Atoms|Typography Spacing 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+.c1 {
+  margin: 3.26rem;
+  max-width: 50vw;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.c3 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 2.3rem;
+}
+
+.c4 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.c5 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+.c6 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.c7 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.c8 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.c9 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.c10 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.c11 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.5rem;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     <section
-      className="sc-kEYyzF sc-eHgmQL xohYW"
+      className="c1"
     >
       <p
-        className="sc-hSdWYo jcKQdA"
+        className="c2"
       >
         @
         text900
       </p>
       <p
-        className="sc-Rmtcm bmoAGB"
+        className="c3"
       >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -4133,16 +6225,16 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
       </p>
     </section>
     <section
-      className="sc-kEYyzF sc-eHgmQL xohYW"
+      className="c1"
     >
       <p
-        className="sc-hSdWYo jcKQdA"
+        className="c2"
       >
         @
         text800
       </p>
       <p
-        className="sc-bRBYWo iojuxU"
+        className="c4"
       >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -4156,16 +6248,16 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
       </p>
     </section>
     <section
-      className="sc-kEYyzF sc-eHgmQL xohYW"
+      className="c1"
     >
       <p
-        className="sc-hSdWYo jcKQdA"
+        className="c2"
       >
         @
         text700
       </p>
       <p
-        className="sc-hzDkRC bxyEes"
+        className="c5"
       >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -4179,16 +6271,16 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
       </p>
     </section>
     <section
-      className="sc-kEYyzF sc-eHgmQL xohYW"
+      className="c1"
     >
       <p
-        className="sc-hSdWYo jcKQdA"
+        className="c2"
       >
         @
         text600
       </p>
       <p
-        className="sc-jhAzac gkIEaV"
+        className="c6"
       >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -4202,16 +6294,16 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
       </p>
     </section>
     <section
-      className="sc-kEYyzF sc-eHgmQL xohYW"
+      className="c1"
     >
       <p
-        className="sc-hSdWYo jcKQdA"
+        className="c2"
       >
         @
         text500
       </p>
       <p
-        className="sc-fBuWsC gjlDmq"
+        className="c7"
       >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -4225,16 +6317,16 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
       </p>
     </section>
     <section
-      className="sc-kEYyzF sc-eHgmQL xohYW"
+      className="c1"
     >
       <p
-        className="sc-hSdWYo jcKQdA"
+        className="c2"
       >
         @
         text400
       </p>
       <p
-        className="sc-fMiknA ezlNlH"
+        className="c8"
       >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -4248,16 +6340,16 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
       </p>
     </section>
     <section
-      className="sc-kEYyzF sc-eHgmQL xohYW"
+      className="c1"
     >
       <p
-        className="sc-hSdWYo jcKQdA"
+        className="c2"
       >
         @
         text300
       </p>
       <p
-        className="sc-dVhcbM hfIwJE"
+        className="c9"
       >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -4271,16 +6363,16 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
       </p>
     </section>
     <section
-      className="sc-kEYyzF sc-eHgmQL xohYW"
+      className="c1"
     >
       <p
-        className="sc-hSdWYo jcKQdA"
+        className="c2"
       >
         @
         text200
       </p>
       <p
-        className="sc-eqIVtm flikfC"
+        className="c10"
       >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -4294,16 +6386,16 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
       </p>
     </section>
     <section
-      className="sc-kEYyzF sc-eHgmQL xohYW"
+      className="c1"
     >
       <p
-        className="sc-hSdWYo jcKQdA"
+        className="c2"
       >
         @
         text100
       </p>
       <p
-        className="sc-fAjcbJ cYUPrd"
+        className="c11"
       >
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et facilis alias placeat cumque sapiente ad delectus omnis quae. Reiciendis quibusdam deserunt repellat. Exercitationem modi incidunt autem nemo tempore eaque soluta.
@@ -4321,8 +6413,26 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
 `;
 
 exports[`Storyshots Molecules|Placeholder Placeholder 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     nya!
@@ -4331,13 +6441,41 @@ exports[`Storyshots Molecules|Placeholder Placeholder 1`] = `
 `;
 
 exports[`Storyshots Organisms|Picker Category Multi 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     <p>
       <span
-        className="sc-EHOje clVJWe"
+        className="c1"
       >
         Pronouns
       </span>
@@ -4379,18 +6517,56 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
 `;
 
 exports[`Storyshots Organisms|Picker Category Single 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     <p>
       <span
-        className="sc-EHOje clVJWe"
+        className="c1"
       >
         Pronouns
       </span>
       <span
-        className="sc-gzVnrw gqqWHi"
+        className="c2"
       >
         Pick one
       </span>
@@ -4432,13 +6608,41 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
 `;
 
 exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     <p>
       <span
-        className="sc-EHOje clVJWe"
+        className="c1"
       >
         Pronouns
       </span>
@@ -4480,23 +6684,141 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
 `;
 
 exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid var(--taupe200);
+  border-radius: 3px;
+  line-height: 163%;
+  padding: 12px 16px;
+  font-size: 1.2rem;
+  background-color: var(--taupe300);
+  color: var(--grey600);
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  position: relative;
+  width: 20em;
+  box-sizing: border-box;
+  max-width: 97vw;
+  padding-left: 36px;
+}
+
+.c5:focus {
+  outline: none;
+  border-color: var(--grey100);
+  box-shadow: 1px 0 3px rgba(0,0,0,0.25);
+}
+
+.c5 [disabled],
+.c5:disabled {
+  cursor: not-allowed;
+  color: rgba(255,255,255,0.75);
+  font-style: italic;
+}
+
+.c5:hover:not([disabled]) {
+  border-color: var(--grey100);
+}
+
+.c5::-webkit-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c5::-moz-placeholder {
+  color: var(--taupe500);
+}
+
+.c5:-ms-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c5::placeholder {
+  color: var(--taupe500);
+}
+
+.c4 {
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  position: relative;
+}
+
+.c2 {
+  height: 15px;
+}
+
+.c1 {
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div
-    className="sc-jWBwVP gqeCKt"
+    className="c1"
   >
     <button>
       discord login
     </button>
     <div
-      className="sc-cvbbAY ePOcDO"
+      className="c2"
     />
     <div
-      className="sc-hMqMXs hsVPJJ"
+      className="c3"
     >
       <div
-        className="sc-eNQAEJ YYjjJ"
+        className="c4"
       >
         <svg
           fill="none"
@@ -4520,7 +6842,7 @@ exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
         </svg>
       </div>
       <input
-        className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+        className="c5"
         onChange={[Function]}
         onKeyDown={[Function]}
         placeholder="Super secret code..."
@@ -4532,14 +6854,168 @@ exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
 `;
 
 exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c3 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.c2 {
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--grey100);
+  position: relative;
+  background-color: var(--grey500);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  font-size: 64;
+}
+
+.c7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid var(--taupe200);
+  border-radius: 3px;
+  line-height: 163%;
+  padding: 12px 16px;
+  font-size: 1.2rem;
+  background-color: var(--taupe300);
+  color: var(--grey600);
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  position: relative;
+  width: 20em;
+  box-sizing: border-box;
+  max-width: 97vw;
+  padding-left: 36px;
+}
+
+.c7:focus {
+  outline: none;
+  border-color: var(--grey100);
+  box-shadow: 1px 0 3px rgba(0,0,0,0.25);
+}
+
+.c7 [disabled],
+.c7:disabled {
+  cursor: not-allowed;
+  color: rgba(255,255,255,0.75);
+  font-style: italic;
+}
+
+.c7:hover:not([disabled]) {
+  border-color: var(--grey100);
+}
+
+.c7::-webkit-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c7::-moz-placeholder {
+  color: var(--taupe500);
+}
+
+.c7:-ms-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c7::placeholder {
+  color: var(--taupe500);
+}
+
+.c6 {
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  position: relative;
+}
+
+.c4 {
+  height: 15px;
+}
+
+.c1 {
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div
-    className="sc-jWBwVP gqeCKt"
+    className="c1"
   >
     <div
-      className="sc-dnqmqq nKoP"
+      className="c2"
       size={64}
     >
       
@@ -4548,7 +7024,7 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
       </div>
     </div>
     <span
-      className="sc-ifAKCX ibGYVW"
+      className="c3"
     >
       Hi there. 
       <b>
@@ -4557,22 +7033,22 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
        uses Roleypoly to help assign you roles.
     </span>
     <div
-      className="sc-cvbbAY ePOcDO"
+      className="c4"
     />
     <div
-      className="sc-cvbbAY ePOcDO"
+      className="c4"
     />
     <button>
       discord login
     </button>
     <div
-      className="sc-cvbbAY ePOcDO"
+      className="c4"
     />
     <div
-      className="sc-hMqMXs hsVPJJ"
+      className="c5"
     >
       <div
-        className="sc-eNQAEJ YYjjJ"
+        className="c6"
       >
         <svg
           fill="none"
@@ -4596,7 +7072,7 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
         </svg>
       </div>
       <input
-        className="sc-ckVGcZ sc-jKJlTe bkIrYd"
+        className="c7"
         onChange={[Function]}
         onKeyDown={[Function]}
         placeholder="Super secret code..."
@@ -4608,8 +7084,26 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
 `;
 
 exports[`Storyshots Templates|Placeholder Placeholder 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
 <div
-  className="sc-bdVaJa dftdwD"
+  className="c0"
 >
   <div>
     nya!
