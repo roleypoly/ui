@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { object, ValidationMap } from 'prop-types';
 import { withContext } from 'utils/withContext';
 
 export type ScreenSize = {

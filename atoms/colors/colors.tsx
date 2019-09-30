@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { css, createGlobalStyle } from 'styled-components';
 import chroma from 'chroma-js';
 
