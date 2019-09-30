@@ -24,7 +24,7 @@ npm run storybook
 
 _Wait, you're a regular web dev? This is where stuff gets terrifying. Take a shot before continuing._
 
-For the practical implementation, you'll need to either run a local environment of Roleypoly ([docs might be here](https://github.com/roleypoly/roleypoly)), or nicely ask `okano cat#0001` on Discord for UI access to a staging shard.
+For the practical implementation, you'll need to either run a local environment of Roleypoly ([docs might be here](https://github.com/roleypoly/roleypoly)), or use a staging proxy, then nicely ask `okano cat#0001` on Discord for UI access to a staging shard.
 
 ```sh
 npm i
