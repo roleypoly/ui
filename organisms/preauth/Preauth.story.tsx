@@ -3,13 +3,26 @@ import { Preauth } from './Preauth';
 import { organismStories } from 'organisms/organisms.story';
 import { guild } from 'hack/fixtures/storyData';
 import { action } from '@storybook/addon-actions';
+import styled from 'styled-components';
 
 const story = organismStories('Preauth', module);
 
-story.add('Preauth, No Slug', () => {
-  return <Preauth onSendSecretCode={action('secret code!')} />;
+const Center = styled.div`
+  margin: 0 auto;
+`;
+
+story.add('No Slug', () => {
+  return (
+    <Center>
+      <Preauth onSendSecretCode={action('secret code!')} />
+    </Center>
+  );
 });
 
-story.add('Preauth, With Slug', () => {
-  return <Preauth guildSlug={guild} onSendSecretCode={action('secret code!')} />;
+story.add('With Slug', () => {
+  return (
+    <Center>
+      <Preauth guildSlug={guild} onSendSecretCode={action('secret code!')} />
+    </Center>
+  );
 });

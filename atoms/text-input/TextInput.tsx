@@ -12,7 +12,7 @@ const StyledTextInput = styled.input`
   color: var(--grey600);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   position: relative;
-  width: 20em;
+  width: 100%;
   box-sizing: border-box;
   max-width: 97vw;
 
@@ -64,6 +64,7 @@ const IconContainer = styled.div`
 
 const IconInputContainer = styled.div`
   position: relative;
+  width: 100%;
 `;
 
 type TextInputWithIconProps = TextInputProps & {

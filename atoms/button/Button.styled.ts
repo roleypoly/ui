@@ -70,6 +70,7 @@ const sizes = {
   large: css`
     ${text400}
     padding: 12px 32px;
+    width: 100%;
   `,
 };
 

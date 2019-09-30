@@ -5,6 +5,7 @@ export type ButtonProps = Partial<styled.ButtonComposerOptions> & {
   children: React.ReactNode;
   icon?: React.ReactNode;
   loading?: boolean;
+  onClick?: () => void;
 };
 
 export const Button = (props: ButtonProps) => {
@@ -24,7 +25,7 @@ export const Button = (props: ButtonProps) => {
   });
 
   return (
-    <BaseComponent>
+    <BaseComponent onClick={props.onClick}>
       {props.icon && <styled.IconContainer>{props.icon}</styled.IconContainer>}
       <div>{props.children}</div>
     </BaseComponent>

@@ -1,9 +1,10 @@
 import { Guild } from '@roleypoly/rpc/discord';
+import { Button } from 'atoms/button';
 import { Space } from 'atoms/space';
-import { TextInputWithIcon } from 'atoms/text-input';
 import { PreauthGreeting } from 'molecules/preauth-greeting';
+import { PreauthSecretCode } from 'molecules/preauth-secret-code';
 import * as React from 'react';
-import { FiKey } from 'react-icons/fi';
+import { FaDiscord } from 'react-icons/fa';
 import styled from 'styled-components';
 
 type PreauthProps = {
@@ -17,33 +18,36 @@ const Centered = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 90vw;
+`;
+
+const WidthContainer = styled.div`
+  width: 20em;
 `;
 
 export const Preauth = (props: PreauthProps) => {
-  const [secretCode, setSecretCode] = React.useState('');
-
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSecretCode(event.target.value);
-  };
-
-  const handleKeyPress = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === 'Enter') {
-      props.onSendSecretCode(secretCode);
-    }
-  };
-
   return (
     <Centered>
       {props.guildSlug && <PreauthGreeting guildSlug={props.guildSlug} />}
-      <button>discord login</button>
+      <WidthContainer>
+        <Button
+          color="discord"
+          icon={
+            <div style={{ position: 'relative', top: 3 }}>
+              <FaDiscord />
+            </div>
+          }
+        >
+          Sign in with Discord
+        </Button>
+      </WidthContainer>
       <Space />
-      <TextInputWithIcon
-        icon={<FiKey />}
-        value={secretCode}
-        placeholder="Super secret code..."
-        onChange={handleChange}
-        onKeyDown={handleKeyPress}
-      />
+      <WidthContainer>
+        <p>
+          Or, send a message saying "login" to <b>roleypoly#3266</b>
+        </p>
+        <PreauthSecretCode onSubmit={props.onSendSecretCode} />
+      </WidthContainer>
     </Centered>
   );
 };

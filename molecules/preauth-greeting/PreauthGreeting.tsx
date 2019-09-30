@@ -3,13 +3,21 @@ import { Avatar, utils as avatarUtils } from 'atoms/avatar';
 import { Guild } from '@roleypoly/rpc/discord';
 import { AccentTitle } from 'atoms/typography';
 import { Space } from 'atoms/space';
+import styled from 'styled-components';
 
 type GreetingProps = {
   guildSlug: Guild.AsObject;
 };
 
+const Center = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+
 export const PreauthGreeting = (props: GreetingProps) => (
-  <>
+  <Center>
     <Avatar size={64} src={props.guildSlug.icon}>
       {avatarUtils.initialsFromName(props.guildSlug.name)}
     </Avatar>
@@ -18,5 +26,5 @@ export const PreauthGreeting = (props: GreetingProps) => (
     </AccentTitle>
     <Space />
     <Space />
-  </>
+  </Center>
 );
