@@ -8998,11 +8998,13 @@ exports[`Storyshots Organisms|Preauth No Slug 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 90vw;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .c3 {
   width: 20em;
+  max-width: 100%;
 }
 
 .c1 {
@@ -9453,11 +9455,13 @@ exports[`Storyshots Organisms|Preauth With Slug 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 90vw;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .c7 {
   width: 20em;
+  max-width: 100%;
 }
 
 .c1 {

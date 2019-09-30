@@ -18,11 +18,13 @@ const Centered = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 90vw;
+  max-width: 100%;
+  margin: 0 auto;
 `;
 
 const WidthContainer = styled.div`
   width: 20em;
+  max-width: 100%;
 `;
 
 export const Preauth = (props: PreauthProps) => {
