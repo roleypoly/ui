@@ -386,7 +386,7 @@ exports[`Storyshots Atoms|Breakpoints Debug Tool 1`] = `
 </div>
 `;
 
-exports[`Storyshots Atoms|Button Large 1`] = `
+exports[`Storyshots Atoms|Button/Large Icon 1`] = `
 .c0 {
   --taupe100: #332D2D;
   --taupe200: #453E3D;
@@ -405,19 +405,15 @@ exports[`Storyshots Atoms|Button Large 1`] = `
   --grey600: #F2EFEF;
 }
 
+.c2 {
+  margin-right: 0.6em;
+}
+
 .c1 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -431,7 +427,27 @@ exports[`Storyshots Atoms|Button Large 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
   background-color: var(--green400);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c1::after {
@@ -465,78 +481,11 @@ exports[`Storyshots Atoms|Button Large 1`] = `
   opacity: 0.1;
 }
 
-.c2 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  display: block;
-  padding: 12px 32px;
-  background-color: var(--taupe300);
-  color: var(--grey900);
-  border-radius: 3px;
-  border: 2px solid rgba(0,0,0,0.55);
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-  outline: 0;
-  position: relative;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
-}
-
-.c2::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #000;
-  opacity: 0;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-}
-
-.c2:hover {
-  -webkit-transform: translateY(-1px);
-  -ms-transform: translateY(-1px);
-  transform: translateY(-1px);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-}
-
-.c2:active {
-  -webkit-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  transform: translateY(1px);
-  box-shadow: 0 0 2px rgba(0,0,0,0.25);
-}
-
-.c2:active::after {
-  opacity: 0.1;
-}
-
 .c3 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -550,8 +499,26 @@ exports[`Storyshots Atoms|Button Large 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
-  background-color: var(--discord400);
-  border: 2px solid var(--discord200);
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c3::after {
@@ -586,18 +553,10 @@ exports[`Storyshots Atoms|Button Large 1`] = `
 }
 
 .c4 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -611,8 +570,28 @@ exports[`Storyshots Atoms|Button Large 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
-  border: 2px solid rgba(0,0,0,0.15);
-  background: none;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c4::after {
@@ -646,7 +625,80 @@ exports[`Storyshots Atoms|Button Large 1`] = `
   opacity: 0.1;
 }
 
-.c4:hover {
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c5:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c5:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c5:active::after {
+  opacity: 0.1;
+}
+
+.c5:hover {
   background-color: var(--taupe200);
 }
 
@@ -655,46 +707,218 @@ exports[`Storyshots Atoms|Button Large 1`] = `
 >
   <div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c1"
       >
-        Example Button
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
       </button>
-    </div>
-    <div
-      className="css-y77wuh"
-    >
-      <button
-        className="c2"
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
       >
-        Example Button
-      </button>
+        P
+        rimary
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c3"
       >
-        Example Button
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        S
+        econdary
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c4"
       >
-        Example Button
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        D
+        iscord
+      </div>
+    </div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c5"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        M
+        uted
+      </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
+exports[`Storyshots Atoms|Button/Large Loading 1`] = `
 .c0 {
   --taupe100: #332D2D;
   --taupe200: #453E3D;
@@ -713,19 +937,15 @@ exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
   --grey600: #F2EFEF;
 }
 
+.c2 {
+  margin-right: 0.6em;
+}
+
 .c1 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -739,7 +959,28 @@ exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
   background-color: var(--green400);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c1::after {
@@ -773,78 +1014,11 @@ exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
   opacity: 0.1;
 }
 
-.c2 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  display: block;
-  padding: 12px 32px;
-  background-color: var(--taupe300);
-  color: var(--grey900);
-  border-radius: 3px;
-  border: 2px solid rgba(0,0,0,0.55);
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-  outline: 0;
-  position: relative;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
-}
-
-.c2::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #000;
-  opacity: 0;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-}
-
-.c2:hover {
-  -webkit-transform: translateY(-1px);
-  -ms-transform: translateY(-1px);
-  transform: translateY(-1px);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-}
-
-.c2:active {
-  -webkit-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  transform: translateY(1px);
-  box-shadow: 0 0 2px rgba(0,0,0,0.25);
-}
-
-.c2:active::after {
-  opacity: 0.1;
-}
-
 .c3 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -858,8 +1032,27 @@ exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
-  background-color: var(--discord400);
-  border: 2px solid var(--discord200);
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c3::after {
@@ -894,18 +1087,10 @@ exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
 }
 
 .c4 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -919,8 +1104,29 @@ exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
-  border: 2px solid rgba(0,0,0,0.15);
-  background: none;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c4::after {
@@ -954,7 +1160,81 @@ exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
   opacity: 0.1;
 }
 
-.c4:hover {
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c5:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c5:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c5:active::after {
+  opacity: 0.1;
+}
+
+.c5:hover {
   background-color: var(--taupe200);
 }
 
@@ -963,46 +1243,218 @@ exports[`Storyshots Atoms|Button Large w/ Icon 1`] = `
 >
   <div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c1"
       >
-        Example Button
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
       </button>
-    </div>
-    <div
-      className="css-y77wuh"
-    >
-      <button
-        className="c2"
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
       >
-        Example Button
-      </button>
+        P
+        rimary
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c3"
       >
-        Example Button
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        S
+        econdary
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c4"
       >
-        Example Button
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        D
+        iscord
+      </div>
+    </div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c5"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        M
+        uted
+      </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
+exports[`Storyshots Atoms|Button/Large Normal 1`] = `
 .c0 {
   --taupe100: #332D2D;
   --taupe200: #453E3D;
@@ -1022,18 +1474,10 @@ exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
 }
 
 .c1 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -1047,6 +1491,14 @@ exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
   background-color: var(--green400);
 }
 
@@ -1082,18 +1534,10 @@ exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
 }
 
 .c2 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -1107,6 +1551,14 @@ exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
 }
 
 .c2::after {
@@ -1141,18 +1593,10 @@ exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
 }
 
 .c3 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -1166,6 +1610,14 @@ exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
   background-color: var(--discord400);
   border: 2px solid var(--discord200);
 }
@@ -1202,18 +1654,10 @@ exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
 }
 
 .c4 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -1227,6 +1671,14 @@ exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
   border: 2px solid rgba(0,0,0,0.15);
   background: none;
 }
@@ -1271,46 +1723,1162 @@ exports[`Storyshots Atoms|Button Large w/ Loading 1`] = `
 >
   <div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c1"
       >
-        Example Button
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        P
+        rimary
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c2"
       >
-        Example Button
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        S
+        econdary
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c3"
       >
-        Example Button
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        D
+        iscord
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c4"
       >
-        Example Button
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        M
+        uted
+      </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Atoms|Button Small 1`] = `
+exports[`Storyshots Atoms|Button/Small Icon 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c2 {
+  margin-right: 0.6em;
+}
+
+.c1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  background-color: var(--green400);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c1:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c1:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c1:active::after {
+  opacity: 0.1;
+}
+
+.c3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c3:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c3:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c3:active::after {
+  opacity: 0.1;
+}
+
+.c4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c4:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c4:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c4:active::after {
+  opacity: 0.1;
+}
+
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c5:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c5:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c5:active::after {
+  opacity: 0.1;
+}
+
+.c5:hover {
+  background-color: var(--taupe200);
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c1"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        P
+        rimary
+      </div>
+    </div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c3"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        S
+        econdary
+      </div>
+    </div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c4"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        D
+        iscord
+      </div>
+    </div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c5"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        M
+        uted
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Button/Small Loading 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c2 {
+  margin-right: 0.6em;
+}
+
+.c1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  background-color: var(--green400);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c1:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c1:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c1:active::after {
+  opacity: 0.1;
+}
+
+.c3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c3:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c3:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c3:active::after {
+  opacity: 0.1;
+}
+
+.c4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c4:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c4:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c4:active::after {
+  opacity: 0.1;
+}
+
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c5:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c5:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c5:active::after {
+  opacity: 0.1;
+}
+
+.c5:hover {
+  background-color: var(--taupe200);
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c1"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        P
+        rimary
+      </div>
+    </div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c3"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        S
+        econdary
+      </div>
+    </div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c4"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        D
+        iscord
+      </div>
+    </div>
+    <div
+      className="css-13e3bhr"
+    >
+      <button
+        className="c5"
+      >
+        <div
+          className="c2"
+        >
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "top": 3,
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          Example Button
+        </div>
+      </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        M
+        uted
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Button/Small Normal 1`] = `
 .c0 {
   --taupe100: #332D2D;
   --taupe200: #453E3D;
@@ -1330,18 +2898,10 @@ exports[`Storyshots Atoms|Button Small 1`] = `
 }
 
 .c1 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -1355,6 +2915,14 @@ exports[`Storyshots Atoms|Button Small 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
   background-color: var(--green400);
 }
 
@@ -1390,18 +2958,10 @@ exports[`Storyshots Atoms|Button Small 1`] = `
 }
 
 .c2 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -1415,6 +2975,14 @@ exports[`Storyshots Atoms|Button Small 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
 }
 
 .c2::after {
@@ -1449,18 +3017,10 @@ exports[`Storyshots Atoms|Button Small 1`] = `
 }
 
 .c3 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -1474,6 +3034,14 @@ exports[`Storyshots Atoms|Button Small 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
   background-color: var(--discord400);
   border: 2px solid var(--discord200);
 }
@@ -1510,18 +3078,10 @@ exports[`Storyshots Atoms|Button Small 1`] = `
 }
 
 .c4 {
-  margin: 0;
-  line-height: 163%;
-  padding: 0;
-  font-weight: 400;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 1rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -1535,6 +3095,14 @@ exports[`Storyshots Atoms|Button Small 1`] = `
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 4px 8px;
   border: 2px solid rgba(0,0,0,0.15);
   background: none;
 }
@@ -1579,40 +3147,88 @@ exports[`Storyshots Atoms|Button Small 1`] = `
 >
   <div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c1"
       >
-        Example Button
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        P
+        rimary
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c2"
       >
-        Example Button
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        S
+        econdary
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c3"
       >
-        Example Button
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        D
+        iscord
+      </div>
     </div>
     <div
-      className="css-y77wuh"
+      className="css-13e3bhr"
     >
       <button
         className="c4"
       >
-        Example Button
+        <div>
+          Example Button
+        </div>
       </button>
+      <div
+        style={
+          Object {
+            "marginLeft": "1em",
+          }
+        }
+      >
+        M
+        uted
+      </div>
     </div>
   </div>
 </div>
