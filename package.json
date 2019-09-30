@@ -14,10 +14,11 @@
     "lint:tsc": "tsc --noEmit --isolatedModules",
     "lint:tslint": "tslint --project .",
     "now-build": "build-storybook",
-    "pre-commit": "run-p -c lint-staged lint",
+    "pre-commit": "run-p -c lint-staged lint test:storybook",
     "start": "next start",
     "storybook": "start-storybook --port 6001",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests",
+    "test:storybook": "npm test -- ./.storybook/storyshots.spec.ts"
   },
   "husky": {
     "hooks": {
