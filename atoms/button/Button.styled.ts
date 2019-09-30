@@ -1,11 +1,13 @@
-import styled from 'styled-components';
-import { text400 } from 'atoms/typography';
+import styled, { css } from 'styled-components';
+import { text400, text300 } from 'atoms/typography';
 
-export const ButtonBase = styled.button`
-  ${text400}
+export const IconContainer = styled.div`
+  margin-right: 0.6em;
+`;
+
+const base = styled.button`
   appearance: none;
   display: block;
-  padding: 12px 32px;
   background-color: var(--taupe300);
   color: var(--grey900);
   border-radius: 3px;
@@ -42,21 +44,56 @@ export const ButtonBase = styled.button`
   }
 `;
 
-export const PrimaryButton = styled(ButtonBase)`
-  background-color: var(--green400);
-`;
+const colors = {
+  primary: css`
+    background-color: var(--green400);
+  `,
+  secondary: css``,
+  discord: css`
+    background-color: var(--discord400);
+    border: 2px solid var(--discord200);
+  `,
+  muted: css`
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    background: none;
+    :hover {
+      background-color: var(--taupe200);
+    }
+  `,
+};
 
-export const SecondaryButton = styled(ButtonBase)``;
+const sizes = {
+  small: css`
+    ${text300}
+    padding: 4px 8px;
+  `,
+  large: css`
+    ${text400}
+    padding: 12px 32px;
+  `,
+};
 
-export const DiscordButton = styled(ButtonBase)`
-  background-color: var(--discord400);
-  border: 2px solid var(--discord200);
-`;
+const modifiers = {
+  withIcon: css`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  `,
+  withLoading: css`
+    pointer-events: none;
+  `,
+};
 
-export const MutedButton = styled(ButtonBase)`
-  border: 2px solid rgba(0, 0, 0, 0.15);
-  background: none;
-  :hover {
-    background-color: var(--taupe200);
-  }
-`;
+export type ButtonComposerOptions = {
+  size: keyof typeof sizes;
+  color: keyof typeof colors;
+  modifiers?: Array<keyof typeof modifiers>;
+};
+
+export const composeButton = (opts: ButtonComposerOptions) => {
+  return styled(base)`
+    ${sizes[opts.size]}
+    ${colors[opts.color]}
+    ${opts.modifiers && opts.modifiers.map(mod => modifiers[mod]).join('\n')}
+  `;
+};
