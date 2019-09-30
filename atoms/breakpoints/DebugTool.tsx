@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { withBreakpoints, BreakpointProps, useBreakpointContext } from './Context';
-import { onSmallScreen, onDesktop, onTablet } from './Breakpoints';
+import { onDesktop, onTablet } from './Breakpoints';
+import { useBreakpointContext } from './Context';
 
 const DebuggerPosition = styled.div`
   position: fixed;
