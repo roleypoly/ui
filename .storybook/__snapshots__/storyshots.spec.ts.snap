@@ -435,6 +435,7 @@ exports[`Storyshots Atoms|Button/Large Icon 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   background-color: var(--green400);
   display: -webkit-box;
   display: -webkit-flex;
@@ -507,6 +508,7 @@ exports[`Storyshots Atoms|Button/Large Icon 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -578,6 +580,7 @@ exports[`Storyshots Atoms|Button/Large Icon 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   background-color: var(--discord400);
   border: 2px solid var(--discord200);
   display: -webkit-box;
@@ -651,6 +654,7 @@ exports[`Storyshots Atoms|Button/Large Icon 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   border: 2px solid rgba(0,0,0,0.15);
   background: none;
   display: -webkit-box;
@@ -967,6 +971,7 @@ exports[`Storyshots Atoms|Button/Large Loading 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   background-color: var(--green400);
   pointer-events: none;
   display: -webkit-box;
@@ -1040,6 +1045,7 @@ exports[`Storyshots Atoms|Button/Large Loading 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   pointer-events: none;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1112,6 +1118,7 @@ exports[`Storyshots Atoms|Button/Large Loading 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   background-color: var(--discord400);
   border: 2px solid var(--discord200);
   pointer-events: none;
@@ -1186,6 +1193,7 @@ exports[`Storyshots Atoms|Button/Large Loading 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   border: 2px solid rgba(0,0,0,0.15);
   background: none;
   pointer-events: none;
@@ -1499,6 +1507,7 @@ exports[`Storyshots Atoms|Button/Large Normal 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   background-color: var(--green400);
 }
 
@@ -1559,6 +1568,7 @@ exports[`Storyshots Atoms|Button/Large Normal 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
 }
 
 .c2::after {
@@ -1618,6 +1628,7 @@ exports[`Storyshots Atoms|Button/Large Normal 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   background-color: var(--discord400);
   border: 2px solid var(--discord200);
 }
@@ -1679,6 +1690,7 @@ exports[`Storyshots Atoms|Button/Large Normal 1`] = `
   text-decoration: none;
   font-size: 1rem;
   padding: 12px 32px;
+  width: 100%;
   border: 2px solid rgba(0,0,0,0.15);
   background: none;
 }
@@ -6875,6 +6887,220 @@ exports[`Storyshots Atoms|Dot Overlay Light 1`] = `
 </div>
 `;
 
+exports[`Storyshots Atoms|Faders FaderOpacity 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  opacity: 1;
+  pointer-events: unset;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  width: 100%;
+  background-color: var(--green400);
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c2:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c2:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c2:active::after {
+  opacity: 0.1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      onClick={[Function]}
+    >
+      <div>
+        Click me!
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Faders FaderSlide 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c1 {
+  max-height: 4em;
+  pointer-events: unset;
+  -webkit-transition: max-height 0.35s ease-in-out;
+  transition: max-height 0.35s ease-in-out;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  width: 100%;
+  background-color: var(--green400);
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c2:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c2:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c2:active::after {
+  opacity: 0.1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      onClick={[Function]}
+    >
+      <div>
+        Click me!
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms|Fonts Fonts 1`] = `
 .c1 {
   --taupe100: #332D2D;
@@ -7023,7 +7249,7 @@ exports[`Storyshots Atoms|Text Input Common 1`] = `
   -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   position: relative;
-  width: 20em;
+  width: 100%;
   box-sizing: border-box;
   max-width: 97vw;
 }
@@ -7075,7 +7301,7 @@ exports[`Storyshots Atoms|Text Input Common 1`] = `
   -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   position: relative;
-  width: 20em;
+  width: 100%;
   box-sizing: border-box;
   max-width: 97vw;
   padding-left: 36px;
@@ -7136,6 +7362,7 @@ exports[`Storyshots Atoms|Text Input Common 1`] = `
 
 .c3 {
   position: relative;
+  width: 100%;
 }
 
 <div
@@ -8056,6 +8283,349 @@ exports[`Storyshots Molecules|Placeholder Placeholder 1`] = `
 </div>
 `;
 
+exports[`Storyshots Molecules|Preauth Greeting 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c3 {
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.c2 {
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--grey100);
+  position: relative;
+  background-color: var(--grey500);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  font-size: 64;
+}
+
+.c4 {
+  height: 15px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      size={64}
+    >
+      
+      <div>
+        em
+      </div>
+    </div>
+    <span
+      className="c3"
+    >
+      Hi there. 
+      <b>
+        emoji megaporium
+      </b>
+       uses Roleypoly to help assign you roles.
+    </span>
+    <div
+      className="c4"
+    />
+    <div
+      className="c4"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules|Preauth Secret Code 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c5 {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.c3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid var(--taupe200);
+  border-radius: 3px;
+  line-height: 163%;
+  padding: 12px 16px;
+  font-size: 1.2rem;
+  background-color: var(--taupe300);
+  color: var(--grey600);
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 97vw;
+  padding-left: 36px;
+}
+
+.c3:focus {
+  outline: none;
+  border-color: var(--grey100);
+  box-shadow: 1px 0 3px rgba(0,0,0,0.25);
+}
+
+.c3 [disabled],
+.c3:disabled {
+  cursor: not-allowed;
+  color: rgba(255,255,255,0.75);
+  font-style: italic;
+}
+
+.c3:hover:not([disabled]) {
+  border-color: var(--grey100);
+}
+
+.c3::-webkit-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c3::-moz-placeholder {
+  color: var(--taupe500);
+}
+
+.c3:-ms-input-placeholder {
+  color: var(--taupe500);
+}
+
+.c3::placeholder {
+  color: var(--taupe500);
+}
+
+.c2 {
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+}
+
+.c4 {
+  height: 15px;
+}
+
+.c6 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  width: 100%;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+}
+
+.c6::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c6:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c6:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c6:active::after {
+  opacity: 0.1;
+}
+
+.c6:hover {
+  background-color: var(--taupe200);
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
+          />
+        </svg>
+      </div>
+      <input
+        className="c3"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Super secret code..."
+        value=""
+      />
+    </div>
+    <div
+      className="c4"
+    />
+    <div
+      className="c5"
+    >
+      <button
+        className="c6"
+        onClick={[Function]}
+      >
+        <div>
+          Submit Code →
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Organisms|Picker Category Multi 1`] = `
 .c0 {
   --taupe100: #332D2D;
@@ -8299,7 +8869,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
 </div>
 `;
 
-exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
+exports[`Storyshots Organisms|Preauth No Slug 1`] = `
 .c0 {
   --taupe100: #332D2D;
   --taupe200: #453E3D;
@@ -8319,6 +8889,17 @@ exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
 }
 
 .c5 {
+  margin-right: 0.6em;
+}
+
+.c10 {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.c9 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -8332,46 +8913,46 @@ exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
   -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   position: relative;
-  width: 20em;
+  width: 100%;
   box-sizing: border-box;
   max-width: 97vw;
   padding-left: 36px;
 }
 
-.c5:focus {
+.c9:focus {
   outline: none;
   border-color: var(--grey100);
   box-shadow: 1px 0 3px rgba(0,0,0,0.25);
 }
 
-.c5 [disabled],
-.c5:disabled {
+.c9 [disabled],
+.c9:disabled {
   cursor: not-allowed;
   color: rgba(255,255,255,0.75);
   font-style: italic;
 }
 
-.c5:hover:not([disabled]) {
+.c9:hover:not([disabled]) {
   border-color: var(--grey100);
 }
 
-.c5::-webkit-input-placeholder {
+.c9::-webkit-input-placeholder {
   color: var(--taupe500);
 }
 
-.c5::-moz-placeholder {
+.c9::-moz-placeholder {
   color: var(--taupe500);
 }
 
-.c5:-ms-input-placeholder {
+.c9:-ms-input-placeholder {
   color: var(--taupe500);
 }
 
-.c5::placeholder {
+.c9::placeholder {
   color: var(--taupe500);
 }
 
-.c4 {
+.c8 {
   position: absolute;
   left: 12px;
   top: 0;
@@ -8391,15 +8972,16 @@ exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
   justify-content: center;
 }
 
-.c3 {
+.c7 {
   position: relative;
+  width: 100%;
 }
 
-.c2 {
+.c6 {
   height: 15px;
 }
 
-.c1 {
+.c2 {
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -8416,6 +8998,155 @@ exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  max-width: 90vw;
+}
+
+.c3 {
+  width: 20em;
+}
+
+.c1 {
+  margin: 0 auto;
+}
+
+.c4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  width: 100%;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c4:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c4:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c4:active::after {
+  opacity: 0.1;
+}
+
+.c11 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  width: 100%;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+}
+
+.c11::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c11:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c11:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c11:active::after {
+  opacity: 0.1;
+}
+
+.c11:hover {
+  background-color: var(--taupe200);
 }
 
 <div
@@ -8424,52 +9155,122 @@ exports[`Storyshots Organisms|Preauth Preauth, No Slug 1`] = `
   <div
     className="c1"
   >
-    <button>
-      discord login
-    </button>
     <div
       className="c2"
-    />
-    <div
-      className="c3"
     >
       <div
-        className="c4"
+        className="c3"
       >
-        <svg
-          fill="none"
-          height="1em"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 24 24"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
+        <button
+          className="c4"
         >
-          <path
-            d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
-          />
-        </svg>
+          <div
+            className="c5"
+          >
+            <div
+              style={
+                Object {
+                  "position": "relative",
+                  "top": 3,
+                }
+              }
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div>
+            Sign in with Discord
+          </div>
+        </button>
       </div>
-      <input
-        className="c5"
-        onChange={[Function]}
-        onKeyDown={[Function]}
-        placeholder="Super secret code..."
-        value=""
+      <div
+        className="c6"
       />
+      <div
+        className="c3"
+      >
+        <p>
+          Or, send a message saying "login" to 
+          <b>
+            roleypoly#3266
+          </b>
+        </p>
+        <div>
+          <div
+            className="c7"
+          >
+            <div
+              className="c8"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
+                />
+              </svg>
+            </div>
+            <input
+              className="c9"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Super secret code..."
+              value=""
+            />
+          </div>
+          <div
+            className="c6"
+          />
+          <div
+            className="c10"
+          >
+            <button
+              className="c11"
+              onClick={[Function]}
+            >
+              <div>
+                Submit Code →
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
+exports[`Storyshots Organisms|Preauth With Slug 1`] = `
 .c0 {
   --taupe100: #332D2D;
   --taupe200: #453E3D;
@@ -8488,7 +9289,7 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
   --grey600: #F2EFEF;
 }
 
-.c3 {
+.c5 {
   margin: 0;
   line-height: 163%;
   padding: 0;
@@ -8498,7 +9299,7 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
   font-size: 1.4rem;
 }
 
-.c2 {
+.c4 {
   border-radius: 100%;
   width: 64px;
   height: 64px;
@@ -8524,7 +9325,18 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
   font-size: 64;
 }
 
-.c7 {
+.c9 {
+  margin-right: 0.6em;
+}
+
+.c13 {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.c12 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -8538,46 +9350,46 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
   -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   position: relative;
-  width: 20em;
+  width: 100%;
   box-sizing: border-box;
   max-width: 97vw;
   padding-left: 36px;
 }
 
-.c7:focus {
+.c12:focus {
   outline: none;
   border-color: var(--grey100);
   box-shadow: 1px 0 3px rgba(0,0,0,0.25);
 }
 
-.c7 [disabled],
-.c7:disabled {
+.c12 [disabled],
+.c12:disabled {
   cursor: not-allowed;
   color: rgba(255,255,255,0.75);
   font-style: italic;
 }
 
-.c7:hover:not([disabled]) {
+.c12:hover:not([disabled]) {
   border-color: var(--grey100);
 }
 
-.c7::-webkit-input-placeholder {
+.c12::-webkit-input-placeholder {
   color: var(--taupe500);
 }
 
-.c7::-moz-placeholder {
+.c12::-moz-placeholder {
   color: var(--taupe500);
 }
 
-.c7:-ms-input-placeholder {
+.c12:-ms-input-placeholder {
   color: var(--taupe500);
 }
 
-.c7::placeholder {
+.c12::placeholder {
   color: var(--taupe500);
 }
 
-.c6 {
+.c11 {
   position: absolute;
   left: 12px;
   top: 0;
@@ -8597,15 +9409,34 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
   justify-content: center;
 }
 
-.c5 {
+.c10 {
   position: relative;
+  width: 100%;
 }
 
-.c4 {
+.c6 {
   height: 15px;
 }
 
-.c1 {
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -8622,6 +9453,155 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  max-width: 90vw;
+}
+
+.c7 {
+  width: 20em;
+}
+
+.c1 {
+  margin: 0 auto;
+}
+
+.c8 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  width: 100%;
+  background-color: var(--discord400);
+  border: 2px solid var(--discord200);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c8::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c8:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c8:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c8:active::after {
+  opacity: 0.1;
+}
+
+.c14 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  background-color: var(--taupe300);
+  color: var(--grey900);
+  border-radius: 3px;
+  border: 2px solid rgba(0,0,0,0.55);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  outline: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  line-height: 163%;
+  padding: 0;
+  font-weight: 400;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px 32px;
+  width: 100%;
+  border: 2px solid rgba(0,0,0,0.15);
+  background: none;
+}
+
+.c14::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.c14:hover {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c14:active {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.c14:active::after {
+  opacity: 0.1;
+}
+
+.c14:hover {
+  background-color: var(--taupe200);
 }
 
 <div
@@ -8632,68 +9612,142 @@ exports[`Storyshots Organisms|Preauth Preauth, With Slug 1`] = `
   >
     <div
       className="c2"
-      size={64}
-    >
-      
-      <div>
-        em
-      </div>
-    </div>
-    <span
-      className="c3"
-    >
-      Hi there. 
-      <b>
-        emoji megaporium
-      </b>
-       uses Roleypoly to help assign you roles.
-    </span>
-    <div
-      className="c4"
-    />
-    <div
-      className="c4"
-    />
-    <button>
-      discord login
-    </button>
-    <div
-      className="c4"
-    />
-    <div
-      className="c5"
     >
       <div
-        className="c6"
+        className="c3"
       >
-        <svg
-          fill="none"
-          height="1em"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 24 24"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
+        <div
+          className="c4"
+          size={64}
         >
-          <path
-            d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
-          />
-        </svg>
+          
+          <div>
+            em
+          </div>
+        </div>
+        <span
+          className="c5"
+        >
+          Hi there. 
+          <b>
+            emoji megaporium
+          </b>
+           uses Roleypoly to help assign you roles.
+        </span>
+        <div
+          className="c6"
+        />
+        <div
+          className="c6"
+        />
       </div>
-      <input
+      <div
         className="c7"
-        onChange={[Function]}
-        onKeyDown={[Function]}
-        placeholder="Super secret code..."
-        value=""
+      >
+        <button
+          className="c8"
+        >
+          <div
+            className="c9"
+          >
+            <div
+              style={
+                Object {
+                  "position": "relative",
+                  "top": 3,
+                }
+              }
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div>
+            Sign in with Discord
+          </div>
+        </button>
+      </div>
+      <div
+        className="c6"
       />
+      <div
+        className="c7"
+      >
+        <p>
+          Or, send a message saying "login" to 
+          <b>
+            roleypoly#3266
+          </b>
+        </p>
+        <div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c11"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"
+                />
+              </svg>
+            </div>
+            <input
+              className="c12"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Super secret code..."
+              value=""
+            />
+          </div>
+          <div
+            className="c6"
+          />
+          <div
+            className="c13"
+          >
+            <button
+              className="c14"
+              onClick={[Function]}
+            >
+              <div>
+                Submit Code →
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
