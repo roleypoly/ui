@@ -24,7 +24,7 @@ const Container = styled.div<ContainerProps>`
   text-align: center;
   line-height: 1;
   overflow: hidden;
-  font-size: ${(props: ContainerProps) => props.size}
+  font-size: ${(props: ContainerProps) => props.size};
 `;
 
 type ImageProps = Pick<AvatarProps, 'src'>;
