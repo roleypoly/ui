@@ -24,7 +24,8 @@
       "templates/*": ["./templates/*"],
       "pages/*": ["./pages/*"],
       "hack/*": ["./hack/*"],
-      "utils/*": ["./utils/*"]
+      "utils/*": ["./utils/*"],
+      "contexts/*": ["./contexts/*"]
     }
   },
   "exclude": ["node_modules"],
