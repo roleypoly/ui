@@ -70,7 +70,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "chroma-js": "^2.0.6",
     "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.0",
+    "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.2",
     "husky": "^3.0.8",
     "jest": "^24.9.0",
