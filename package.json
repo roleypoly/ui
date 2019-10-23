@@ -45,7 +45,7 @@
     "@roleypoly/rpc": "^3.0.0-alpha.11",
     "next": "^9.1.1",
     "react": "16.11.0",
-    "react-dom": "16.10.2",
+    "react-dom": "16.11.0",
     "react-icons": "^3.7.0",
     "styled-components": "^4.4.0"
   },
