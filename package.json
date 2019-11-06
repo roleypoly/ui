@@ -66,7 +66,7 @@
     "@types/react": "^16.9.11",
     "@types/storybook__addon-storyshots": "^5.1.1",
     "@types/storybook__react": "^4.0.2",
-    "@types/styled-components": "^4.1.20",
+    "@types/styled-components": "^4.1.21",
     "awesome-typescript-loader": "^5.2.1",
     "chroma-js": "^2.1.0",
     "enzyme": "^3.10.0",
