@@ -78,21 +78,18 @@ const getWCAGStyle = (ratio: number): React.CSSProperties => {
 const getAllRatios = (input: typeof palette) =>
   Object.entries(input)
     .filter(([name]) => !name.startsWith('discord'))
-    .reduce(
-      (acc, [name, color]) => {
-        return [
-          ...acc,
-          ...Object.entries(palette)
-            .filter(([name]) => !name.startsWith('discord'))
-            .map(([matchName, matchColor]) => ({
-              color1: [name, color],
-              color2: [matchName, matchColor],
-              ratio: chroma.contrast(color, matchColor).toFixed(2),
-            })),
-        ];
-      },
-      [] as RatioList[]
-    )
+    .reduce((acc, [name, color]) => {
+      return [
+        ...acc,
+        ...Object.entries(palette)
+          .filter(([name]) => !name.startsWith('discord'))
+          .map(([matchName, matchColor]) => ({
+            color1: [name, color],
+            color2: [matchName, matchColor],
+            ratio: chroma.contrast(color, matchColor).toFixed(2),
+          })),
+      ];
+    }, [] as RatioList[])
     .filter(({ ratio }) => +ratio !== 1)
     .sort((a, b) => {
       if (+a.ratio > +b.ratio) {

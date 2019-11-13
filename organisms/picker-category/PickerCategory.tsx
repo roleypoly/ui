@@ -16,7 +16,8 @@ export type CategoryProps = {
     }
   | {
       wikiMode: false;
-    });
+    }
+);
 
 export const PickerCategory = (props: CategoryProps) => (
   <div>
