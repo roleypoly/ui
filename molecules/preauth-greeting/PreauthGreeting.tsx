@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Avatar, utils as avatarUtils } from 'atoms/avatar';
-import { Guild } from '@roleypoly/rpc/discord';
+import { Guild } from '@roleypoly/rpc/shared';
 import { AccentTitle } from 'atoms/typography';
 import { Space } from 'atoms/space';
 import styled from 'styled-components';

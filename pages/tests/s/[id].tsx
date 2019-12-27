@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { platformClient } from 'contexts/withPlatform';
 import { Avatar, utils } from 'atoms/avatar';
-import { Guild, IDQuery } from '@roleypoly/rpc/discord';
+import { Guild, IDQuery } from '@roleypoly/rpc/shared';
 import { NextPageContext } from 'next';
 import Link from 'next/link';
 

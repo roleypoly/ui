@@ -1,4 +1,4 @@
-import { Role, Guild } from '@roleypoly/rpc/discord';
+import { Role, Guild } from '@roleypoly/rpc/shared';
 
 export const roleCategory: Role.AsObject[] = [
   {

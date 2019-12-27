@@ -1,4 +1,4 @@
-import { Guild } from '@roleypoly/rpc/discord';
+import { Guild } from '@roleypoly/rpc/shared';
 import { Button } from 'atoms/button';
 import { Space } from 'atoms/space';
 import { PreauthGreeting } from 'molecules/preauth-greeting';

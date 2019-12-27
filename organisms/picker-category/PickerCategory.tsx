@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Role } from '@roleypoly/rpc/discord';
+import { Role } from '@roleypoly/rpc/shared';
 import { LargeText, AmbientLarge } from 'atoms/typography';
 import { numberToChroma } from 'atoms/colors';
 
