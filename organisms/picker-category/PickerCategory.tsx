@@ -1,13 +1,14 @@
 import * as React from 'react';
-import { Role } from '@roleypoly/rpc/shared';
+import { Role as RPCRole } from '@roleypoly/rpc/shared';
 import { LargeText, AmbientLarge } from 'atoms/typography';
-import { numberToChroma } from 'atoms/colors';
+import { Role } from 'atoms/role';
+import styled from 'styled-components';
 
 export type CategoryProps = {
   title: string;
-  roles: Role.AsObject[];
+  roles: RPCRole.AsObject[];
   selectedRoles: string[];
-  onChange: (role: Role.AsObject) => (newState: boolean, oldState: boolean) => void;
+  onChange: (role: RPCRole.AsObject) => (newState: boolean) => void;
   type: 'single' | 'multi';
 } & (
   | {
@@ -19,24 +20,32 @@ export type CategoryProps = {
     }
 );
 
+const Category = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+const Container = styled.div`
+  overflow: hidden;
+  padding: 5px;
+`;
+
 export const PickerCategory = (props: CategoryProps) => (
   <div>
     <p>
       <LargeText>{props.title}</LargeText>
       {props.type === 'single' && <AmbientLarge>Pick one</AmbientLarge>}
     </p>
-    <div>
+    <Category>
       {props.roles.map((role, idx) => (
-        <p
-          key={idx}
-          style={{
-            color: numberToChroma(role.color).css(),
-            fontWeight: props.selectedRoles.includes(role.id) ? 'bold' : 'normal',
-          }}
-        >
-          {role.name}
-        </p>
+        <Container key={idx}>
+          <Role
+            role={role}
+            selected={props.selectedRoles.includes(role.id)}
+            onClick={props.onChange(role)}
+          />
+        </Container>
       ))}
-    </div>
+    </Category>
   </div>
 );

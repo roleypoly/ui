@@ -25,6 +25,30 @@ export const roleCategory: Role.AsObject[] = [
     position: 3,
     managed: false,
   },
+  {
+    id: 'ddd',
+    permissions: 0,
+    name: 'Reee',
+    color: 0xff0000,
+    position: 4,
+    managed: false,
+  },
+  {
+    id: 'eee',
+    permissions: 0,
+    name: 'black but actually bravely default',
+    color: 0x000000,
+    position: 5,
+    managed: false,
+  },
+  {
+    id: 'fff',
+    permissions: 0,
+    name: 'blackish',
+    color: 0x1,
+    position: 5,
+    managed: false,
+  },
 ];
 
 export const roleWikiData = {
