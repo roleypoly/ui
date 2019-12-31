@@ -7206,6 +7206,966 @@ exports[`Storyshots Atoms|Fonts Fonts 1`] = `
 </div>
 `;
 
+exports[`Storyshots Atoms|Role Disabled (Dangerous) 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c2 {
+  border-radius: 24px;
+  background-color: #332D2D;
+  color: #F2EFEF;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.c3 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: var(--role-color);
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c3 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-contrast);
+}
+
+.c5 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: transparent;
+  border: 1px solid var(--role-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c5 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-color);
+}
+
+.c4 {
+  margin: 0 4px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+        data-tip="This role has unsafe permissions: "
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(153,97,108)",
+            "--role-color": "rgb(255,192,203)",
+            "--role-contrast": "rgb(30,0,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          She/Her
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role has unsafe permissions: "
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(95,137,155)",
+            "--role-color": "rgb(192,235,255)",
+            "--role-contrast": "rgb(0,11,27)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          He/Him
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role has unsafe permissions: "
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(95,154,117)",
+            "--role-color": "rgb(192,255,213)",
+            "--role-contrast": "rgb(0,28,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          They/Them
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role has unsafe permissions: "
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(137,0,0)",
+            "--role-color": "rgb(255,0,0)",
+            "--role-contrast": "rgb(61,0,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          Reee
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role has unsafe permissions: "
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "hsl(0,0,70%)",
+            "--role-color": "white",
+            "--role-contrast": "hsl(0,0,0%)",
+          }
+        }
+      >
+        <div
+          className="c5"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          black but actually bravely default
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role has unsafe permissions: "
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(85,85,85)",
+            "--role-color": "rgb(0,0,1)",
+            "--role-contrast": "rgb(226,226,227)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          blackish
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role has unsafe permissions: "
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(141,0,50)",
+            "--role-color": "rgb(255,0,136)",
+            "--role-contrast": "rgb(47,0,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          too high
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role has unsafe permissions: Administrator, Manage Roles"
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(0,151,43)",
+            "--role-color": "rgb(0,255,136)",
+            "--role-contrast": "rgb(0,33,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          too strong
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Role Disabled (Position) 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c2 {
+  border-radius: 24px;
+  background-color: #332D2D;
+  color: #F2EFEF;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.c3 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: var(--role-color);
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c3 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-contrast);
+}
+
+.c5 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: transparent;
+  border: 1px solid var(--role-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c5 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-color);
+}
+
+.c4 {
+  margin: 0 4px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+        data-tip="This role is above Roleypoly's own role."
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(153,97,108)",
+            "--role-color": "rgb(255,192,203)",
+            "--role-contrast": "rgb(30,0,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          She/Her
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role is above Roleypoly's own role."
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(95,137,155)",
+            "--role-color": "rgb(192,235,255)",
+            "--role-contrast": "rgb(0,11,27)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          He/Him
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role is above Roleypoly's own role."
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(95,154,117)",
+            "--role-color": "rgb(192,255,213)",
+            "--role-contrast": "rgb(0,28,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          They/Them
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role is above Roleypoly's own role."
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(137,0,0)",
+            "--role-color": "rgb(255,0,0)",
+            "--role-contrast": "rgb(61,0,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          Reee
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role is above Roleypoly's own role."
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "hsl(0,0,70%)",
+            "--role-color": "white",
+            "--role-contrast": "hsl(0,0,0%)",
+          }
+        }
+      >
+        <div
+          className="c5"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          black but actually bravely default
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role is above Roleypoly's own role."
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(85,85,85)",
+            "--role-color": "rgb(0,0,1)",
+            "--role-contrast": "rgb(226,226,227)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          blackish
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role is above Roleypoly's own role."
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(141,0,50)",
+            "--role-color": "rgb(255,0,136)",
+            "--role-contrast": "rgb(47,0,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          too high
+        </div>
+      </div>
+      <div
+        className="c2"
+        data-tip="This role is above Roleypoly's own role."
+        disabled={true}
+        onClick={[Function]}
+        selected={false}
+        style={
+          Object {
+            "--role-accent": "rgb(0,151,43)",
+            "--role-color": "rgb(0,255,136)",
+            "--role-contrast": "rgb(0,33,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={true}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 352 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          too strong
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms|Role Role 1`] = `
 .c0 {
   --taupe100: #332D2D;
@@ -7344,7 +8304,1077 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       className="c1"
     >
       <div
+        style={
+          Object {
+            "padding": 5,
+          }
+        }
+      >
+        <div
+          className="c2"
+          disabled={false}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(153,97,108)",
+              "--role-color": "rgb(255,192,203)",
+              "--role-contrast": "rgb(30,0,0)",
+            }
+          }
+        >
+          <div
+            className="c3"
+            disabled={false}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c4"
+          >
+            She/Her
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": 5,
+          }
+        }
+      >
+        <div
+          className="c2"
+          disabled={false}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(95,137,155)",
+              "--role-color": "rgb(192,235,255)",
+              "--role-contrast": "rgb(0,11,27)",
+            }
+          }
+        >
+          <div
+            className="c3"
+            disabled={false}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c4"
+          >
+            He/Him
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": 5,
+          }
+        }
+      >
+        <div
+          className="c2"
+          disabled={false}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(95,154,117)",
+              "--role-color": "rgb(192,255,213)",
+              "--role-contrast": "rgb(0,28,0)",
+            }
+          }
+        >
+          <div
+            className="c3"
+            disabled={false}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c4"
+          >
+            They/Them
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": 5,
+          }
+        }
+      >
+        <div
+          className="c2"
+          disabled={false}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(137,0,0)",
+              "--role-color": "rgb(255,0,0)",
+              "--role-contrast": "rgb(61,0,0)",
+            }
+          }
+        >
+          <div
+            className="c3"
+            disabled={false}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c4"
+          >
+            Reee
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": 5,
+          }
+        }
+      >
+        <div
+          className="c2"
+          disabled={false}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "hsl(0,0,70%)",
+              "--role-color": "white",
+              "--role-contrast": "hsl(0,0,0%)",
+            }
+          }
+        >
+          <div
+            className="c5"
+            disabled={false}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c4"
+          >
+            black but actually bravely default
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": 5,
+          }
+        }
+      >
+        <div
+          className="c2"
+          disabled={false}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(85,85,85)",
+              "--role-color": "rgb(0,0,1)",
+              "--role-contrast": "rgb(226,226,227)",
+            }
+          }
+        >
+          <div
+            className="c3"
+            disabled={false}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c4"
+          >
+            blackish
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": 5,
+          }
+        }
+      >
+        <div
+          className="c2"
+          disabled={false}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(141,0,50)",
+              "--role-color": "rgb(255,0,136)",
+              "--role-contrast": "rgb(47,0,0)",
+            }
+          }
+        >
+          <div
+            className="c3"
+            disabled={false}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c4"
+          >
+            too high
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": 5,
+          }
+        }
+      >
+        <div
+          className="c2"
+          disabled={false}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(0,151,43)",
+              "--role-color": "rgb(0,255,136)",
+              "--role-contrast": "rgb(0,33,0)",
+            }
+          }
+        >
+          <div
+            className="c3"
+            disabled={false}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c4"
+          >
+            too strong
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Role Selected 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c2 {
+  border-radius: 24px;
+  background-color: var(--role-color);
+  color: var(--role-contrast);
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.c2:hover {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c2:active {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  box-shadow: 0 0 0 transparent;
+}
+
+.c5 {
+  border-radius: 24px;
+  background-color: #332D2D;
+  color: var(--role-contrast);
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.c5:hover {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c5:active {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  box-shadow: 0 0 0 transparent;
+}
+
+.c3 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: var(--role-color);
+  border: 1px solid var(--role-accent);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c3 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-contrast);
+}
+
+.c6 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: var(--role-color);
+  border: 1px solid var(--role-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c6 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-contrast);
+}
+
+.c4 {
+  margin: 0 4px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
         className="c2"
+        disabled={false}
+        onClick={[Function]}
+        selected={true}
+        style={
+          Object {
+            "--role-accent": "rgb(153,97,108)",
+            "--role-color": "rgb(255,192,203)",
+            "--role-contrast": "rgb(30,0,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={false}
+          selected={true}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          She/Her
+        </div>
+      </div>
+      <div
+        className="c2"
+        disabled={false}
+        onClick={[Function]}
+        selected={true}
+        style={
+          Object {
+            "--role-accent": "rgb(95,137,155)",
+            "--role-color": "rgb(192,235,255)",
+            "--role-contrast": "rgb(0,11,27)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={false}
+          selected={true}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          He/Him
+        </div>
+      </div>
+      <div
+        className="c2"
+        disabled={false}
+        onClick={[Function]}
+        selected={true}
+        style={
+          Object {
+            "--role-accent": "rgb(95,154,117)",
+            "--role-color": "rgb(192,255,213)",
+            "--role-contrast": "rgb(0,28,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={false}
+          selected={true}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          They/Them
+        </div>
+      </div>
+      <div
+        className="c2"
+        disabled={false}
+        onClick={[Function]}
+        selected={true}
+        style={
+          Object {
+            "--role-accent": "rgb(137,0,0)",
+            "--role-color": "rgb(255,0,0)",
+            "--role-contrast": "rgb(61,0,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={false}
+          selected={true}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          Reee
+        </div>
+      </div>
+      <div
+        className="c5"
+        disabled={false}
+        onClick={[Function]}
+        selected={true}
+        style={
+          Object {
+            "--role-accent": "hsl(0,0,70%)",
+            "--role-color": "white",
+            "--role-contrast": "hsl(0,0,0%)",
+          }
+        }
+      >
+        <div
+          className="c6"
+          disabled={false}
+          selected={true}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          black but actually bravely default
+        </div>
+      </div>
+      <div
+        className="c2"
+        disabled={false}
+        onClick={[Function]}
+        selected={true}
+        style={
+          Object {
+            "--role-accent": "rgb(85,85,85)",
+            "--role-color": "rgb(0,0,1)",
+            "--role-contrast": "rgb(226,226,227)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={false}
+          selected={true}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          blackish
+        </div>
+      </div>
+      <div
+        className="c2"
+        disabled={false}
+        onClick={[Function]}
+        selected={true}
+        style={
+          Object {
+            "--role-accent": "rgb(141,0,50)",
+            "--role-color": "rgb(255,0,136)",
+            "--role-contrast": "rgb(47,0,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={false}
+          selected={true}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          too high
+        </div>
+      </div>
+      <div
+        className="c2"
+        disabled={false}
+        onClick={[Function]}
+        selected={true}
+        style={
+          Object {
+            "--role-accent": "rgb(0,151,43)",
+            "--role-color": "rgb(0,255,136)",
+            "--role-contrast": "rgb(0,33,0)",
+          }
+        }
+      >
+        <div
+          className="c3"
+          disabled={false}
+          selected={true}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          too strong
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms|Role Unselected 1`] = `
+.c0 {
+  --taupe100: #332D2D;
+  --taupe200: #453E3D;
+  --taupe300: #5D5352;
+  --taupe400: #756867;
+  --taupe500: #AB9B9A;
+  --taupe600: #EBD6D4;
+  --discord100: #23272A;
+  --discord200: #2C2F33;
+  --discord400: #7289DA;
+  --discord500: #99AAB5;
+  --green400: #46B646;
+  --red400: #E95353;
+  --grey100: #1C1010;
+  --grey500: #DBD9D9;
+  --grey600: #F2EFEF;
+}
+
+.c2 {
+  border-radius: 24px;
+  background-color: #332D2D;
+  color: #F2EFEF;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.c2:hover {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.c2:active {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  box-shadow: 0 0 0 transparent;
+}
+
+.c3 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: var(--role-color);
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c3 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 0;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-contrast);
+}
+
+.c5 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: transparent;
+  border: 1px solid var(--role-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c5 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 0;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-contrast);
+}
+
+.c4 {
+  margin: 0 4px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+        disabled={false}
         onClick={[Function]}
         selected={false}
         style={
@@ -7357,6 +9387,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       >
         <div
           className="c3"
+          disabled={false}
           selected={false}
         >
           <svg
@@ -7386,6 +9417,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       </div>
       <div
         className="c2"
+        disabled={false}
         onClick={[Function]}
         selected={false}
         style={
@@ -7398,6 +9430,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       >
         <div
           className="c3"
+          disabled={false}
           selected={false}
         >
           <svg
@@ -7427,6 +9460,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       </div>
       <div
         className="c2"
+        disabled={false}
         onClick={[Function]}
         selected={false}
         style={
@@ -7439,6 +9473,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       >
         <div
           className="c3"
+          disabled={false}
           selected={false}
         >
           <svg
@@ -7468,6 +9503,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       </div>
       <div
         className="c2"
+        disabled={false}
         onClick={[Function]}
         selected={false}
         style={
@@ -7480,6 +9516,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       >
         <div
           className="c3"
+          disabled={false}
           selected={false}
         >
           <svg
@@ -7509,6 +9546,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       </div>
       <div
         className="c2"
+        disabled={false}
         onClick={[Function]}
         selected={false}
         style={
@@ -7521,6 +9559,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       >
         <div
           className="c5"
+          disabled={false}
           selected={false}
         >
           <svg
@@ -7550,6 +9589,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       </div>
       <div
         className="c2"
+        disabled={false}
         onClick={[Function]}
         selected={false}
         style={
@@ -7562,6 +9602,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
       >
         <div
           className="c3"
+          disabled={false}
           selected={false}
         >
           <svg
@@ -7589,786 +9630,91 @@ exports[`Storyshots Atoms|Role Role 1`] = `
           blackish
         </div>
       </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Atoms|Role Selected 1`] = `
-.c0 {
-  --taupe100: #332D2D;
-  --taupe200: #453E3D;
-  --taupe300: #5D5352;
-  --taupe400: #756867;
-  --taupe500: #AB9B9A;
-  --taupe600: #EBD6D4;
-  --discord100: #23272A;
-  --discord200: #2C2F33;
-  --discord400: #7289DA;
-  --discord500: #99AAB5;
-  --green400: #46B646;
-  --red400: #E95353;
-  --grey100: #1C1010;
-  --grey500: #DBD9D9;
-  --grey600: #F2EFEF;
-}
-
-.c1 {
-  border-radius: 24px;
-  background-color: var(--role-color);
-  color: var(--role-contrast);
-  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
-  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
-}
-
-.c1:hover {
-  -webkit-transform: translateY(-2px);
-  -ms-transform: translateY(-2px);
-  transform: translateY(-2px);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-}
-
-.c1:active {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  box-shadow: 0 0 0 transparent;
-}
-
-.c4 {
-  border-radius: 24px;
-  background-color: #332D2D;
-  color: var(--role-contrast);
-  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
-  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
-}
-
-.c4:hover {
-  -webkit-transform: translateY(-2px);
-  -ms-transform: translateY(-2px);
-  transform: translateY(-2px);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-}
-
-.c4:active {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  box-shadow: 0 0 0 transparent;
-}
-
-.c2 {
-  width: 23px;
-  height: 23px;
-  border-radius: 24px;
-  background-color: var(--role-color);
-  border: 1px solid var(--role-accent);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-.c2 svg {
-  width: 10px;
-  height: 10px;
-  fill-opacity: 1;
-  -webkit-transition: fill-opacity 0.3s ease-in-out;
-  transition: fill-opacity 0.3s ease-in-out;
-  fill: var(--role-contrast);
-}
-
-.c5 {
-  width: 23px;
-  height: 23px;
-  border-radius: 24px;
-  background-color: var(--role-color);
-  border: 1px solid var(--role-color);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-.c5 svg {
-  width: 10px;
-  height: 10px;
-  fill-opacity: 1;
-  -webkit-transition: fill-opacity 0.3s ease-in-out;
-  transition: fill-opacity 0.3s ease-in-out;
-  fill: var(--role-contrast);
-}
-
-.c3 {
-  margin: 0 4px;
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={true}
-      style={
-        Object {
-          "--role-accent": "rgb(153,97,108)",
-          "--role-color": "rgb(255,192,203)",
-          "--role-contrast": "rgb(30,0,0)",
-        }
-      }
-    >
       <div
         className="c2"
-        selected={true}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        She/Her
-      </div>
-    </div>
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={true}
-      style={
-        Object {
-          "--role-accent": "rgb(95,137,155)",
-          "--role-color": "rgb(192,235,255)",
-          "--role-contrast": "rgb(0,11,27)",
-        }
-      }
-    >
-      <div
-        className="c2"
-        selected={true}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        He/Him
-      </div>
-    </div>
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={true}
-      style={
-        Object {
-          "--role-accent": "rgb(95,154,117)",
-          "--role-color": "rgb(192,255,213)",
-          "--role-contrast": "rgb(0,28,0)",
-        }
-      }
-    >
-      <div
-        className="c2"
-        selected={true}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        They/Them
-      </div>
-    </div>
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={true}
-      style={
-        Object {
-          "--role-accent": "rgb(137,0,0)",
-          "--role-color": "rgb(255,0,0)",
-          "--role-contrast": "rgb(61,0,0)",
-        }
-      }
-    >
-      <div
-        className="c2"
-        selected={true}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        Reee
-      </div>
-    </div>
-    <div
-      className="c4"
-      onClick={[Function]}
-      selected={true}
-      style={
-        Object {
-          "--role-accent": "hsl(0,0,70%)",
-          "--role-color": "white",
-          "--role-contrast": "hsl(0,0,0%)",
-        }
-      }
-    >
-      <div
-        className="c5"
-        selected={true}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        black but actually bravely default
-      </div>
-    </div>
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={true}
-      style={
-        Object {
-          "--role-accent": "rgb(85,85,85)",
-          "--role-color": "rgb(0,0,1)",
-          "--role-contrast": "rgb(226,226,227)",
-        }
-      }
-    >
-      <div
-        className="c2"
-        selected={true}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        blackish
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Atoms|Role Unselected 1`] = `
-.c0 {
-  --taupe100: #332D2D;
-  --taupe200: #453E3D;
-  --taupe300: #5D5352;
-  --taupe400: #756867;
-  --taupe500: #AB9B9A;
-  --taupe600: #EBD6D4;
-  --discord100: #23272A;
-  --discord200: #2C2F33;
-  --discord400: #7289DA;
-  --discord500: #99AAB5;
-  --green400: #46B646;
-  --red400: #E95353;
-  --grey100: #1C1010;
-  --grey500: #DBD9D9;
-  --grey600: #F2EFEF;
-}
-
-.c1 {
-  border-radius: 24px;
-  background-color: #332D2D;
-  color: #F2EFEF;
-  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
-  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
-}
-
-.c1:hover {
-  -webkit-transform: translateY(-2px);
-  -ms-transform: translateY(-2px);
-  transform: translateY(-2px);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-}
-
-.c1:active {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  box-shadow: 0 0 0 transparent;
-}
-
-.c2 {
-  width: 23px;
-  height: 23px;
-  border-radius: 24px;
-  background-color: var(--role-color);
-  border: 1px solid transparent;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-.c2 svg {
-  width: 10px;
-  height: 10px;
-  fill-opacity: 0;
-  -webkit-transition: fill-opacity 0.3s ease-in-out;
-  transition: fill-opacity 0.3s ease-in-out;
-  fill: var(--role-contrast);
-}
-
-.c4 {
-  width: 23px;
-  height: 23px;
-  border-radius: 24px;
-  background-color: transparent;
-  border: 1px solid var(--role-color);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-.c4 svg {
-  width: 10px;
-  height: 10px;
-  fill-opacity: 0;
-  -webkit-transition: fill-opacity 0.3s ease-in-out;
-  transition: fill-opacity 0.3s ease-in-out;
-  fill: var(--role-contrast);
-}
-
-.c3 {
-  margin: 0 4px;
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={false}
-      style={
-        Object {
-          "--role-accent": "rgb(153,97,108)",
-          "--role-color": "rgb(255,192,203)",
-          "--role-contrast": "rgb(30,0,0)",
-        }
-      }
-    >
-      <div
-        className="c2"
+        disabled={false}
+        onClick={[Function]}
         selected={false}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
+        style={
+          Object {
+            "--role-accent": "rgb(141,0,50)",
+            "--role-color": "rgb(255,0,136)",
+            "--role-contrast": "rgb(47,0,0)",
           }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        She/Her
-      </div>
-    </div>
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={false}
-      style={
-        Object {
-          "--role-accent": "rgb(95,137,155)",
-          "--role-color": "rgb(192,235,255)",
-          "--role-contrast": "rgb(0,11,27)",
         }
-      }
-    >
+      >
+        <div
+          className="c3"
+          disabled={false}
+          selected={false}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
+        >
+          too high
+        </div>
+      </div>
       <div
         className="c2"
+        disabled={false}
+        onClick={[Function]}
         selected={false}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
+        style={
+          Object {
+            "--role-accent": "rgb(0,151,43)",
+            "--role-color": "rgb(0,255,136)",
+            "--role-contrast": "rgb(0,33,0)",
           }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        He/Him
-      </div>
-    </div>
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={false}
-      style={
-        Object {
-          "--role-accent": "rgb(95,154,117)",
-          "--role-color": "rgb(192,255,213)",
-          "--role-contrast": "rgb(0,28,0)",
         }
-      }
-    >
-      <div
-        className="c2"
-        selected={false}
       >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
+        <div
+          className="c3"
+          disabled={false}
+          selected={false}
         >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        They/Them
-      </div>
-    </div>
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={false}
-      style={
-        Object {
-          "--role-accent": "rgb(137,0,0)",
-          "--role-color": "rgb(255,0,0)",
-          "--role-contrast": "rgb(61,0,0)",
-        }
-      }
-    >
-      <div
-        className="c2"
-        selected={false}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
             }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c4"
         >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        Reee
-      </div>
-    </div>
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={false}
-      style={
-        Object {
-          "--role-accent": "hsl(0,0,70%)",
-          "--role-color": "white",
-          "--role-contrast": "hsl(0,0,0%)",
-        }
-      }
-    >
-      <div
-        className="c4"
-        selected={false}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        black but actually bravely default
-      </div>
-    </div>
-    <div
-      className="c1"
-      onClick={[Function]}
-      selected={false}
-      style={
-        Object {
-          "--role-accent": "rgb(85,85,85)",
-          "--role-color": "rgb(0,0,1)",
-          "--role-contrast": "rgb(226,226,227)",
-        }
-      }
-    >
-      <div
-        className="c2"
-        selected={false}
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": undefined,
-            }
-          }
-          viewBox="0 0 512 512"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c3"
-      >
-        blackish
+          too strong
+        </div>
       </div>
     </div>
   </div>
@@ -9424,34 +10770,6 @@ exports[`Storyshots Atoms|Typography Spacing 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules|Placeholder Placeholder 1`] = `
-.c0 {
-  --taupe100: #332D2D;
-  --taupe200: #453E3D;
-  --taupe300: #5D5352;
-  --taupe400: #756867;
-  --taupe500: #AB9B9A;
-  --taupe600: #EBD6D4;
-  --discord100: #23272A;
-  --discord200: #2C2F33;
-  --discord400: #7289DA;
-  --discord500: #99AAB5;
-  --green400: #46B646;
-  --red400: #E95353;
-  --grey100: #1C1010;
-  --grey500: #DBD9D9;
-  --grey600: #F2EFEF;
-}
-
-<div
-  className="c0"
->
-  <div>
-    nya!
-  </div>
-</div>
-`;
-
 exports[`Storyshots Molecules|Preauth Greeting 1`] = `
 .c0 {
   --taupe100: #332D2D;
@@ -9890,6 +11208,25 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
   box-shadow: 0 0 0 transparent;
 }
 
+.c10 {
+  border-radius: 24px;
+  background-color: #332D2D;
+  color: #F2EFEF;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
 .c8 {
   width: 23px;
   height: 23px;
@@ -9983,6 +11320,37 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
   fill: var(--role-contrast);
 }
 
+.c11 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: var(--role-color);
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c11 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-contrast);
+}
+
 .c6 {
   margin: 0 4px;
 }
@@ -10021,6 +11389,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
       >
         <div
           className="c4"
+          disabled={false}
           onClick={[Function]}
           selected={true}
           style={
@@ -10033,6 +11402,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
         >
           <div
             className="c5"
+            disabled={false}
             selected={true}
           >
             <svg
@@ -10066,6 +11436,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10078,6 +11449,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
         >
           <div
             className="c8"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10111,6 +11483,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10123,6 +11496,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
         >
           <div
             className="c8"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10156,6 +11530,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10168,6 +11543,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
         >
           <div
             className="c8"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10201,6 +11577,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10213,6 +11590,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
         >
           <div
             className="c9"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10246,6 +11624,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10258,6 +11637,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
         >
           <div
             className="c8"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10286,7 +11666,110 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="c3"
+      >
+        <div
+          className="c10"
+          data-for="aaa"
+          data-tip="This role is above Roleypoly's own role."
+          disabled={true}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(141,0,50)",
+              "--role-color": "rgb(255,0,136)",
+              "--role-contrast": "rgb(47,0,0)",
+            }
+          }
+        >
+          <div
+            className="c11"
+            disabled={true}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 352 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c6"
+          >
+            too high
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+      >
+        <div
+          className="c10"
+          data-for="aaa"
+          data-tip="This role has unsafe permissions: Administrator, Manage Roles"
+          disabled={true}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(0,151,43)",
+              "--role-color": "rgb(0,255,136)",
+              "--role-contrast": "rgb(0,33,0)",
+            }
+          }
+        >
+          <div
+            className="c11"
+            disabled={true}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 352 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c6"
+          >
+            too strong
+          </div>
+        </div>
+      </div>
     </div>
+    <div
+      className="__react_component_tooltip place-top type-dark "
+      data-id="tooltip"
+      id="aaa"
+    />
   </div>
 </div>
 `;
@@ -10396,6 +11879,25 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
   box-shadow: 0 0 0 transparent;
 }
 
+.c11 {
+  border-radius: 24px;
+  background-color: #332D2D;
+  color: #F2EFEF;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
 .c9 {
   width: 23px;
   height: 23px;
@@ -10489,6 +11991,37 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
   fill: var(--role-contrast);
 }
 
+.c12 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: var(--role-color);
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c12 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-contrast);
+}
+
 .c7 {
   margin: 0 4px;
 }
@@ -10532,6 +12065,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
       >
         <div
           className="c5"
+          disabled={false}
           onClick={[Function]}
           selected={true}
           style={
@@ -10544,6 +12078,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
         >
           <div
             className="c6"
+            disabled={false}
             selected={true}
           >
             <svg
@@ -10577,6 +12112,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
       >
         <div
           className="c8"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10589,6 +12125,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
         >
           <div
             className="c9"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10622,6 +12159,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
       >
         <div
           className="c8"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10634,6 +12172,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
         >
           <div
             className="c9"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10667,6 +12206,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
       >
         <div
           className="c8"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10679,6 +12219,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
         >
           <div
             className="c9"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10712,6 +12253,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
       >
         <div
           className="c8"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10724,6 +12266,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
         >
           <div
             className="c10"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10757,6 +12300,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
       >
         <div
           className="c8"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -10769,6 +12313,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
         >
           <div
             className="c9"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -10797,7 +12342,110 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="c4"
+      >
+        <div
+          className="c11"
+          data-for="aaa"
+          data-tip="This role is above Roleypoly's own role."
+          disabled={true}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(141,0,50)",
+              "--role-color": "rgb(255,0,136)",
+              "--role-contrast": "rgb(47,0,0)",
+            }
+          }
+        >
+          <div
+            className="c12"
+            disabled={true}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 352 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c7"
+          >
+            too high
+          </div>
+        </div>
+      </div>
+      <div
+        className="c4"
+      >
+        <div
+          className="c11"
+          data-for="aaa"
+          data-tip="This role has unsafe permissions: Administrator, Manage Roles"
+          disabled={true}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(0,151,43)",
+              "--role-color": "rgb(0,255,136)",
+              "--role-contrast": "rgb(0,33,0)",
+            }
+          }
+        >
+          <div
+            className="c12"
+            disabled={true}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 352 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c7"
+          >
+            too strong
+          </div>
+        </div>
+      </div>
     </div>
+    <div
+      className="__react_component_tooltip place-top type-dark "
+      data-id="tooltip"
+      id="aaa"
+    />
   </div>
 </div>
 `;
@@ -10897,6 +12545,25 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
   box-shadow: 0 0 0 transparent;
 }
 
+.c10 {
+  border-radius: 24px;
+  background-color: #332D2D;
+  color: #F2EFEF;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
 .c8 {
   width: 23px;
   height: 23px;
@@ -10990,6 +12657,37 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
   fill: var(--role-contrast);
 }
 
+.c11 {
+  width: 23px;
+  height: 23px;
+  border-radius: 24px;
+  background-color: var(--role-color);
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.c11 svg {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity 0.3s ease-in-out;
+  transition: fill-opacity 0.3s ease-in-out;
+  fill: var(--role-contrast);
+}
+
 .c6 {
   margin: 0 4px;
 }
@@ -11028,6 +12726,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
       >
         <div
           className="c4"
+          disabled={false}
           onClick={[Function]}
           selected={true}
           style={
@@ -11040,6 +12739,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
         >
           <div
             className="c5"
+            disabled={false}
             selected={true}
           >
             <svg
@@ -11073,6 +12773,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -11085,6 +12786,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
         >
           <div
             className="c8"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -11118,6 +12820,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -11130,6 +12833,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
         >
           <div
             className="c8"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -11163,6 +12867,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -11175,6 +12880,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
         >
           <div
             className="c8"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -11208,6 +12914,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -11220,6 +12927,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
         >
           <div
             className="c9"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -11253,6 +12961,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
       >
         <div
           className="c7"
+          disabled={false}
           onClick={[Function]}
           selected={false}
           style={
@@ -11265,6 +12974,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
         >
           <div
             className="c8"
+            disabled={false}
             selected={false}
           >
             <svg
@@ -11293,7 +13003,110 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="c3"
+      >
+        <div
+          className="c10"
+          data-for="aaa"
+          data-tip="This role is above Roleypoly's own role."
+          disabled={true}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(141,0,50)",
+              "--role-color": "rgb(255,0,136)",
+              "--role-contrast": "rgb(47,0,0)",
+            }
+          }
+        >
+          <div
+            className="c11"
+            disabled={true}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 352 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c6"
+          >
+            too high
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+      >
+        <div
+          className="c10"
+          data-for="aaa"
+          data-tip="This role has unsafe permissions: Administrator, Manage Roles"
+          disabled={true}
+          onClick={[Function]}
+          selected={false}
+          style={
+            Object {
+              "--role-accent": "rgb(0,151,43)",
+              "--role-color": "rgb(0,255,136)",
+              "--role-contrast": "rgb(0,33,0)",
+            }
+          }
+        >
+          <div
+            className="c11"
+            disabled={true}
+            selected={false}
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 352 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c6"
+          >
+            too strong
+          </div>
+        </div>
+      </div>
     </div>
+    <div
+      className="__react_component_tooltip place-top type-dark "
+      data-id="tooltip"
+      id="aaa"
+    />
   </div>
 </div>
 `;
