@@ -3,7 +3,7 @@ import { organismStories } from 'organisms/organisms.story';
 import { PickerCategory, CategoryProps } from './PickerCategory';
 import { action } from '@storybook/addon-actions';
 import { text, optionsKnob } from '@storybook/addon-knobs';
-import { roleCategory, roleWikiData } from 'hack/fixtures/storyData';
+import { roleCategory, roleWikiData, mockCategory } from 'hack/fixtures/storyData';
 
 const stories = organismStories('Picker Category', module);
 
@@ -12,6 +12,7 @@ const data: (mode?: 'single') => CategoryProps = (mode?: 'single') => ({
   type: 'multi',
   roles: roleCategory,
   wikiMode: false,
+  category: mockCategory,
   onChange: () => action('onChange'),
   selectedRoles: optionsKnob<string[]>(
     'Selected Roles',

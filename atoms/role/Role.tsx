@@ -1,14 +1,16 @@
 import * as React from 'react';
 import { Role as RPCRole } from '@roleypoly/rpc/shared';
 import * as styled from './Role.styled';
-import { FaCheck } from 'react-icons/fa';
+import { FaCheck, FaTimes } from 'react-icons/fa';
 import { numberToChroma } from 'atoms/colors';
 import chroma from 'chroma-js';
 
 type Props = {
   role: RPCRole.AsObject;
   selected: boolean;
+  disabled?: boolean;
   onClick?: (newState: boolean) => void;
+  tooltipId?: string;
 };
 
 export const Role = (props: Props) => {
@@ -33,18 +35,44 @@ export const Role = (props: Props) => {
   const styledProps: styled.StyledProps = {
     selected: props.selected,
     defaultColor: props.role.color === 0,
+    disabled: !!props.disabled,
   };
+
+  const extra = !props.disabled
+    ? {}
+    : {
+        'data-tip': disabledReason(props.role),
+        'data-for': props.tooltipId,
+      };
 
   return (
     <styled.Outer
       {...styledProps}
       style={colorVars as any}
-      onClick={() => props.onClick?.(!props.selected)}
+      onClick={() => !props.disabled && props.onClick?.(!props.selected)}
+      {...extra}
     >
       <styled.Circle {...styledProps}>
-        <FaCheck />
+        {!props.disabled ? <FaCheck /> : <FaTimes />}
       </styled.Circle>
       <styled.Text>{props.role.name}</styled.Text>
     </styled.Outer>
   );
+};
+
+const disabledReason = (role: RPCRole.AsObject) => {
+  switch (role.safety) {
+    case RPCRole.RoleSafety.HIGHERTHANBOT:
+      return `This role is above Roleypoly's own role.`;
+    case RPCRole.RoleSafety.DANGEROUSPERMISSIONS:
+      const { permissions } = role;
+      let permissionHits: string[] = [];
+
+      (permissions & 0x00000008) === 0x00000008 && permissionHits.push('Administrator');
+      (permissions & 0x10000000) === 0x10000000 && permissionHits.push('Manage Roles');
+
+      return `This role has unsafe permissions: ${permissionHits.join(', ')}`;
+    default:
+      return `This role is disabled.`;
+  }
 };

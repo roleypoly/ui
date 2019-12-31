@@ -1,12 +1,15 @@
 import * as React from 'react';
 import { Role as RPCRole } from '@roleypoly/rpc/shared';
+import { Category as RPCCategory } from '@roleypoly/rpc/platform';
 import { LargeText, AmbientLarge } from 'atoms/typography';
 import { Role } from 'atoms/role';
 import styled from 'styled-components';
+import ReactTooltip from 'react-tooltip';
 
 export type CategoryProps = {
   title: string;
   roles: RPCRole.AsObject[];
+  category: RPCCategory.AsObject;
   selectedRoles: string[];
   onChange: (role: RPCRole.AsObject) => (newState: boolean) => void;
   type: 'single' | 'multi';
@@ -43,9 +46,12 @@ export const PickerCategory = (props: CategoryProps) => (
             role={role}
             selected={props.selectedRoles.includes(role.id)}
             onClick={props.onChange(role)}
+            disabled={role.safety !== RPCRole.RoleSafety.SAFE}
+            tooltipId={props.category.id}
           />
         </Container>
       ))}
     </Category>
+    <ReactTooltip id={props.category.id} />
   </div>
 );

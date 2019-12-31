@@ -14,7 +14,7 @@
     "lint:tsc": "tsc --noEmit --isolatedModules",
     "lint:tslint": "tslint --project .",
     "now-build": "build-storybook",
-    "pre-commit": "run-p --continue-on-error lint-staged lint test:storybook",
+    "pre-commit": "run-s --continue-on-error lint-staged lint test:storybook",
     "start": "next start",
     "storybook": "start-storybook --port 6001",
     "test": "jest --passWithNoTests",
@@ -42,11 +42,12 @@
   },
   "dependencies": {
     "@improbable-eng/grpc-web-node-http-transport": "^0.12.0",
-    "@roleypoly/rpc": "^1.2.1",
+    "@roleypoly/rpc": "^1.2.2",
     "next": "^9.1.6",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-icons": "^3.8.0",
+    "react-tooltip": "^3.11.1",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
@@ -64,6 +65,7 @@
     "@types/jest": "^24.0.25",
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.17",
+    "@types/react-tooltip": "^3.11.0",
     "@types/storybook__addon-storyshots": "^5.1.2",
     "@types/styled-components": "^4.4.1",
     "chroma-js": "^2.1.0",

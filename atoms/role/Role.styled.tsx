@@ -1,8 +1,12 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { transitions } from 'atoms/timings';
 import { palette } from 'atoms/colors';
 
-export type StyledProps = { selected: boolean; defaultColor: boolean };
+export type StyledProps = {
+  selected: boolean;
+  defaultColor: boolean;
+  disabled: boolean;
+};
 
 export const Outer = styled.div<StyledProps>`
   border-radius: 24px;
@@ -17,16 +21,20 @@ export const Outer = styled.div<StyledProps>`
   padding: 4px;
   user-select: none;
   cursor: pointer;
+  ${props =>
+    !props.disabled
+      ? css`
+          &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+          }
 
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  }
-
-  &:active {
-    transform: translateY(0);
-    box-shadow: 0 0 0 transparent;
-  }
+          &:active {
+            transform: translateY(0);
+            box-shadow: 0 0 0 transparent;
+          }
+        `
+      : null};
 `;
 
 export const Circle = styled.div<StyledProps>`
@@ -36,17 +44,12 @@ export const Circle = styled.div<StyledProps>`
   background-color: ${props =>
     props.defaultColor && !props.selected ? 'transparent' : 'var(--role-color)'};
   border: 1px solid
-    ${props => {
-      if (props.defaultColor) {
-        return 'var(--role-color)';
-      }
-
-      if (props.selected) {
-        return 'var(--role-accent)';
-      }
-
-      return 'transparent';
-    }};
+    ${props =>
+      props.defaultColor
+        ? 'var(--role-color)'
+        : props.selected
+        ? 'var(--role-accent)'
+        : 'transparent'};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,9 +59,12 @@ export const Circle = styled.div<StyledProps>`
   svg {
     width: 10px;
     height: 10px;
-    fill-opacity: ${props => (props.selected ? 1 : 0)};
+    fill-opacity: ${props => (props.selected || props.disabled ? 1 : 0)};
     transition: fill-opacity ${transitions.in2in}s ease-in-out;
-    fill: var(--role-contrast);
+    fill: ${props =>
+      props.disabled && props.defaultColor
+        ? 'var(--role-color)'
+        : 'var(--role-contrast)'};
   }
 `;
 
