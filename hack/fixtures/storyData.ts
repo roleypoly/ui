@@ -1,14 +1,6 @@
-import { Role, Guild } from '@roleypoly/rpc/shared';
-import { Category } from '@roleypoly/rpc/platform';
-
-export const mockCategory: Category.AsObject = {
-  id: 'aaa',
-  name: 'Mock',
-  rolesList: ['aaa', 'bbb', 'ccc', 'ddd', 'eee', 'fff', 'unsafe1', 'unsafe2'],
-  hidden: false,
-  type: Category.CategoryType.MULTI,
-  position: 0,
-};
+import { Role, Guild, DiscordUser, GuildRoles } from '@roleypoly/rpc/shared';
+import { Category, GuildData } from '@roleypoly/rpc/platform';
+import { Member } from '@roleypoly/rpc/discord';
 
 export const roleCategory: Role.AsObject[] = [
   {
@@ -85,6 +77,50 @@ export const roleCategory: Role.AsObject[] = [
   },
 ];
 
+export const mockCategory: Category.AsObject = {
+  id: 'aaa',
+  name: 'Mock',
+  rolesList: roleCategory.map(x => x.id),
+  hidden: false,
+  type: Category.CategoryType.MULTI,
+  position: 0,
+};
+
+export const roleCategory2: Role.AsObject[] = [
+  {
+    id: 'ddd2',
+    permissions: 0,
+    name: 'red',
+    color: 0xff0000,
+    position: 9,
+    managed: false,
+    safety: Role.RoleSafety.SAFE,
+  },
+  {
+    id: 'eee2',
+    permissions: 0,
+    name: 'green',
+    color: 0x00ff00,
+    position: 10,
+    managed: false,
+    safety: Role.RoleSafety.SAFE,
+  },
+];
+
+export const mockCategorySingle: Category.AsObject = {
+  id: 'bbb',
+  name: 'Mock Single',
+  rolesList: roleCategory2.map(x => x.id),
+  hidden: false,
+  type: Category.CategoryType.SINGLE,
+  position: 0,
+};
+
+export const guildRoles: GuildRoles.AsObject = {
+  id: 'aaa',
+  rolesList: [...roleCategory, ...roleCategory2],
+};
+
 export const roleWikiData = {
   aaa: 'Typically used by feminine-identifying people',
   bbb: 'Typically used by masculine-identifying people',
@@ -98,4 +134,26 @@ export const guild: Guild.AsObject = {
   ownerid: 'bbb',
   membercount: 23453,
   splash: '',
+};
+
+export const guildData: GuildData.AsObject = {
+  id: 'aaa',
+  message: 'henlo worl!!',
+  categoriesList: [mockCategory, mockCategorySingle],
+  entitlementsList: [],
+};
+
+export const user: DiscordUser.AsObject = {
+  id: '123',
+  username: 'okano cat',
+  discriminator: '3266',
+  avatar: 'av',
+  bot: false,
+};
+
+export const member: Member.AsObject = {
+  guildid: 'aaa',
+  rolesList: ['aaa', 'eee', 'unsafe2', 'ddd2'],
+  nick: 'okano cat',
+  user: user,
 };
