@@ -7,7 +7,7 @@ import getConfig from 'next/config';
 export const platformClient = new PlatformClient(
   getConfig().publicRuntimeConfig.platformUrl,
   {
-    transport: typeof XMLHttpRequest === 'undefined' ? NodeHttpTransport() : undefined,
+    transport: typeof XMLHttpRequest === 'undefined' ? NodeHttpTransport() : undefined, // tslint:disable-line
   }
 );
 
