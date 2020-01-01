@@ -20,6 +20,7 @@ export const Outer = styled.div<StyledProps>`
   display: flex;
   padding: 4px;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
   ${props =>
     !props.disabled
@@ -55,6 +56,7 @@ export const Circle = styled.div<StyledProps>`
   align-items: center;
   transition: border ${transitions.in2in}s ease-in-out,
     background-color ${transitions.in2in}s ease-in-out;
+  flex-shrink: 0;
 
   svg {
     width: 10px;
@@ -69,5 +71,8 @@ export const Circle = styled.div<StyledProps>`
 `;
 
 export const Text = styled.div`
-  margin: 0 4px;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 `;

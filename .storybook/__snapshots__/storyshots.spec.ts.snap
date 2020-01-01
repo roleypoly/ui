@@ -7241,6 +7241,7 @@ exports[`Storyshots Atoms|Role Disabled (Dangerous) 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -7264,6 +7265,9 @@ exports[`Storyshots Atoms|Role Disabled (Dangerous) 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c3 svg {
@@ -7295,6 +7299,9 @@ exports[`Storyshots Atoms|Role Disabled (Dangerous) 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c5 svg {
@@ -7307,7 +7314,10 @@ exports[`Storyshots Atoms|Role Disabled (Dangerous) 1`] = `
 }
 
 .c4 {
-  margin: 0 4px;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .c1 {
@@ -7590,7 +7600,7 @@ exports[`Storyshots Atoms|Role Disabled (Dangerous) 1`] = `
         <div
           className="c4"
         >
-          blackish
+          b̻͌̆̽ͣ̃ͭ̊l͚̥͙̔ͨ̊aͥć͕k͎̟͍͕ͥ̋ͯ̓̈̉̋i͛̄̔͂̚̚҉̳͈͔̖̼̮ṣ̤̗̝͊̌͆h͈̭̰͔̥̯ͅ
         </div>
       </div>
       <div
@@ -7721,6 +7731,7 @@ exports[`Storyshots Atoms|Role Disabled (Position) 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -7744,6 +7755,9 @@ exports[`Storyshots Atoms|Role Disabled (Position) 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c3 svg {
@@ -7775,6 +7789,9 @@ exports[`Storyshots Atoms|Role Disabled (Position) 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c5 svg {
@@ -7787,7 +7804,10 @@ exports[`Storyshots Atoms|Role Disabled (Position) 1`] = `
 }
 
 .c4 {
-  margin: 0 4px;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .c1 {
@@ -8070,7 +8090,7 @@ exports[`Storyshots Atoms|Role Disabled (Position) 1`] = `
         <div
           className="c4"
         >
-          blackish
+          b̻͌̆̽ͣ̃ͭ̊l͚̥͙̔ͨ̊aͥć͕k͎̟͍͕ͥ̋ͯ̓̈̉̋i͛̄̔͂̚̚҉̳͈͔̖̼̮ṣ̤̗̝͊̌͆h͈̭̰͔̥̯ͅ
         </div>
       </div>
       <div
@@ -8201,6 +8221,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -8238,6 +8259,9 @@ exports[`Storyshots Atoms|Role Role 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c3 svg {
@@ -8269,6 +8293,9 @@ exports[`Storyshots Atoms|Role Role 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c5 svg {
@@ -8281,7 +8308,10 @@ exports[`Storyshots Atoms|Role Role 1`] = `
 }
 
 .c4 {
-  margin: 0 4px;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .c1 {
@@ -8605,7 +8635,7 @@ exports[`Storyshots Atoms|Role Role 1`] = `
           <div
             className="c4"
           >
-            blackish
+            b̻͌̆̽ͣ̃ͭ̊l͚̥͙̔ͨ̊aͥć͕k͎̟͍͕ͥ̋ͯ̓̈̉̋i͛̄̔͂̚̚҉̳͈͔̖̼̮ṣ̤̗̝͊̌͆h͈̭̰͔̥̯ͅ
           </div>
         </div>
       </div>
@@ -8751,6 +8781,7 @@ exports[`Storyshots Atoms|Role Selected 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -8784,6 +8815,7 @@ exports[`Storyshots Atoms|Role Selected 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -8821,6 +8853,9 @@ exports[`Storyshots Atoms|Role Selected 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c3 svg {
@@ -8852,6 +8887,9 @@ exports[`Storyshots Atoms|Role Selected 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c6 svg {
@@ -8864,7 +8902,10 @@ exports[`Storyshots Atoms|Role Selected 1`] = `
 }
 
 .c4 {
-  margin: 0 4px;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .c1 {
@@ -9141,7 +9182,7 @@ exports[`Storyshots Atoms|Role Selected 1`] = `
         <div
           className="c4"
         >
-          blackish
+          b̻͌̆̽ͣ̃ͭ̊l͚̥͙̔ͨ̊aͥć͕k͎̟͍͕ͥ̋ͯ̓̈̉̋i͛̄̔͂̚̚҉̳͈͔̖̼̮ṣ̤̗̝͊̌͆h͈̭̰͔̥̯ͅ
         </div>
       </div>
       <div
@@ -9270,6 +9311,7 @@ exports[`Storyshots Atoms|Role Unselected 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -9307,6 +9349,9 @@ exports[`Storyshots Atoms|Role Unselected 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c3 svg {
@@ -9338,6 +9383,9 @@ exports[`Storyshots Atoms|Role Unselected 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c5 svg {
@@ -9350,7 +9398,10 @@ exports[`Storyshots Atoms|Role Unselected 1`] = `
 }
 
 .c4 {
-  margin: 0 4px;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .c1 {
@@ -9627,7 +9678,7 @@ exports[`Storyshots Atoms|Role Unselected 1`] = `
         <div
           className="c4"
         >
-          blackish
+          b̻͌̆̽ͣ̃ͭ̊l͚̥͙̔ͨ̊aͥć͕k͎̟͍͕ͥ̋ͯ̓̈̉̋i͛̄̔͂̚̚҉̳͈͔̖̼̮ṣ̤̗̝͊̌͆h͈̭̰͔̥̯ͅ
         </div>
       </div>
       <div
@@ -11158,6 +11209,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -11191,6 +11243,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -11224,6 +11277,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -11247,6 +11301,9 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c8 svg {
@@ -11278,6 +11335,9 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c9 svg {
@@ -11309,6 +11369,9 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c5 svg {
@@ -11340,6 +11403,9 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c11 svg {
@@ -11352,7 +11418,10 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
 }
 
 .c6 {
-  margin: 0 4px;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .c2 {
@@ -11662,7 +11731,7 @@ exports[`Storyshots Organisms|Picker Category Multi 1`] = `
           <div
             className="c6"
           >
-            blackish
+            b̻͌̆̽ͣ̃ͭ̊l͚̥͙̔ͨ̊aͥć͕k͎̟͍͕ͥ̋ͯ̓̈̉̋i͛̄̔͂̚̚҉̳͈͔̖̼̮ṣ̤̗̝͊̌͆h͈̭̰͔̥̯ͅ
           </div>
         </div>
       </div>
@@ -11829,6 +11898,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -11862,6 +11932,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -11895,6 +11966,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -11918,6 +11990,9 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c9 svg {
@@ -11949,6 +12024,9 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c10 svg {
@@ -11980,6 +12058,9 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c6 svg {
@@ -12011,6 +12092,9 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c12 svg {
@@ -12023,7 +12107,10 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
 }
 
 .c7 {
-  margin: 0 4px;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .c3 {
@@ -12338,7 +12425,7 @@ exports[`Storyshots Organisms|Picker Category Single 1`] = `
           <div
             className="c7"
           >
-            blackish
+            b̻͌̆̽ͣ̃ͭ̊l͚̥͙̔ͨ̊aͥć͕k͎̟͍͕ͥ̋ͯ̓̈̉̋i͛̄̔͂̚̚҉̳͈͔̖̼̮ṣ̤̗̝͊̌͆h͈̭̰͔̥̯ͅ
           </div>
         </div>
       </div>
@@ -12495,6 +12582,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -12528,6 +12616,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -12561,6 +12650,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -12584,6 +12674,9 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c8 svg {
@@ -12615,6 +12708,9 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c9 svg {
@@ -12646,6 +12742,9 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c5 svg {
@@ -12677,6 +12776,9 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
   align-items: center;
   -webkit-transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
 .c11 svg {
@@ -12689,7 +12791,10 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
 }
 
 .c6 {
-  margin: 0 4px;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .c2 {
@@ -12999,7 +13104,7 @@ exports[`Storyshots Organisms|Picker Category Wiki 1`] = `
           <div
             className="c6"
           >
-            blackish
+            b̻͌̆̽ͣ̃ͭ̊l͚̥͙̔ͨ̊aͥć͕k͎̟͍͕ͥ̋ͯ̓̈̉̋i͛̄̔͂̚̚҉̳͈͔̖̼̮ṣ̤̗̝͊̌͆h͈̭̰͔̥̯ͅ
           </div>
         </div>
       </div>

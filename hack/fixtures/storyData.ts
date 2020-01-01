@@ -59,7 +59,7 @@ export const roleCategory: Role.AsObject[] = [
   {
     id: 'fff',
     permissions: 0,
-    name: 'blackish',
+    name: 'b̻͌̆̽ͣ̃ͭ̊l͚̥͙̔ͨ̊aͥć͕k͎̟͍͕ͥ̋ͯ̓̈̉̋i͛̄̔͂̚̚҉̳͈͔̖̼̮ṣ̤̗̝͊̌͆h͈̭̰͔̥̯ͅ',
     color: 0x1,
     position: 6,
     managed: false,
