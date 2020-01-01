@@ -1,3 +1,5 @@
+require('dotenv').config({ silent: true });
+
 module.exports = {
   webpack(config) {
     config.resolve.alias = {
@@ -6,5 +8,8 @@ module.exports = {
     };
 
     return config;
+  },
+  publicRuntimeConfig: {
+    platformUrl: process.env.PLATFORM_SVC_URL || 'https://roleypoly.local:5066',
   },
 };
