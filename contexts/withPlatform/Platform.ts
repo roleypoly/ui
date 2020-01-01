@@ -4,12 +4,10 @@ import { withContext } from 'utils/withContext';
 import { NodeHttpTransport } from '@improbable-eng/grpc-web-node-http-transport';
 import getConfig from 'next/config';
 
-export const platformClient = new PlatformClient(
-  getConfig().publicRuntimeConfig.platformUrl,
-  {
+export const platformClient = () =>
+  new PlatformClient(getConfig().publicRuntimeConfig.platformUrl, {
     transport: typeof XMLHttpRequest === 'undefined' ? NodeHttpTransport() : undefined, // tslint:disable-line
-  }
-);
+  });
 
 export const PlatformContext = React.createContext(platformClient);
 

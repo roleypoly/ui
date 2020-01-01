@@ -3,19 +3,18 @@ import Head from 'next/head';
 import styled from 'styled-components';
 
 export const InjectTypekitFont = () => {
+  React.useEffect(() => {
+    (window as any).Typekit.load();
+  }, []);
   return (
     <Head>
       <link
         key="typekit-css-preload"
         rel="preload"
-        href="https://use.typekit.net/bck0pci.css"
-        as="style"
+        href="https://use.typekit.net/bck0pci.js"
+        as="script"
       />
-      <link
-        key="typekit-css"
-        rel="stylesheet"
-        href="https://use.typekit.net/bck0pci.css"
-      />
+      <script key="typekit-js" src="https://use.typekit.net/bck0pci.js" />
     </Head>
   );
 };

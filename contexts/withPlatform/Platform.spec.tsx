@@ -10,7 +10,7 @@ it('correctly is initialized with a usable RPC context', () => {
   const view = shallow(
     <testHelpers.ContextShim context={PlatformContext}>
       {data => {
-        return data.serviceHost === 'https://example.com' ? <>true</> : <>false</>;
+        return data().serviceHost === 'https://example.com' ? <>true</> : <>false</>;
       }}
     </testHelpers.ContextShim>
   );

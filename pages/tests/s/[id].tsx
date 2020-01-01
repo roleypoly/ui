@@ -29,12 +29,12 @@ export default function TestServerPage({ currentServer }: Props) {
         <div>No Server.</div>
       )}
       <p>
-        <Link href="/tests/s/203493697696956418">
+        <Link href="/tests/s/[id]" as="/tests/s/203493697696956418">
           <a>GMMfg</a>
         </Link>
       </p>
       <p>
-        <Link href="/tests/s/386659935687147521">
+        <Link href="/tests/s/[id]" as="/tests/s/386659935687147521">
           <a>RP</a>
         </Link>
       </p>
@@ -45,7 +45,7 @@ export default function TestServerPage({ currentServer }: Props) {
 TestServerPage.getInitialProps = async (ctx: NextPageContext): Promise<Props> => {
   const query = new IDQuery();
   query.setGuildid(ctx.query.id as string);
-  const guild = await platformClient.getGuild(query);
+  const guild = await platformClient().getGuild(query);
   console.log('i did it here');
   return {
     currentServer: guild.toObject(),
