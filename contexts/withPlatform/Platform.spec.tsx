@@ -1,5 +1,9 @@
-process.env.PLATFORM_SVC_HOST = 'https://example.com';
 jest.unmock('utils/withContext');
+jest.mock('next/config', () => () => ({
+  publicRuntimeConfig: {
+    platformUrl: 'https://example.com',
+  },
+}));
 
 import * as React from 'react';
 import { PlatformContext } from './Platform';
