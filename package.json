@@ -43,6 +43,7 @@
   "dependencies": {
     "@improbable-eng/grpc-web-node-http-transport": "^0.12.0",
     "@roleypoly/rpc": "^1.2.2",
+    "chroma-js": "^2.1.0",
     "next": "^9.1.6",
     "react": "16.12.0",
     "react-dom": "16.12.0",
@@ -68,7 +69,6 @@
     "@types/react-tooltip": "^3.11.0",
     "@types/storybook__addon-storyshots": "^5.1.2",
     "@types/styled-components": "^4.4.1",
-    "chroma-js": "^2.1.0",
     "cross-env": "^6.0.3",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
