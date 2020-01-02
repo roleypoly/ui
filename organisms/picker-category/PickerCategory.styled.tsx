@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { LargeText } from 'atoms/typography';
 
 export const Head = styled.div`
   margin: 7px 5px;

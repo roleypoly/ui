@@ -25,6 +25,7 @@ it('unselects the rest of a category in single mode', () => {
     roles: guildRoles,
     guild: guild,
     onSubmit: jest.fn(),
+    editable: false,
   };
 
   const view = shallow(<RolePicker {...props} />);
