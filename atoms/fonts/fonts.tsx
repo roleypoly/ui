@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Head from 'next/head';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const InjectTypekitFont = () => {
   React.useEffect(() => {
@@ -19,8 +19,11 @@ export const InjectTypekitFont = () => {
   );
 };
 
-export const UseFontStyled = styled.div`
+export const fontCSS = css`
   font-family: 'source-han-sans-japanese', 'Source Sans Pro', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
-  font-size-adjust: 0.75;
+`;
+
+export const UseFontStyled = styled.div`
+  ${fontCSS}
 `;
