@@ -109,7 +109,7 @@ export const roleCategory2: Role.AsObject[] = [
 
 export const mockCategorySingle: Category.AsObject = {
   id: 'bbb',
-  name: 'Mock Single',
+  name: 'Mock Single 岡野',
   rolesList: roleCategory2.map(x => x.id),
   hidden: false,
   type: Category.CategoryType.SINGLE,
@@ -130,7 +130,8 @@ export const roleWikiData = {
 export const guild: Guild.AsObject = {
   name: 'emoji megaporium',
   id: 'aaa',
-  icon: '',
+  icon:
+    'https://cdn.discordapp.com/icons/203493697696956418/ff08d36f5aee1ff48f8377b65d031ab0.png?size=256',
   ownerid: 'bbb',
   membercount: 23453,
   splash: '',

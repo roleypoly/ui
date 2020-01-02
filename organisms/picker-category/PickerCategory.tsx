@@ -5,6 +5,7 @@ import { LargeText, AmbientLarge } from 'atoms/typography';
 import { Role } from 'atoms/role';
 import styled from 'styled-components';
 import ReactTooltip from 'react-tooltip';
+import { Head, HeadTitle, HeadSub } from './PickerCategory.styled';
 
 export type CategoryProps = {
   title: string;
@@ -35,10 +36,16 @@ const Container = styled.div`
 
 export const PickerCategory = (props: CategoryProps) => (
   <div>
-    <p>
-      <LargeText>{props.title}</LargeText>
-      {props.type === 'single' && <AmbientLarge>Pick one</AmbientLarge>}
-    </p>
+    <Head>
+      <HeadTitle>
+        <LargeText>{props.title}</LargeText>
+      </HeadTitle>
+      {props.type === 'single' && (
+        <HeadSub>
+          <AmbientLarge>Pick one</AmbientLarge>
+        </HeadSub>
+      )}
+    </Head>
     <Category>
       {props.roles.map((role, idx) => (
         <Container key={idx}>

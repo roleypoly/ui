@@ -1,17 +1,28 @@
 import { Member } from '@roleypoly/rpc/discord';
 import { Category, GuildData } from '@roleypoly/rpc/platform';
-import { GuildRoles, Role } from '@roleypoly/rpc/shared';
+import { GuildRoles, Role, Guild } from '@roleypoly/rpc/shared';
 import { PickerCategory } from 'organisms/picker-category';
 import * as React from 'react';
-import { Container } from './RolePicker.styled';
+import {
+  Container,
+  MessageBox,
+  CategoryContainer,
+  InfoIcon,
+  InfoBox,
+} from './RolePicker.styled';
 import { FaderSlide } from 'atoms/fader';
 import { Button } from 'atoms/button';
+import { ServerMasthead } from 'molecules/server-masthead';
+import { Space } from 'atoms/space';
+import { GoInfo } from 'react-icons/go';
 
 export type RolePickerProps = {
-  server: GuildData.AsObject;
+  guild: Guild.AsObject;
+  guildData: GuildData.AsObject;
   member: Member.AsObject;
   roles: GuildRoles.AsObject;
   onSubmit: (selectedRoles: string[]) => void;
+  editable: boolean;
 };
 
 const arrayMatches = (a: any[], b: any[]) => {
@@ -46,30 +57,54 @@ export const RolePicker = (props: RolePickerProps) => {
 
   return (
     <Container>
-      <div>Server Message: {props.server.message}</div>
-      <div>
-        {props.server.categoriesList.map((category, idx) => (
-          <PickerCategory
-            key={idx}
-            category={category}
-            title={category.name}
-            selectedRoles={selectedRoles.filter(roleId =>
-              category.rolesList.includes(roleId)
-            )}
-            roles={
-              category.rolesList
-                .map(role => props.roles.rolesList.find(r => r.id === role))
-                .filter(r => r !== undefined) as Role.AsObject[]
-            }
-            onChange={handleChange(category)}
-            wikiMode={false}
-            type={category.type === Category.CategoryType.SINGLE ? 'single' : 'multi'}
-          />
-        ))}
-      </div>
-      <FaderSlide isVisible={!arrayMatches(selectedRoles, props.member.rolesList)}>
-        <Button onClick={() => props.onSubmit(selectedRoles)}>Submit</Button>
-      </FaderSlide>
+      <Space />
+      <ServerMasthead guild={props.guild} editable={props.editable} />
+      <Space />
+      {props.guildData.message && (
+        <>
+          <MessageBox>{props.guildData.message}</MessageBox>
+          <Space />
+        </>
+      )}
+
+      {props.guildData.categoriesList.length !== 0 ? (
+        <>
+          <div>
+            {props.guildData.categoriesList.map((category, idx) => (
+              <CategoryContainer>
+                <PickerCategory
+                  key={idx}
+                  category={category}
+                  title={category.name}
+                  selectedRoles={selectedRoles.filter(roleId =>
+                    category.rolesList.includes(roleId)
+                  )}
+                  roles={
+                    category.rolesList
+                      .map(role => props.roles.rolesList.find(r => r.id === role))
+                      .filter(r => r !== undefined) as Role.AsObject[]
+                  }
+                  onChange={handleChange(category)}
+                  wikiMode={false}
+                  type={
+                    category.type === Category.CategoryType.SINGLE ? 'single' : 'multi'
+                  }
+                />
+              </CategoryContainer>
+            ))}
+          </div>
+          <FaderSlide isVisible={!arrayMatches(selectedRoles, props.member.rolesList)}>
+            <Button onClick={() => props.onSubmit(selectedRoles)}>Submit</Button>
+          </FaderSlide>
+        </>
+      ) : (
+        <InfoBox>
+          <InfoIcon>
+            <GoInfo />
+          </InfoIcon>
+          <div>There are currently no roles available for you to choose from.</div>
+        </InfoBox>
+      )}
     </Container>
   );
 };

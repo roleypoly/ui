@@ -11,6 +11,7 @@ import {
   guildRoles,
   member,
   mockCategorySingle,
+  guild,
 } from 'hack/fixtures/storyData';
 import { PickerCategory } from 'organisms/picker-category';
 import * as React from 'react';
@@ -19,9 +20,10 @@ import { Role } from 'atoms/role';
 
 it('unselects the rest of a category in single mode', () => {
   const props: RolePickerProps = {
-    server: { ...guildData, categoriesList: [mockCategorySingle] },
+    guildData: { ...guildData, categoriesList: [mockCategorySingle] },
     member: { ...member, rolesList: [] },
     roles: guildRoles,
+    guild: guild,
     onSubmit: jest.fn(),
   };
 

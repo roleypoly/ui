@@ -22,4 +22,5 @@ export const InjectTypekitFont = () => {
 export const UseFontStyled = styled.div`
   font-family: 'source-han-sans-japanese', 'Source Sans Pro', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+  font-size-adjust: 0.75;
 `;

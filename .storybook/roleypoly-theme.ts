@@ -8,8 +8,8 @@ export const roleypolyTheme = create({
   colorSecondary: palette.taupe200,
 
   // UI
-  appBg: palette.taupe300,
-  appContentBg: palette.taupe200,
+  appBg: palette.taupe400,
+  appContentBg: palette.taupe300,
   appBorderColor: palette.taupe100,
   appBorderRadius: 0,
 

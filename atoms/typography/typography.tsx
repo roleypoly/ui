@@ -6,6 +6,7 @@ const reset = css`
   padding: 0;
   font-weight: 400;
   text-decoration: none;
+  font-size-adjust: 0.75;
 `;
 
 export const text900 = css`
