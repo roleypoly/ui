@@ -1,11 +1,11 @@
 import { Guild } from '@roleypoly/rpc/shared';
 import { Avatar, utils } from 'atoms/avatar';
 import { AccentTitle, AmbientLarge } from 'atoms/typography';
+import Link from 'next/link';
 import { guild } from 'hack/fixtures/storyData';
 import * as React from 'react';
 import { GoPencil } from 'react-icons/go';
 import { Editable, Icon, Name, Wrapper } from './ServerMasthead.styled';
-import Link from 'next/link';
 
 export type ServerMastheadProps = {
   guild: Guild.AsObject;

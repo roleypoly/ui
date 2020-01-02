@@ -11,3 +11,9 @@ it('shows Edit Server when editable is true', () => {
 
   expect(view.find(Editable).length).not.toBe(0);
 });
+
+it('hides Edit Server when editable is true', () => {
+  const view = shallow(<ServerMasthead editable={false} guild={guild} />);
+
+  expect(view.find(Editable).length).toBe(0);
+});

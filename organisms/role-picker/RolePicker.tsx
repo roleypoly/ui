@@ -71,7 +71,7 @@ export const RolePicker = (props: RolePickerProps) => {
         <>
           <div>
             {props.guildData.categoriesList.map((category, idx) => (
-              <CategoryContainer>
+              <CategoryContainer key={idx}>
                 <PickerCategory
                   key={idx}
                   category={category}
