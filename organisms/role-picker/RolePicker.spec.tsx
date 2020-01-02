@@ -4,19 +4,19 @@ jest
   .unmock('organisms/picker-category')
   .unmock('organisms/role-picker');
 
-import { Button } from 'atoms/button';
+import { Role } from 'atoms/role';
 import { shallow } from 'enzyme';
 import {
+  guild,
   guildData,
   guildRoles,
   member,
   mockCategorySingle,
-  guild,
 } from 'hack/fixtures/storyData';
+import { ResetSubmit } from 'molecules/reset-submit';
 import { PickerCategory } from 'organisms/picker-category';
 import * as React from 'react';
 import { RolePicker, RolePickerProps } from './RolePicker';
-import { Role } from 'atoms/role';
 
 it('unselects the rest of a category in single mode', () => {
   const props: RolePickerProps = {
@@ -40,7 +40,10 @@ it('unselects the rest of a category in single mode', () => {
     .props()
     .onClick?.(true);
 
-  view.find(Button).simulate('click');
+  view
+    .find(ResetSubmit)
+    .props()
+    .onSubmit();
   expect(props.onSubmit).toBeCalledWith([mockCategorySingle.rolesList[0]]);
 
   roles
@@ -48,6 +51,9 @@ it('unselects the rest of a category in single mode', () => {
     .props()
     .onClick?.(true);
 
-  view.find(Button).simulate('click');
+  view
+    .find(ResetSubmit)
+    .props()
+    .onSubmit();
   expect(props.onSubmit).toBeCalledWith([mockCategorySingle.rolesList[1]]);
 });
