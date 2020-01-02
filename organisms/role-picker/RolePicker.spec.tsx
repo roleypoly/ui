@@ -1,7 +1,7 @@
 jest
   .unmock('atoms/role')
   .unmock('atoms/button')
-  .unmock('organisms/picker-category')
+  .unmock('molecules/picker-category')
   .unmock('organisms/role-picker');
 
 import { Role } from 'atoms/role';
@@ -14,7 +14,7 @@ import {
   mockCategorySingle,
 } from 'hack/fixtures/storyData';
 import { ResetSubmit } from 'molecules/reset-submit';
-import { PickerCategory } from 'organisms/picker-category';
+import { PickerCategory } from 'molecules/picker-category';
 import * as React from 'react';
 import { RolePicker, RolePickerProps } from './RolePicker';
 

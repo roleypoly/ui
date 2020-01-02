@@ -5,7 +5,7 @@ import { FaderOpacity } from 'atoms/fader';
 import { Space } from 'atoms/space';
 import { ResetSubmit } from 'molecules/reset-submit';
 import { ServerMasthead } from 'molecules/server-masthead';
-import { PickerCategory } from 'organisms/picker-category';
+import { PickerCategory } from 'molecules/picker-category';
 import * as React from 'react';
 import { GoInfo } from 'react-icons/go';
 import {

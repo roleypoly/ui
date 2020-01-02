@@ -31,10 +31,4 @@ export const InfoIcon = styled.div`
 
 export const Buttons = styled.div`
   display: flex;
-  &:first-child {
-    flex: 1;
-  }
-  &:last-child {
-    flex: 3;
-  }
 `;
