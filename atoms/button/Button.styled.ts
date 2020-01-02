@@ -1,11 +1,14 @@
 import styled, { css } from 'styled-components';
 import { text400, text300 } from 'atoms/typography';
+import { fontCSS } from 'atoms/fonts';
 
 export const IconContainer = styled.div`
-  margin-right: 0.6em;
+  margin-right: 0.6rem;
+  font-size: 1.75em;
 `;
 
 const base = styled.button`
+  ${fontCSS}
   appearance: none;
   display: block;
   background-color: var(--taupe300);
@@ -47,6 +50,7 @@ const base = styled.button`
 const colors = {
   primary: css`
     background-color: var(--green400);
+    color: var(--taupe100);
   `,
   secondary: css``,
   discord: css`
