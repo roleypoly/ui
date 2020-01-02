@@ -1,20 +1,20 @@
 import { Member } from '@roleypoly/rpc/discord';
 import { Category, GuildData } from '@roleypoly/rpc/platform';
-import { GuildRoles, Role, Guild } from '@roleypoly/rpc/shared';
+import { Guild, GuildRoles, Role } from '@roleypoly/rpc/shared';
+import { FaderOpacity } from 'atoms/fader';
+import { Space } from 'atoms/space';
+import { ResetSubmit } from 'molecules/reset-submit';
+import { ServerMasthead } from 'molecules/server-masthead';
 import { PickerCategory } from 'organisms/picker-category';
 import * as React from 'react';
-import {
-  Container,
-  MessageBox,
-  CategoryContainer,
-  InfoIcon,
-  InfoBox,
-} from './RolePicker.styled';
-import { FaderSlide } from 'atoms/fader';
-import { Button } from 'atoms/button';
-import { ServerMasthead } from 'molecules/server-masthead';
-import { Space } from 'atoms/space';
 import { GoInfo } from 'react-icons/go';
+import {
+  CategoryContainer,
+  Container,
+  InfoBox,
+  InfoIcon,
+  MessageBox,
+} from './RolePicker.styled';
 
 export type RolePickerProps = {
   guild: Guild.AsObject;
@@ -93,9 +93,14 @@ export const RolePicker = (props: RolePickerProps) => {
               </CategoryContainer>
             ))}
           </div>
-          <FaderSlide isVisible={!arrayMatches(selectedRoles, props.member.rolesList)}>
-            <Button onClick={() => props.onSubmit(selectedRoles)}>Submit</Button>
-          </FaderSlide>
+          <FaderOpacity isVisible={!arrayMatches(selectedRoles, props.member.rolesList)}>
+            <ResetSubmit
+              onSubmit={() => props.onSubmit(selectedRoles)}
+              onReset={() => {
+                updateSelectedRoles(props.member.rolesList);
+              }}
+            />
+          </FaderOpacity>
         </>
       ) : (
         <InfoBox>

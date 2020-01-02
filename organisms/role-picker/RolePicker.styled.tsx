@@ -28,3 +28,13 @@ export const InfoIcon = styled.div`
   align-items: center;
   color: ${palette.taupe500};
 `;
+
+export const Buttons = styled.div`
+  display: flex;
+  &:first-child {
+    flex: 1;
+  }
+  &:last-child {
+    flex: 3;
+  }
+`;
