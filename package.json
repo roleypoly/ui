@@ -24,6 +24,9 @@
       "pre-commit": "npm run pre-commit"
     }
   },
+  "engines": {
+    "node": "12.x"
+  },
   "lint-staged": {
     "*.css": [
       "stylelint --fix",
