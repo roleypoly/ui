@@ -24,9 +24,6 @@
       "pre-commit": "npm run pre-commit"
     }
   },
-  "engines": {
-    "node": "12.x"
-  },
   "lint-staged": {
     "*.css": [
       "stylelint --fix",
@@ -98,5 +95,8 @@
     "tslint-config-standard": "^9.0.0",
     "tslint-plugin-prettier": "^2.1.0",
     "typescript": "^3.7.4"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
