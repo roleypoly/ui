@@ -63,7 +63,7 @@
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "^24.9.0",
     "@types/node": "^13.1.8",
-    "@types/react": "^16.9.17",
+    "@types/react": "^16.9.19",
     "@types/react-tooltip": "^3.11.0",
     "@types/styled-components": "^4.4.2",
     "cross-env": "^6.0.3",
