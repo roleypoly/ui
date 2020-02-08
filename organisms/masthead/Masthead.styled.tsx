@@ -8,13 +8,10 @@ export const MastheadBase = styled.div`
     top: 0;
     left: 0;
     right: 0;
-
     height: 50px;
-
     background-color: ${palette.taupe100};
     display: flex;
     align-items: center;
-
     padding: 0 3px;
 `;
 
