@@ -43,7 +43,7 @@ export const InteractionBase = styled.div`
     align-items: center;
     height: 50px;
     padding: 0 5px;
-    transition: background-color ${transitions.actionable} ease-in-out;
+    transition: background-color ${transitions.actionable}s ease-in-out;
 
     :hover {
         background-color: rgba(0, 0, 0, 0.15);
