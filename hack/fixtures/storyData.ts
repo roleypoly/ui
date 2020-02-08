@@ -1,6 +1,12 @@
-import { Role, Guild, DiscordUser, GuildRoles } from '@roleypoly/rpc/shared';
-import { Category, GuildData } from '@roleypoly/rpc/platform';
 import { Member } from '@roleypoly/rpc/discord';
+import { Category, GuildData } from '@roleypoly/rpc/platform';
+import {
+  DiscordUser,
+  Guild,
+  GuildRoles,
+  Role,
+  RoleypolyUser,
+} from '@roleypoly/rpc/shared';
 
 export const roleCategory: Role.AsObject[] = [
   {
@@ -148,7 +154,8 @@ export const user: DiscordUser.AsObject = {
   id: '123',
   username: 'okano cat',
   discriminator: '3266',
-  avatar: 'av',
+  avatar:
+    'https://cdn.discordapp.com/avatars/62601275618889728/1df826136060816cf7a7f4838c2dc11b.png',
   bot: false,
 };
 
@@ -157,4 +164,8 @@ export const member: Member.AsObject = {
   rolesList: ['aaa', 'eee', 'unsafe2', 'ddd2'],
   nick: 'okano cat',
   user: user,
+};
+
+export const rpUser: RoleypolyUser.AsObject = {
+  discorduser: user,
 };
