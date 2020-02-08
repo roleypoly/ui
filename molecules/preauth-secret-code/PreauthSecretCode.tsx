@@ -6,41 +6,41 @@ import { Button } from 'atoms/button';
 import { Space } from 'atoms/space';
 
 type PreauthProps = {
-  onSubmit: (code: string) => void;
+    onSubmit: (code: string) => void;
 };
 
 export const PreauthSecretCode = (props: PreauthProps) => {
-  const [secretCode, setSecretCode] = React.useState('');
+    const [secretCode, setSecretCode] = React.useState('');
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSecretCode(event.target.value);
-  };
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setSecretCode(event.target.value);
+    };
 
-  const handleKeyPress = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === 'Enter') {
-      props.onSubmit(secretCode);
-    }
-  };
+    const handleKeyPress = (event: React.KeyboardEvent<HTMLInputElement>) => {
+        if (event.key === 'Enter') {
+            props.onSubmit(secretCode);
+        }
+    };
 
-  const handleSubmit = () => {
-    props.onSubmit(secretCode);
-  };
+    const handleSubmit = () => {
+        props.onSubmit(secretCode);
+    };
 
-  return (
-    <div>
-      <TextInputWithIcon
-        icon={<FiKey />}
-        value={secretCode}
-        placeholder="Super secret code..."
-        onChange={handleChange}
-        onKeyDown={handleKeyPress}
-      />
-      <Space />
-      <FaderOpacity isVisible={secretCode.length > 0}>
-        <Button color="muted" onClick={handleSubmit}>
-          Submit Code →
-        </Button>
-      </FaderOpacity>
-    </div>
-  );
+    return (
+        <div>
+            <TextInputWithIcon
+                icon={<FiKey />}
+                value={secretCode}
+                placeholder="Super secret code..."
+                onChange={handleChange}
+                onKeyDown={handleKeyPress}
+            />
+            <Space />
+            <FaderOpacity isVisible={secretCode.length > 0}>
+                <Button color="muted" onClick={handleSubmit}>
+                    Submit Code →
+                </Button>
+            </FaderOpacity>
+        </div>
+    );
 };

@@ -5,33 +5,33 @@ import { withColors } from '../atoms/colors/withColors';
 import { StoryApi } from '@storybook/addons';
 
 interface Options {
-  withInfo: boolean;
-  withA11y: boolean;
-  beforeDecorators: OptionFunc;
-  afterDecorators: OptionFunc;
+    withInfo: boolean;
+    withA11y: boolean;
+    beforeDecorators: OptionFunc;
+    afterDecorators: OptionFunc;
 }
 
 type OptionFunc = (options: Partial<Options>, story: StoryApi<any>) => void;
 
 export const makeFactory = (title: string, categoryOpts: Partial<Options> = {}) => (
-  moduleName: string,
-  nodeModule: NodeModule,
-  storyOpts: Partial<Options> = {}
+    moduleName: string,
+    nodeModule: NodeModule,
+    storyOpts: Partial<Options> = {}
 ) => {
-  const opts = {
-    withA11y: false,
-    ...categoryOpts,
-    ...storyOpts,
-  };
+    const opts = {
+        withA11y: false,
+        ...categoryOpts,
+        ...storyOpts,
+    };
 
-  const builtStory = storiesOf(`${title}|${moduleName}`, nodeModule);
+    const builtStory = storiesOf(`${title}|${moduleName}`, nodeModule);
 
-  opts.beforeDecorators && opts.beforeDecorators(opts, builtStory);
+    opts.beforeDecorators && opts.beforeDecorators(opts, builtStory);
 
-  builtStory.addDecorator(withColors);
-  builtStory.addDecorator(withKnobs);
-  builtStory.addDecorator(withA11y);
+    builtStory.addDecorator(withColors);
+    builtStory.addDecorator(withKnobs);
+    builtStory.addDecorator(withA11y);
 
-  opts.afterDecorators && opts.afterDecorators(opts, builtStory);
-  return builtStory;
+    opts.afterDecorators && opts.afterDecorators(opts, builtStory);
+    return builtStory;
 };

@@ -6,18 +6,18 @@ import styled from 'styled-components';
 const story = atomStories('Branding', module);
 
 const Wrapper = styled.div`
-  background-color: black;
-  padding: 2em;
+    background-color: black;
+    padding: 2em;
 `;
 
 story.add('Logomark', () => (
-  <Wrapper>
-    <Logomark />
-  </Wrapper>
+    <Wrapper>
+        <Logomark />
+    </Wrapper>
 ));
 
 story.add('Logotype', () => (
-  <Wrapper>
-    <Logotype />
-  </Wrapper>
+    <Wrapper>
+        <Logotype />
+    </Wrapper>
 ));

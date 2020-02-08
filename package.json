@@ -1,102 +1,102 @@
 {
-  "name": "ui",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "build": "next build",
-    "build-storybook": "build-storybook -c .storybook",
-    "dev": "next dev -H roleypoly.local",
-    "format": "npm run lint:prettier -- --write",
-    "lint": "run-p --continue-on-error lint:*",
-    "lint-staged": "lint-staged",
-    "lint:css": "cross-env stylelint '**/*.{ts,tsx}'",
-    "lint:prettier": "cross-env prettier -c '**/*.{ts,tsx,css,yml,yaml,md,json,js,jsx}'",
-    "lint:tsc": "tsc --noEmit --isolatedModules",
-    "lint:tslint": "tslint --project .",
-    "now-build": "build-storybook",
-    "pre-commit": "lint-staged",
-    "start": "next start",
-    "storybook": "start-storybook --port 6001",
-    "test": "jest --passWithNoTests"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pre-commit"
+    "name": "ui",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "build": "next build",
+        "build-storybook": "build-storybook -c .storybook",
+        "dev": "next dev -H roleypoly.local",
+        "format": "npm run lint:prettier -- --write",
+        "lint": "run-p --continue-on-error lint:*",
+        "lint-staged": "lint-staged",
+        "lint:css": "cross-env stylelint '**/*.{ts,tsx}'",
+        "lint:prettier": "cross-env prettier -c '**/*.{ts,tsx,css,yml,yaml,md,json,js,jsx}'",
+        "lint:tsc": "tsc --noEmit --isolatedModules",
+        "lint:tslint": "tslint --project .",
+        "now-build": "build-storybook",
+        "pre-commit": "lint-staged",
+        "start": "next start",
+        "storybook": "start-storybook --port 6001",
+        "test": "jest --passWithNoTests"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run pre-commit"
+        }
+    },
+    "lint-staged": {
+        "*.css": [
+            "stylelint --fix",
+            "git add"
+        ],
+        "*.{js,css,json,md,yml}": [
+            "prettier --write",
+            "git add"
+        ],
+        "*.{ts,tsx}": [
+            "prettier --write",
+            "tslint --fix",
+            "git add"
+        ]
+    },
+    "dependencies": {
+        "@improbable-eng/grpc-web-node-http-transport": "^0.12.0",
+        "@roleypoly/rpc": "^1.5.0",
+        "chroma-js": "^2.1.0",
+        "dotenv": "^8.2.0",
+        "next": "^9.2.1",
+        "react": "16.12.0",
+        "react-dom": "16.12.0",
+        "react-icons": "^3.9.0",
+        "react-tooltip": "^3.11.2",
+        "styled-components": "^5.0.1"
+    },
+    "devDependencies": {
+        "@storybook/addon-a11y": "^5.3.12",
+        "@storybook/addon-actions": "^5.3.12",
+        "@storybook/addon-knobs": "^5.3.12",
+        "@storybook/addon-links": "^5.3.12",
+        "@storybook/addon-viewport": "^5.3.12",
+        "@storybook/react": "^5.3.12",
+        "@types/chroma-js": "^1.4.3",
+        "@types/enzyme": "^3.10.4",
+        "@types/enzyme-adapter-react-16": "^1.0.5",
+        "@types/jest": "^25.1.2",
+        "@types/node": "^13.7.0",
+        "@types/react": "^16.9.19",
+        "@types/react-tooltip": "^3.11.0",
+        "@types/styled-components": "^4.4.2",
+        "cross-env": "^7.0.0",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "enzyme-to-json": "^3.4.4",
+        "fork-ts-checker-webpack-plugin": "^4.0.3",
+        "husky": "^4.2.1",
+        "jest": "^25.1.0",
+        "jest-environment-enzyme": "^7.1.2",
+        "jest-enzyme": "^7.1.2",
+        "jest-styled-components": "^7.0.0",
+        "lint-staged": "^10.0.7",
+        "npm-run-all": "^4.1.5",
+        "prettier": "^1.19.1",
+        "prettier-plugin-packagejson": "^2.0.10",
+        "react-docgen-typescript-loader": "^3.6.0",
+        "react-test-renderer": "^16.12.0",
+        "stylelint": "^13.0.0",
+        "stylelint-config-prettier": "^8.0.1",
+        "stylelint-config-standard": "^19.0.0",
+        "stylelint-config-styled-components": "^0.1.1",
+        "stylelint-prettier": "^1.1.2",
+        "stylelint-processor-styled-components": "^1.9.0",
+        "ts-jest": "^25.2.0",
+        "ts-loader": "^6.2.1",
+        "tslint": "^5.20.1",
+        "tslint-config-prettier": "^1.18.0",
+        "tslint-config-standard": "^9.0.0",
+        "tslint-plugin-prettier": "^2.1.0",
+        "typescript": "^3.7.5"
+    },
+    "engines": {
+        "node": "12.x"
     }
-  },
-  "lint-staged": {
-    "*.css": [
-      "stylelint --fix",
-      "git add"
-    ],
-    "*.{js,css,json,md,yml}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.{ts,tsx}": [
-      "prettier --write",
-      "tslint --fix",
-      "git add"
-    ]
-  },
-  "dependencies": {
-    "@improbable-eng/grpc-web-node-http-transport": "^0.12.0",
-    "@roleypoly/rpc": "^1.5.0",
-    "chroma-js": "^2.1.0",
-    "dotenv": "^8.2.0",
-    "next": "^9.2.1",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "react-icons": "^3.9.0",
-    "react-tooltip": "^3.11.2",
-    "styled-components": "^5.0.1"
-  },
-  "devDependencies": {
-    "@storybook/addon-a11y": "^5.3.12",
-    "@storybook/addon-actions": "^5.3.12",
-    "@storybook/addon-knobs": "^5.3.12",
-    "@storybook/addon-links": "^5.3.12",
-    "@storybook/addon-viewport": "^5.3.12",
-    "@storybook/react": "^5.3.12",
-    "@types/chroma-js": "^1.4.3",
-    "@types/enzyme": "^3.10.4",
-    "@types/enzyme-adapter-react-16": "^1.0.5",
-    "@types/jest": "^25.1.2",
-    "@types/node": "^13.7.0",
-    "@types/react": "^16.9.19",
-    "@types/react-tooltip": "^3.11.0",
-    "@types/styled-components": "^4.4.2",
-    "cross-env": "^7.0.0",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "enzyme-to-json": "^3.4.4",
-    "fork-ts-checker-webpack-plugin": "^4.0.3",
-    "husky": "^4.2.1",
-    "jest": "^25.1.0",
-    "jest-environment-enzyme": "^7.1.2",
-    "jest-enzyme": "^7.1.2",
-    "jest-styled-components": "^7.0.0",
-    "lint-staged": "^10.0.7",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^1.19.1",
-    "prettier-plugin-packagejson": "^2.0.10",
-    "react-docgen-typescript-loader": "^3.6.0",
-    "react-test-renderer": "^16.12.0",
-    "stylelint": "^13.0.0",
-    "stylelint-config-prettier": "^8.0.1",
-    "stylelint-config-standard": "^19.0.0",
-    "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-prettier": "^1.1.2",
-    "stylelint-processor-styled-components": "^1.9.0",
-    "ts-jest": "^25.2.0",
-    "ts-loader": "^6.2.1",
-    "tslint": "^5.20.1",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-config-standard": "^9.0.0",
-    "tslint-plugin-prettier": "^2.1.0",
-    "typescript": "^3.7.5"
-  },
-  "engines": {
-    "node": "12.x"
-  }
 }

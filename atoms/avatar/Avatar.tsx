@@ -3,9 +3,9 @@ import React from 'react';
 import { text400 } from 'atoms/typography';
 
 export type AvatarProps = {
-  src?: string;
-  children?: string;
-  size?: number;
+    src?: string;
+    children?: string;
+    size?: number;
 };
 
 type ContainerProps = Pick<AvatarProps, 'size'>;
@@ -29,26 +29,26 @@ const Container = styled.div<ContainerProps>`
 
 type ImageProps = Pick<AvatarProps, 'src'>;
 const Image = styled.div<ImageProps>`
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 100%;
 `;
 
 /** Chuldren is recommended to not be larger than 2 uppercase letters. */
 export const Avatar = (props: AvatarProps) => (
-  <Container size={props.size}>
-    {props.src && <Image style={{ backgroundImage: `url(${props.src})` }} />}
-    <div>
-      {props.children || (
-        /* needs specifically &nbsp; to prevent layout issues. */
-        <>&nbsp;</>
-      )}
-    </div>
-  </Container>
+    <Container size={props.size}>
+        {props.src && <Image style={{ backgroundImage: `url(${props.src})` }} />}
+        <div>
+            {props.children || (
+                /* needs specifically &nbsp; to prevent layout issues. */
+                <>&nbsp;</>
+            )}
+        </div>
+    </Container>
 );

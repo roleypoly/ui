@@ -5,5 +5,5 @@ import { ResetSubmit } from './ResetSubmit';
 const story = moleculeStories('Reset & Submit', module);
 
 story.add('Reset & Submit', () => (
-  <ResetSubmit onSubmit={action('onSubmit')} onReset={action('onReset')} />
+    <ResetSubmit onSubmit={action('onSubmit')} onReset={action('onReset')} />
 ));

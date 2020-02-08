@@ -9,42 +9,42 @@ import { text as textKnob } from '@storybook/addon-knobs';
 const story = atomStories('Text Input', module);
 
 story.add('Common', () =>
-  React.createElement(() => {
-    const [text, setText] = React.useState<string>();
+    React.createElement(() => {
+        const [text, setText] = React.useState<string>();
 
-    const placeholder = textKnob('Placeholder Text', 'Placeholder');
+        const placeholder = textKnob('Placeholder Text', 'Placeholder');
 
-    const update = (event: React.ChangeEvent<HTMLInputElement>) => {
-      setText(event.target.value);
-      action('update')(event);
-    };
+        const update = (event: React.ChangeEvent<HTMLInputElement>) => {
+            setText(event.target.value);
+            action('update')(event);
+        };
 
-    const props = {
-      placeholder,
-      value: text,
-      onChange: update,
-    };
+        const props = {
+            placeholder,
+            value: text,
+            onChange: update,
+        };
 
-    return (
-      <div>
-        <SmallTitle>TextInput</SmallTitle>
-        <div>
-          <TextInput {...props} />
-        </div>
-        <div>
-          <TextInput {...props} disabled />
-        </div>
-        <SmallTitle>TextInputWithIcon</SmallTitle>
-        <div>
-          <TextInputWithIcon icon={<FiKey />} {...props} />
-        </div>
-        <div>
-          <TextInputWithIcon icon={<FiKey />} {...props} disabled />
-        </div>
-        <div>
-          <TextInputWithIcon icon={<FiKey />} {...props} type="password" />
-        </div>
-      </div>
-    );
-  })
+        return (
+            <div>
+                <SmallTitle>TextInput</SmallTitle>
+                <div>
+                    <TextInput {...props} />
+                </div>
+                <div>
+                    <TextInput {...props} disabled />
+                </div>
+                <SmallTitle>TextInputWithIcon</SmallTitle>
+                <div>
+                    <TextInputWithIcon icon={<FiKey />} {...props} />
+                </div>
+                <div>
+                    <TextInputWithIcon icon={<FiKey />} {...props} disabled />
+                </div>
+                <div>
+                    <TextInputWithIcon icon={<FiKey />} {...props} type="password" />
+                </div>
+            </div>
+        );
+    })
 );

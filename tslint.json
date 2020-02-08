@@ -1,7 +1,7 @@
 {
-  "extends": [
-    "tslint-config-standard",
-    "tslint-plugin-prettier",
-    "tslint-config-prettier"
-  ]
+    "extends": [
+        "tslint-config-standard",
+        "tslint-plugin-prettier",
+        "tslint-config-prettier"
+    ]
 }

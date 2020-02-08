@@ -8,29 +8,29 @@ import { roleCategory, roleWikiData, mockCategory } from 'hack/fixtures/storyDat
 const stories = moleculeStories('Picker Category', module);
 
 const data: (mode?: 'single') => CategoryProps = (mode?: 'single') => ({
-  title: text('Title', 'Pronouns'),
-  type: 'multi',
-  roles: roleCategory,
-  wikiMode: false,
-  category: mockCategory,
-  onChange: () => action('onChange'),
-  selectedRoles: optionsKnob<string[]>(
-    'Selected Roles',
-    roleCategory.reduce((acc, x) => ({ ...acc, [x.name]: x.id }), {}),
-    [roleCategory[0].id],
-    { display: mode === 'single' ? 'select' : 'multi-select' }
-  ),
+    title: text('Title', 'Pronouns'),
+    type: 'multi',
+    roles: roleCategory,
+    wikiMode: false,
+    category: mockCategory,
+    onChange: () => action('onChange'),
+    selectedRoles: optionsKnob<string[]>(
+        'Selected Roles',
+        roleCategory.reduce((acc, x) => ({ ...acc, [x.name]: x.id }), {}),
+        [roleCategory[0].id],
+        { display: mode === 'single' ? 'select' : 'multi-select' }
+    ),
 });
 
 stories.add('Multi', () => {
-  const d = data();
-  return <PickerCategory {...d} type="multi" />;
+    const d = data();
+    return <PickerCategory {...d} type="multi" />;
 });
 stories.add('Single', () => {
-  const d = data('single');
-  return <PickerCategory {...d} type="single" />;
+    const d = data('single');
+    return <PickerCategory {...d} type="single" />;
 });
 stories.add('Wiki', () => {
-  const d = data();
-  return <PickerCategory {...d} wikiMode roleWikiData={roleWikiData} />;
+    const d = data();
+    return <PickerCategory {...d} wikiMode roleWikiData={roleWikiData} />;
 });

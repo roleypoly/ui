@@ -7,13 +7,17 @@ import { testHelpers } from 'utils/withContext';
 import { shallow } from 'enzyme';
 
 it('correctly is initialized with a usable RPC context', () => {
-  const view = shallow(
-    <testHelpers.ContextShim context={AuthClientContext}>
-      {data => {
-        return data.serviceHost === 'https://example.com' ? <>true</> : <>false</>;
-      }}
-    </testHelpers.ContextShim>
-  );
+    const view = shallow(
+        <testHelpers.ContextShim context={AuthClientContext}>
+            {data => {
+                return data.serviceHost === 'https://example.com' ? (
+                    <>true</>
+                ) : (
+                    <>false</>
+                );
+            }}
+        </testHelpers.ContextShim>
+    );
 
-  expect(view.text()).toBe('true');
+    expect(view.text()).toBe('true');
 });

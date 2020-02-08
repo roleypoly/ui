@@ -1,18 +1,18 @@
 // import {} from 'styled-components';
 
 export const breakpoints = {
-  onTablet: 768,
-  onDesktop: 1024,
+    onTablet: 768,
+    onDesktop: 1024,
 };
 
 export const mediaQueryDefs = {
-  onSmallScreen: `@media screen and (max-width: ${breakpoints.onTablet - 1}px)`,
-  onTablet: `@media screen and (min-width: ${breakpoints.onTablet}px)`,
-  onDesktop: `@media screen and (min-width: ${breakpoints.onDesktop}px)`,
+    onSmallScreen: `@media screen and (max-width: ${breakpoints.onTablet - 1}px)`,
+    onTablet: `@media screen and (min-width: ${breakpoints.onTablet}px)`,
+    onDesktop: `@media screen and (min-width: ${breakpoints.onDesktop}px)`,
 };
 
 export const onTablet = (...expressions: any) => {
-  return `
+    return `
     ${mediaQueryDefs.onTablet} {
       ${expressions.join()}
     }
@@ -20,7 +20,7 @@ export const onTablet = (...expressions: any) => {
 };
 
 export const onDesktop = (...expressions: any) => {
-  return `
+    return `
     ${mediaQueryDefs.onDesktop} {
       ${expressions.join()}
     }
@@ -28,7 +28,7 @@ export const onDesktop = (...expressions: any) => {
 };
 
 export const onSmallScreen = (...expressions: any) => {
-  return `
+    return `
     ${mediaQueryDefs.onSmallScreen} {
       ${expressions.join()}
     }

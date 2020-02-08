@@ -6,25 +6,26 @@ import { Space } from 'atoms/space';
 import styled from 'styled-components';
 
 type GreetingProps = {
-  guildSlug: Guild.AsObject;
+    guildSlug: Guild.AsObject;
 };
 
 const Center = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 `;
 
 export const PreauthGreeting = (props: GreetingProps) => (
-  <Center>
-    <Avatar size={64} src={props.guildSlug.icon}>
-      {avatarUtils.initialsFromName(props.guildSlug.name)}
-    </Avatar>
-    <AccentTitle>
-      Hi there. <b>{props.guildSlug.name}</b> uses Roleypoly to help assign you roles.
-    </AccentTitle>
-    <Space />
-    <Space />
-  </Center>
+    <Center>
+        <Avatar size={64} src={props.guildSlug.icon}>
+            {avatarUtils.initialsFromName(props.guildSlug.name)}
+        </Avatar>
+        <AccentTitle>
+            Hi there. <b>{props.guildSlug.name}</b> uses Roleypoly to help assign you
+            roles.
+        </AccentTitle>
+        <Space />
+        <Space />
+    </Center>
 );

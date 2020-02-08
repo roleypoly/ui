@@ -8,21 +8,21 @@ import styled from 'styled-components';
 const story = organismStories('Preauth', module);
 
 const Center = styled.div`
-  margin: 0 auto;
+    margin: 0 auto;
 `;
 
 story.add('No Slug', () => {
-  return (
-    <Center>
-      <Preauth onSendSecretCode={action('secret code!')} />
-    </Center>
-  );
+    return (
+        <Center>
+            <Preauth onSendSecretCode={action('secret code!')} />
+        </Center>
+    );
 });
 
 story.add('With Slug', () => {
-  return (
-    <Center>
-      <Preauth guildSlug={guild} onSendSecretCode={action('secret code!')} />
-    </Center>
-  );
+    return (
+        <Center>
+            <Preauth guildSlug={guild} onSendSecretCode={action('secret code!')} />
+        </Center>
+    );
 });

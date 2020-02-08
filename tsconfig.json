@@ -1,33 +1,33 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
-    "strict": true,
-    "esModuleInterop": true,
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "experimentalDecorators": true,
-    "jsx": "preserve",
-    "downlevelIteration": true,
-    "baseUrl": ".",
-    "noUnusedLocals": true,
-    "paths": {
-      "atoms/*": ["./atoms/*"],
-      "molecules/*": ["./molecules/*"],
-      "organisms/*": ["./organisms/*"],
-      "templates/*": ["./templates/*"],
-      "pages/*": ["./pages/*"],
-      "hack/*": ["./hack/*"],
-      "utils/*": ["./utils/*"],
-      "contexts/*": ["./contexts/*"]
-    }
-  },
-  "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "experimentalDecorators": true,
+        "jsx": "preserve",
+        "downlevelIteration": true,
+        "baseUrl": ".",
+        "noUnusedLocals": true,
+        "paths": {
+            "atoms/*": ["./atoms/*"],
+            "molecules/*": ["./molecules/*"],
+            "organisms/*": ["./organisms/*"],
+            "templates/*": ["./templates/*"],
+            "pages/*": ["./pages/*"],
+            "hack/*": ["./hack/*"],
+            "utils/*": ["./utils/*"],
+            "contexts/*": ["./contexts/*"]
+        }
+    },
+    "exclude": ["node_modules"],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
