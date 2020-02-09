@@ -12,7 +12,15 @@ export const MastheadBase = styled.div`
     background-color: ${palette.taupe100};
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0 3px;
+`;
+
+export const MastheadAlignment = styled.div`
+    max-width: 98vw;
+    width: 1024px;
+    display: flex;
+    align-items: center;
 `;
 
 const sideBase = styled.div`
