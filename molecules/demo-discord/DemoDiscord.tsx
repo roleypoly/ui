@@ -24,7 +24,7 @@ export const DemoDiscord = () => {
                     : easterEggCount >= 10
                     ? `S-senpai... Be careful...`
                     : easterEggCount >= 5
-                    ? `Take me out to dinner first, gosh...`
+                    ? `H-hey... Stop that..`
                     : `Hey, I'd like some roles!`}
             </TextParts>
             {/* input */}
