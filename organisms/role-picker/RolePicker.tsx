@@ -15,6 +15,7 @@ import {
     InfoIcon,
     MessageBox,
 } from './RolePicker.styled';
+import { newlineToBR } from 'utils/newlineToBR';
 
 export type RolePickerProps = {
     guild: Guild.AsObject;
@@ -67,7 +68,7 @@ export const RolePicker = (props: RolePickerProps) => {
             <Space />
             {props.guildData.message && (
                 <>
-                    <MessageBox>{props.guildData.message}</MessageBox>
+                    <MessageBox>{newlineToBR(props.guildData.message)}</MessageBox>
                     <Space />
                 </>
             )}
