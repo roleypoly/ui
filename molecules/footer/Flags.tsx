@@ -8,15 +8,11 @@ type FlagsProps = {
 export const Flags = (props: FlagsProps) => (
     <svg width={props.width} height={props.height} viewBox="0 0 3372 900" version="1.1">
         <defs>
-            <rect id="path-1" x="0" y="0" width="1600" height="900" rx="100"></rect>
             <rect id="path-3" x="1772" y="0" width="1600" height="900" rx="100"></rect>
         </defs>
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <mask id="mask-2" fill="white">
-                <use href="#path-1"></use>
-            </mask>
             <g id="Rectangle-5"></g>
-            <g id="Trans" mask="url(#mask-2)">
+            <g id="Trans">
                 <rect
                     id="Rectangle"
                     fill="#55CDFC"
@@ -24,6 +20,7 @@ export const Flags = (props: FlagsProps) => (
                     y="0"
                     width="1600"
                     height="900"
+                    rx="100"
                 ></rect>
                 <rect
                     id="Rectangle-2"
