@@ -39,9 +39,9 @@ export const Outer = styled.div<StyledProps>`
 `;
 
 export const Circle = styled.div<StyledProps>`
-    width: 23px;
-    height: 23px;
-    border-radius: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 25px;
     background-color: ${props =>
         props.defaultColor && !props.selected ? 'transparent' : 'var(--role-color)'};
     border: 1px solid
