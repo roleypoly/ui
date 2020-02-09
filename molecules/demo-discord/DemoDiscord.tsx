@@ -10,7 +10,7 @@ export const DemoDiscord = () => {
     return (
         <Base>
             <Timestamp>
-                {time.getHours() % 12}:{timeString.slice(3, 5)}{' '}
+                {time.getHours() % 12}:{timeString.slice(3, 5)}&nbsp;
                 {time.getHours() <= 12 ? 'AM' : 'PM'}
             </Timestamp>
             <Username onClick={() => setEasterEggCount(easterEggCount + 1)}>
