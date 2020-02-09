@@ -11,6 +11,7 @@ export const HalfsiesContainer = styled.div`
 
 export const HalfsiesItem = styled.div`
     flex: 1 1 100%;
+    margin-top: 2em;
     ${onTablet(css`
         flex: 1 2 50%;
     `)}
