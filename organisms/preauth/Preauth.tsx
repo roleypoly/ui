@@ -7,9 +7,10 @@ import * as React from 'react';
 import { FaDiscord } from 'react-icons/fa';
 import styled from 'styled-components';
 
-type PreauthProps = {
+export type PreauthProps = {
     guildSlug?: Guild.AsObject;
     onSendSecretCode: (code: string) => void;
+    botName?: string;
 };
 
 const Centered = styled.div`
@@ -46,7 +47,8 @@ export const Preauth = (props: PreauthProps) => {
             <Space />
             <WidthContainer>
                 <p>
-                    Or, send a message saying "login" to <b>roleypoly#3266</b>
+                    Or, send a message saying "login" to{' '}
+                    <b>{props.botName || 'roleypoly'}</b>
                 </p>
                 <PreauthSecretCode onSubmit={props.onSendSecretCode} />
             </WidthContainer>

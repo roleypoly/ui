@@ -58,3 +58,10 @@ export const InteractionBase = styled.div`
         cursor: pointer;
     }
 `;
+
+export const MastheadA = styled.a`
+    display: flex;
+    align-items: center;
+    color: unset;
+    text-decoration: unset;
+`;

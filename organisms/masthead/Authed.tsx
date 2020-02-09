@@ -13,8 +13,10 @@ export const Authed = (props: Props) => (
     <styled.MastheadBase>
         <styled.MastheadAlignment>
             <styled.MastheadLeft>
-                <Link href="/dashboard">
-                    <Logomark height={40} />
+                <Link href="/dashboard" passHref>
+                    <styled.MastheadA>
+                        <Logomark height={40} />
+                    </styled.MastheadA>
                 </Link>
             </styled.MastheadLeft>
             <styled.MastheadRight>

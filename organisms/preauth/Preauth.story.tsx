@@ -14,7 +14,7 @@ const Center = styled.div`
 story.add('No Slug', () => {
     return (
         <Center>
-            <Preauth onSendSecretCode={action('secret code!')} />
+            <Preauth botName="roleypoly#3266" onSendSecretCode={action('secret code!')} />
         </Center>
     );
 });
@@ -22,7 +22,11 @@ story.add('No Slug', () => {
 story.add('With Slug', () => {
     return (
         <Center>
-            <Preauth guildSlug={guild} onSendSecretCode={action('secret code!')} />
+            <Preauth
+                botName="roleypoly#3266"
+                guildSlug={guild}
+                onSendSecretCode={action('secret code!')}
+            />
         </Center>
     );
 });
