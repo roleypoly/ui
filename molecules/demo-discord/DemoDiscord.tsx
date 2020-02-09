@@ -1,5 +1,15 @@
 import * as React from 'react';
-import { Base, Timestamp, TextParts, Username } from './DemoDiscord.styled';
+import {
+    Base,
+    Timestamp,
+    TextParts,
+    Username,
+    InputBox,
+    Line,
+    InputTextAlignment,
+} from './DemoDiscord.styled';
+import { demoData } from 'hack/fixtures/demoData';
+import { Typist } from 'atoms/typist';
 
 export const DemoDiscord = () => {
     const time = new Date();
@@ -27,7 +37,17 @@ export const DemoDiscord = () => {
                     ? `H-hey... Stop that..`
                     : `Hey, I'd like some roles!`}
             </TextParts>
-            {/* input */}
+            <InputBox>
+                <InputTextAlignment>
+                    &nbsp;
+                    <Typist
+                        resetTimeout={2000}
+                        charTimeout={75}
+                        lines={demoData.map(role => `.iam ${role.name}`)}
+                    />
+                    <Line />
+                </InputTextAlignment>
+            </InputBox>
         </Base>
     );
 };
