@@ -8,6 +8,9 @@ const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 95px;
 `;
 
 const RoleWrap = styled.div`

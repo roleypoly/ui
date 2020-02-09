@@ -9,27 +9,34 @@ import {
     HalfsiesItem,
     HeroCentering,
     HeroText,
+    DemoAlignment,
 } from './Landing.styled';
 import { DemoDiscord } from 'molecules/demo-discord';
 
 export const Landing = () => (
     <HeroCentering>
+        <Space />
+        <Space />
         <HeroText>
             <div>
-                <LargeTitle>Tame your Discord&nbsp;roles.</LargeTitle>
+                <LargeTitle>Discord roles for humans.</LargeTitle>
             </div>
             <div style={{ color: palette.taupe500 }}>
                 <LargeText>Ditch the bot commands. It's&nbsp;2020.</LargeText>
             </div>
         </HeroText>
-        <Space></Space>
+        <Space />
         <HalfsiesContainer>
             <HalfsiesItem>
-                <DemoDiscord />
+                <DemoAlignment>
+                    <DemoDiscord />
+                </DemoAlignment>
                 <DemoSubtitle>Why are you okay with antiques?</DemoSubtitle>
             </HalfsiesItem>
             <HalfsiesItem>
-                <DemoPicker />
+                <DemoAlignment>
+                    <DemoPicker />
+                </DemoAlignment>
                 <DemoSubtitle>Just click or tap.</DemoSubtitle>
             </HalfsiesItem>
         </HalfsiesContainer>

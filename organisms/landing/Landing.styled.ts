@@ -12,6 +12,7 @@ export const HalfsiesContainer = styled.div`
 export const HalfsiesItem = styled.div`
     flex: 1 1 100%;
     margin-top: 2em;
+    padding: 0 5px;
     ${onTablet(css`
         flex: 1 2 50%;
     `)}
@@ -27,6 +28,10 @@ export const DemoSubtitle = styled.p`
     ${text400}
     text-align: center;
     margin-top: 0.4em;
+`;
+
+export const DemoAlignment = styled.div`
+    min-height: 95px;
 `;
 
 export const HeroCentering = styled.div`

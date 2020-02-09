@@ -3,9 +3,9 @@ import { palette } from 'atoms/colors';
 
 export const Base = styled.div`
     background-color: ${palette.discord100};
-    border: solid 2px rgba(0, 0, 0, 0.15);
+    border: solid 1px rgba(0, 0, 0, 0.15);
     border-radius: 3px;
-    padding: 5px;
+    padding: 10px;
     user-select: none;
 `;
 
