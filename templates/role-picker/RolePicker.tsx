@@ -10,7 +10,7 @@ export type RolePickerTemplateProps = RolePickerProps & {
 export const RolePickerTemplate = (props: RolePickerTemplateProps) => {
     const { user, ...pickerProps } = props;
     return (
-        <AppShell user={user}>
+        <AppShell user={user} small>
             <RolePicker {...pickerProps} />
         </AppShell>
     );

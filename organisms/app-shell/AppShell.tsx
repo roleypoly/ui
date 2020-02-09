@@ -9,6 +9,7 @@ type AppShellProps = {
     children: React.ReactNode;
     user: RoleypolyUser.AsObject | null;
     showFooter?: boolean;
+    small?: boolean;
 };
 
 export const AppShell = (props: AppShellProps) => (
@@ -16,7 +17,7 @@ export const AppShell = (props: AppShellProps) => (
         <GlobalStyles />
         <GlobalStyleColors />
         {props.user !== null ? <Masthead.Authed user={props.user} /> : <Masthead.Guest />}
-        <Content>{props.children}</Content>
+        <Content small={props.small}>{props.children}</Content>
         {props.showFooter && <Footer />}
     </>
 );
