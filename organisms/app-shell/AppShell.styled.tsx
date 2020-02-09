@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
+import { palette } from 'atoms/colors';
 
 export const Content = styled.div<{ small?: boolean }>`
     margin: 0 auto;
@@ -8,6 +9,10 @@ export const Content = styled.div<{ small?: boolean }>`
 `;
 
 export const GlobalStyles = createGlobalStyle`
+    body {
+        background-color: ${palette.taupe200};
+        color: ${palette.grey600};
+    }
     * {
         box-sizing: border-box;
     }
