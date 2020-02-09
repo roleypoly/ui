@@ -14,7 +14,7 @@ export const DemoDiscord = () => {
                 {time.getHours() <= 12 ? 'AM' : 'PM'}
             </Timestamp>
             <Username onClick={() => setEasterEggCount(easterEggCount + 1)}>
-                okano cat
+                okano&nbsp;cat
             </Username>
             <TextParts>
                 {easterEggCount >= 15
