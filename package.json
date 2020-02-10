@@ -83,7 +83,7 @@
         "prettier-plugin-packagejson": "^2.0.10",
         "react-docgen-typescript-loader": "^3.6.0",
         "react-test-renderer": "^16.12.0",
-        "stylelint": "^13.0.0",
+        "stylelint": "^13.1.0",
         "stylelint-config-prettier": "^8.0.1",
         "stylelint-config-standard": "^19.0.0",
         "stylelint-config-styled-components": "^0.1.1",
