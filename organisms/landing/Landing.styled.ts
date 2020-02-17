@@ -10,9 +10,9 @@ export const HalfsiesContainer = styled.div`
 `;
 
 export const HalfsiesItem = styled.div`
+    box-sizing: border-box;
     flex: 1 1 100%;
     margin-top: 2em;
-    padding: 0 5px;
     ${onTablet(css`
         flex: 1 2 50%;
     `)}
@@ -31,7 +31,10 @@ export const DemoSubtitle = styled.p`
 `;
 
 export const DemoAlignment = styled.div`
-    min-height: 95px;
+    min-height: 125px;
+    ${onTablet(css`
+        min-height: 95px;
+    `)}
 `;
 
 export const HeroCentering = styled.div`

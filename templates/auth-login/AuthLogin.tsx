@@ -1,14 +1,14 @@
-import * as React from 'react';
+import { Hero } from 'atoms/hero';
 import { AppShell } from 'organisms/app-shell';
 import { Preauth, PreauthProps } from 'organisms/preauth/Preauth';
-import { Space } from 'atoms/space';
+import * as React from 'react';
 
 export type AuthLoginProps = PreauthProps;
 
 export const AuthLogin = (props: AuthLoginProps) => (
     <AppShell showFooter user={null}>
-        <Space />
-        <Space />
-        <Preauth {...props} />
+        <Hero topSpacing={100} bottomSpacing={175}>
+            <Preauth {...props} />
+        </Hero>
     </AppShell>
 );

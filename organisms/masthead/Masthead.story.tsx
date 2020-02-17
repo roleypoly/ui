@@ -1,8 +1,8 @@
-import * as React from 'react';
+import { rpUser } from 'hack/fixtures/storyData';
 import { organismStories } from 'organisms/organisms.story';
+import * as React from 'react';
 import { Authed } from './Authed';
 import { Guest } from './Guest';
-import { rpUser } from 'hack/fixtures/storyData';
 
 const rootStory = organismStories('Masthead', module);
 const userStory = organismStories('Masthead/User', module);

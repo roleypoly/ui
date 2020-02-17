@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import { palette } from 'atoms/colors';
 import { onSmallScreen } from 'atoms/breakpoints';
+import { palette } from 'atoms/colors';
 import { transitions } from 'atoms/timings';
+import styled, { css } from 'styled-components';
 
 export const MastheadBase = styled.div`
     position: fixed;
@@ -14,6 +14,7 @@ export const MastheadBase = styled.div`
     align-items: center;
     justify-content: center;
     padding: 0 3px;
+    z-index: 100;
 `;
 
 export const MastheadAlignment = styled.div`
@@ -35,9 +36,9 @@ export const MastheadRight = styled(sideBase)`
 `;
 
 export const MastheadCollapse = styled.div`
-    ${onSmallScreen(`
-    display: none;
-  `)}
+    ${onSmallScreen(css`
+        display: none;
+    `)}
 `;
 
 export const MastheadInner = styled.div`
