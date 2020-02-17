@@ -1,7 +1,7 @@
-import { onSmallScreen, onTablet, onDesktop } from 'atoms/breakpoints';
+import { onSmallScreen, onTablet } from 'atoms/breakpoints';
 import { palette } from 'atoms/colors';
-import styled, { css } from 'styled-components';
 import { transitions } from 'atoms/timings';
+import styled, { css } from 'styled-components';
 
 type PopoverStyledProps = {
     active: boolean;
