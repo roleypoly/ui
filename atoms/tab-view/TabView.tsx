@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { TabTitleRow, TabContent, TabViewStyled, TabTitle } from './TabView.styled';
 
-type TabViewProps = {
+export type TabViewProps = {
     children: { [title: string]: React.ReactNode };
     initialTab?: string;
 };
