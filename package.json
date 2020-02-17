@@ -32,6 +32,8 @@
             "prettier --write"
         ],
         "*.{ts,tsx}": [
+            "jest --bail --findRelatedTests",
+            "stylelint --fix",
             "prettier --write",
             "tslint --fix"
         ]
