@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { PlatformClient } from '@roleypoly/rpc/platform';
-import { withContext } from 'utils/withContext';
 import { NodeHttpTransport } from '@improbable-eng/grpc-web-node-http-transport';
+import { PlatformClient } from '@roleypoly/rpc/platform';
 import getConfig from 'next/config';
+import * as React from 'react';
+import { withContext } from 'utils/withContext';
 
 export const platformClient = () =>
     new PlatformClient(getConfig().publicRuntimeConfig.platformUrl, {
