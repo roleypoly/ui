@@ -12,7 +12,7 @@ export const authClient = () =>
 
 export const AuthClientContext = React.createContext(authClient);
 
-export const usePlatform = () => React.useContext(AuthClientContext);
+export const useAuthClient = () => React.useContext(AuthClientContext);
 
-export const withPlatform = <T>(Component: React.ComponentType<T>) =>
+export const withAuthClient = <T>(Component: React.ComponentType<T>) =>
     withContext(AuthClientContext, Component as any);
