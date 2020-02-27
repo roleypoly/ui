@@ -1,18 +1,17 @@
-import * as React from 'react';
-import { FaExclamationTriangle } from 'react-icons/fa';
-
 export type ErrorMessage = {
-    english: string | React.ReactNode;
-    japanese?: string | React.ReactNode;
-    friendlyCode?: string | React.ReactNode;
+    english: string;
+    japanese?: string;
+    friendlyCode?: string;
+};
+
+const defaultMessage: Required<ErrorMessage> = {
+    english: `Something went bad. How could this happen?`,
+    japanese: `わかりません...`,
+    friendlyCode: 'Oops.',
 };
 
 export const errorMessages: { [code: string]: ErrorMessage } = {
-    default: {
-        english: `Something went bad. How could this happen?`,
-        japanese: `わかりません...`,
-        friendlyCode: 'Oops.',
-    },
+    default: defaultMessage,
     '400': {
         english: 'Your client sent me something weird...',
         japanese: '((((；゜Д゜)))',
@@ -36,7 +35,7 @@ export const errorMessages: { [code: string]: ErrorMessage } = {
     serverFailure: {
         english: `Server is super unhappy with you today...`,
         japanese: 'クッキーを送ってください〜',
-        friendlyCode: <FaExclamationTriangle />,
+        friendlyCode: `Oh no!`,
     },
     magicExpired: {
         english: 'That magic login link was expired.',
@@ -44,12 +43,19 @@ export const errorMessages: { [code: string]: ErrorMessage } = {
     },
 };
 
-export const getMessageFromCode = (code: keyof typeof errorMessages) => {
+export const getMessageFromCode = (
+    code: keyof typeof errorMessages
+): Required<ErrorMessage> => {
     const codeStr = String(code);
+    const baseMessage = errorMessages[codeStr];
 
-    return {
-        ...errorMessages['default'],
-        friendlyCode: errorMessages[codeStr].friendlyCode || code,
-        ...(errorMessages[codeStr] || {}),
+    const message: Required<ErrorMessage> = {
+        english: baseMessage?.english || defaultMessage.english,
+        japanese: baseMessage?.japanese || defaultMessage.japanese,
+        friendlyCode: baseMessage
+            ? baseMessage?.friendlyCode || codeStr
+            : defaultMessage.friendlyCode,
     };
+
+    return message;
 };
