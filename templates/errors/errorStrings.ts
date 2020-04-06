@@ -41,6 +41,11 @@ export const errorMessages: { [code: string]: ErrorMessage } = {
         english: 'That magic login link was expired.',
         friendlyCode: 'Woah.',
     },
+    authFailure: {
+        english: `I tried to tell the server who you were...`,
+        japanese: `...but it didn't believe me. :( ごめんなさい`,
+        friendlyCode: 'Yo.',
+    },
 };
 
 export const getMessageFromCode = (

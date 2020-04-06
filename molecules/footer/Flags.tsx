@@ -10,7 +10,7 @@ export const Flags = (props: FlagsProps) => (
         <defs>
             <rect id="path-3" x="1772" y="0" width="1600" height="900" rx="100"></rect>
         </defs>
-        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
             <g id="Rectangle-5"></g>
             <g id="Trans">
                 <rect
