@@ -52,7 +52,9 @@ const Authenticate: NextPage<AuthProps> = (props: AuthProps) => {
 
     if (!token) {
         React.useEffect(() => {
-            router.push({ pathname: '/internal/error/authFailure' });
+            router
+                .push({ pathname: '/internal/error/authFailure' })
+                .catch(() => console.error('router push failed.'));
         });
 
         return null;

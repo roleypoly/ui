@@ -99,6 +99,6 @@ export const composeButton = (opts: ButtonComposerOptions) => {
     return styled(base)`
     ${sizes[opts.size]}
     ${colors[opts.color]}
-    ${opts.modifiers && opts.modifiers.map(mod => modifiers[mod]).join('\n')}
+    ${opts.modifiers && opts.modifiers.map((mod) => modifiers[mod]).join('\n')}
   `;
 };

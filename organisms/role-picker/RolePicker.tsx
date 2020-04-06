@@ -30,8 +30,8 @@ const arrayMatches = (a: any[], b: any[]) => {
     return (
         a === b ||
         (a.length === b.length &&
-            a.every(x => b.includes(x)) &&
-            b.every(x => a.includes(x)))
+            a.every((x) => b.includes(x)) &&
+            b.every((x) => a.includes(x)))
     );
 };
 
@@ -47,16 +47,16 @@ export const RolePicker = (props: RolePickerProps) => {
             updateSelectedRoles(
                 newState === true
                     ? [
-                          ...selectedRoles.filter(x => !category.rolesList.includes(x)),
+                          ...selectedRoles.filter((x) => !category.rolesList.includes(x)),
                           role.id,
                       ]
-                    : selectedRoles.filter(x => x !== role.id)
+                    : selectedRoles.filter((x) => x !== role.id)
             );
         } else {
             updateSelectedRoles(
                 newState === true
                     ? [...selectedRoles, role.id]
-                    : selectedRoles.filter(x => x !== role.id)
+                    : selectedRoles.filter((x) => x !== role.id)
             );
         }
     };
@@ -84,18 +84,18 @@ export const RolePicker = (props: RolePickerProps) => {
                                     key={idx}
                                     category={category}
                                     title={category.name}
-                                    selectedRoles={selectedRoles.filter(roleId =>
+                                    selectedRoles={selectedRoles.filter((roleId) =>
                                         category.rolesList.includes(roleId)
                                     )}
                                     roles={
                                         category.rolesList
-                                            .map(role =>
+                                            .map((role) =>
                                                 props.roles.rolesList.find(
-                                                    r => r.id === role
+                                                    (r) => r.id === role
                                                 )
                                             )
                                             .filter(
-                                                r => r !== undefined
+                                                (r) => r !== undefined
                                             ) as Role.AsObject[]
                                     }
                                     onChange={handleChange(category)}

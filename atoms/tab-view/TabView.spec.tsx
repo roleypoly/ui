@@ -16,50 +16,26 @@ const makeView = (props: Partial<TabViewProps> = {}) =>
 it('renders tab content correctly', () => {
     const view = makeView();
 
-    expect(
-        view
-            .find(Tab)
-            .renderProp('children')()
-            .text()
-    ).toBe('tab 1');
+    expect(view.find(Tab).renderProp('children')().text()).toBe('tab 1');
 });
 
 it('automatically picks preselected tab content', () => {
     const view = makeView({ initialTab: 'Tab 2' });
 
-    expect(
-        view
-            .find(Tab)
-            .renderProp('children')()
-            .text()
-    ).toBe('tab 2');
+    expect(view.find(Tab).renderProp('children')().text()).toBe('tab 2');
 });
 
 it('automatically uses the first tab when preselected tab is not present', () => {
     const view = makeView({ initialTab: 'Not a Tab' });
 
-    view.find(TabContent)
-        .find('i')
-        .simulate('load');
-    expect(
-        view
-            .find(Tab)
-            .renderProp('children')()
-            .text()
-    ).toBe('tab 1');
+    view.find(TabContent).find('i').simulate('load');
+    expect(view.find(Tab).renderProp('children')().text()).toBe('tab 1');
 });
 
 it('changes between tabs when tab is clicked', () => {
     const view = makeView();
 
-    view.find(TabTitle)
-        .at(1)
-        .simulate('click');
+    view.find(TabTitle).at(1).simulate('click');
 
-    expect(
-        view
-            .find(Tab)
-            .renderProp('children')()
-            .text()
-    ).toBe('tab 2');
+    expect(view.find(Tab).renderProp('children')().text()).toBe('tab 2');
 });

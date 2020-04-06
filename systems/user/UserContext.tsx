@@ -29,7 +29,9 @@ export const withUser = <T,>(
         if (!user && redirectIfUnauthorized) {
             React.useEffect(() => {
                 const router = useRouter();
-                router.push(redirectIfUnauthorized);
+                router
+                    .push(redirectIfUnauthorized)
+                    .catch(() => console.error('rounter push failed'));
             });
 
             return (

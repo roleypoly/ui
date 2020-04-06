@@ -22,7 +22,7 @@ export const TabTitle = styled.div<{ selected: boolean }>`
         color ${transitions.in2out}s ease-in-out;
     cursor: pointer;
     color: ${palette.taupe500};
-    ${props =>
+    ${(props) =>
         props.selected
             ? css`
                   color: unset;

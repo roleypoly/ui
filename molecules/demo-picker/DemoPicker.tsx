@@ -27,7 +27,7 @@ export const DemoPicker = () => {
 
     return (
         <Container>
-            {demoData.map(role => (
+            {demoData.map((role) => (
                 <RoleWrap key={`role${role.id}`}>
                     <Role
                         role={role}

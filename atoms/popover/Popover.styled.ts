@@ -19,7 +19,7 @@ export const PopoverBase = styled.div<PopoverStyledProps>`
         transform ${transitions.out2in}s ease-in;
     min-width: 320px;
     max-width: 100vw;
-    ${props =>
+    ${(props) =>
         !props.active &&
         css`
             transform: translateY(-2vh);
@@ -43,7 +43,7 @@ export const DefocusHandler = styled.div<PopoverStyledProps>`
     bottom: 0;
     left: 0;
     right: 0;
-    ${props =>
+    ${(props) =>
         !props.active &&
         css`
             display: none;

@@ -10,9 +10,9 @@ export type StyledProps = {
 
 export const Outer = styled.div<StyledProps>`
     border-radius: 24px;
-    background-color: ${props =>
+    background-color: ${(props) =>
         props.selected && !props.defaultColor ? 'var(--role-color)' : palette.taupe100};
-    color: ${props => (props.selected ? 'var(--role-contrast)' : palette.grey600)};
+    color: ${(props) => (props.selected ? 'var(--role-contrast)' : palette.grey600)};
     transition: color ${transitions.in2in}s ease-in-out,
         background-color ${transitions.in2in}s ease-in-out,
         transform ${transitions.actionable}s ease-in-out,
@@ -22,7 +22,7 @@ export const Outer = styled.div<StyledProps>`
     user-select: none;
     overflow: hidden;
     cursor: pointer;
-    ${props =>
+    ${(props) =>
         !props.disabled
             ? css`
                   &:hover {
@@ -42,10 +42,10 @@ export const Circle = styled.div<StyledProps>`
     width: 24px;
     height: 24px;
     border-radius: 25px;
-    background-color: ${props =>
+    background-color: ${(props) =>
         props.defaultColor && !props.selected ? 'transparent' : 'var(--role-color)'};
     border: 1px solid
-        ${props =>
+        ${(props) =>
             props.defaultColor
                 ? 'var(--role-color)'
                 : props.selected
@@ -61,9 +61,9 @@ export const Circle = styled.div<StyledProps>`
     svg {
         width: 10px;
         height: 10px;
-        fill-opacity: ${props => (props.selected || props.disabled ? 1 : 0)};
+        fill-opacity: ${(props) => (props.selected || props.disabled ? 1 : 0)};
         transition: fill-opacity ${transitions.in2in}s ease-in-out;
-        fill: ${props =>
+        fill: ${(props) =>
             props.disabled && props.defaultColor
                 ? 'var(--role-color)'
                 : 'var(--role-contrast)'};

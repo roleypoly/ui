@@ -4,7 +4,7 @@ import { palette } from 'atoms/colors';
 export const Content = styled.div<{ small?: boolean }>`
     margin: 0 auto;
     margin-top: 50px;
-    width: ${props => (props.small ? '960px' : '1024px')};
+    width: ${(props) => (props.small ? '960px' : '1024px')};
     max-width: 98vw;
 `;
 

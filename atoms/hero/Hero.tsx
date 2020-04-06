@@ -15,8 +15,8 @@ const HeroContainer = styled.div<HeroContainerProps>`
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh - ${props => props.topSpacing + props.bottomSpacing}px);
-    margin-top: ${props => props.topSpacing}px;
+    min-height: calc(100vh - ${(props) => props.topSpacing + props.bottomSpacing}px);
+    margin-top: ${(props) => props.topSpacing}px;
 `;
 
 export const Hero = (props: HeroProps) => (

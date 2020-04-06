@@ -86,7 +86,7 @@ export const roleCategory: Role.AsObject[] = [
 export const mockCategory: Category.AsObject = {
     id: 'aaa',
     name: 'Mock',
-    rolesList: roleCategory.map(x => x.id),
+    rolesList: roleCategory.map((x) => x.id),
     hidden: false,
     type: Category.CategoryType.MULTI,
     position: 0,
@@ -116,7 +116,7 @@ export const roleCategory2: Role.AsObject[] = [
 export const mockCategorySingle: Category.AsObject = {
     id: 'bbb',
     name: 'Mock Single 岡野',
-    rolesList: roleCategory2.map(x => x.id),
+    rolesList: roleCategory2.map((x) => x.id),
     hidden: false,
     type: Category.CategoryType.SINGLE,
     position: 0,

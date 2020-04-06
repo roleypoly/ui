@@ -43,7 +43,7 @@ export const DemoDiscord = () => {
                     <Typist
                         resetTimeout={2000}
                         charTimeout={75}
-                        lines={demoData.map(role => `.iam ${role.name}`)}
+                        lines={demoData.map((role) => `.iam ${role.name}`)}
                     />
                     <Line />
                 </InputTextAlignment>

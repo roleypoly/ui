@@ -18,7 +18,11 @@ const RoleWithState = (props: any) => {
     const [selected, updateSelected] = React.useState(false);
     return (
         <div style={{ padding: 5 }}>
-            <Role {...props} selected={selected} onClick={next => updateSelected(next)} />
+            <Role
+                {...props}
+                selected={selected}
+                onClick={(next) => updateSelected(next)}
+            />
         </div>
     );
 };

@@ -5,6 +5,6 @@ import { BreakpointsProvider } from './BreakpointProvider';
 
 const story = atomStories('Breakpoints', module);
 
-story.addDecorator(story => <BreakpointsProvider>{story()}</BreakpointsProvider>);
+story.addDecorator((story) => <BreakpointsProvider>{story()}</BreakpointsProvider>);
 
 story.add('Debug Tool', () => <BreakpointDebugTool />);

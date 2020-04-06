@@ -29,28 +29,15 @@ it('unselects the rest of a category in single mode', () => {
 
     const view = shallow(<RolePicker {...props} />);
 
-    const roles = view
-        .find(PickerCategory)
-        .dive()
-        .find(Role);
+    const roles = view.find(PickerCategory).dive().find(Role);
 
-    roles
-        .first()
-        .props()
-        .onClick?.(true);
+    roles.first().props().onClick?.(true);
 
-    view.find(ResetSubmit)
-        .props()
-        .onSubmit();
+    view.find(ResetSubmit).props().onSubmit();
     expect(props.onSubmit).toBeCalledWith([mockCategorySingle.rolesList[0]]);
 
-    roles
-        .last()
-        .props()
-        .onClick?.(true);
+    roles.last().props().onClick?.(true);
 
-    view.find(ResetSubmit)
-        .props()
-        .onSubmit();
+    view.find(ResetSubmit).props().onSubmit();
     expect(props.onSubmit).toBeCalledWith([mockCategorySingle.rolesList[1]]);
 });

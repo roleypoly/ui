@@ -12,7 +12,7 @@ export function requireContext(
 
     function enumerateFiles(basedir: any, dir: any) {
         let result: string[] = [];
-        fs.readdirSync(path.join(basedir, dir)).forEach(function(file) {
+        fs.readdirSync(path.join(basedir, dir)).forEach(function (file) {
             const relativePath = dir + '/' + file;
             const stats = fs.lstatSync(path.join(basedir, relativePath));
             if (stats.isDirectory()) {
