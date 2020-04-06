@@ -11,5 +11,5 @@ module.exports = {
     pages: src(`pages`),
     hack: src(`hack`),
     utils: src(`utils`),
-    contexts: src(`contexts`),
+    systems: src(`systems`),
 };

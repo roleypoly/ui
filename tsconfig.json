@@ -25,7 +25,7 @@
             "pages/*": ["./pages/*"],
             "hack/*": ["./hack/*"],
             "utils/*": ["./utils/*"],
-            "contexts/*": ["./contexts/*"]
+            "systems/*": ["./systems/*"]
         }
     },
     "exclude": ["node_modules"],
