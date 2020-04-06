@@ -7,7 +7,11 @@ import { withUser, useUser } from 'systems/user';
 const ServerIndex: NextPage<RolePickerTemplateProps> = (
     props: RolePickerTemplateProps
 ) => {
-    const user = useUser();
+    const user = useUser().user;
+
+    if (!user) {
+        throw new Error('user cannot be undefined');
+    }
 
     return <RolePickerTemplate {...props} user={user} />;
 };
@@ -36,4 +40,4 @@ ServerIndex.getInitialProps = async (
     };
 };
 
-export default withUser(ServerIndex, true);
+export default withUser(ServerIndex, '/');
