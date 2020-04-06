@@ -1,6 +1,6 @@
 import { NextPageContext } from 'next';
 import { Error as ErrorTemplate } from 'templates/errors';
-import { useUser } from 'contexts/user';
+import { useUser } from 'systems/user';
 
 type Props = {
     statusCode: string;
