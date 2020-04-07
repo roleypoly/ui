@@ -2,22 +2,6 @@ import { onTablet } from 'atoms/breakpoints';
 import { text400 } from 'atoms/typography';
 import styled, { css } from 'styled-components';
 
-export const HalfsiesContainer = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-`;
-
-export const HalfsiesItem = styled.div`
-    box-sizing: border-box;
-    flex: 1 1 100%;
-    margin-top: 2em;
-    ${onTablet(css`
-        flex: 1 2 50%;
-    `)}
-`;
-
 export const HeroText = styled.div`
     ${onTablet(css`
         text-align: center;

@@ -4,14 +4,8 @@ import { LargeText, LargeTitle } from 'atoms/typography';
 import { DemoDiscord } from 'molecules/demo-discord';
 import { DemoPicker } from 'molecules/demo-picker';
 import * as React from 'react';
-import {
-    DemoAlignment,
-    DemoSubtitle,
-    HalfsiesContainer,
-    HalfsiesItem,
-    HeroCentering,
-    HeroText,
-} from './Landing.styled';
+import { DemoAlignment, DemoSubtitle, HeroCentering, HeroText } from './Landing.styled';
+import { HalfsiesContainer, HalfsiesItem } from 'atoms/halfsies';
 
 export const Landing = () => (
     <HeroCentering>
@@ -27,13 +21,13 @@ export const Landing = () => (
         </HeroText>
         <Space />
         <HalfsiesContainer>
-            <HalfsiesItem>
+            <HalfsiesItem style={{ marginTop: '2em' }}>
                 <DemoAlignment>
                     <DemoDiscord />
                 </DemoAlignment>
                 <DemoSubtitle>Why are you okay with antiques?</DemoSubtitle>
             </HalfsiesItem>
-            <HalfsiesItem>
+            <HalfsiesItem style={{ marginTop: '2em' }}>
                 <DemoAlignment>
                     <DemoPicker />
                 </DemoAlignment>
