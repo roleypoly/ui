@@ -6,6 +6,7 @@ import { demoData } from 'hack/fixtures/demoData';
 import { Role } from '@roleypoly/rpc/shared';
 import { palette } from 'atoms/colors';
 import chroma from 'chroma-js';
+import { SparkleOverlay } from 'atoms/sparkle';
 
 const adminRoles: Role.AsObject[] = [
     {
@@ -42,13 +43,27 @@ const goodRoles = [...adminRoles, roleypolyRole, ...demoData];
 
 const badRoles = [...adminRoles, ...demoData, roleypolyRole];
 
-const Example = (props: { roles: Role.AsObject[] }) => (
+const MaybeWithOverlay = (props: { children: React.ReactNode; withOverlay: boolean }) => {
+    if (props.withOverlay) {
+        return (
+            <SparkleOverlay size={-5} repeatCount={10}>
+                {props.children}
+            </SparkleOverlay>
+        );
+    } else {
+        return <>{props.children}</>;
+    }
+};
+
+const Example = (props: { roles: Role.AsObject[]; isGood: boolean }) => (
     <div>
         <DiscordBase>
             {props.roles.map((r) => (
-                <DiscordRole discordRole={r} isRoleypoly={r.name === 'Roleypoly'}>
-                    {r.name}
-                </DiscordRole>
+                <MaybeWithOverlay withOverlay={props.isGood && r.name === 'Roleypoly'}>
+                    <DiscordRole discordRole={r} isRoleypoly={r.name === 'Roleypoly'}>
+                        {r.name}
+                    </DiscordRole>
+                </MaybeWithOverlay>
             ))}
         </DiscordBase>
     </div>
@@ -58,11 +73,11 @@ export const WhyNoRoles = () => (
     <HalfsiesContainer>
         <HalfsiesItem>
             <FaCheck /> Good
-            <Example roles={goodRoles} />
+            <Example isGood roles={goodRoles} />
         </HalfsiesItem>
         <HalfsiesItem>
             <FaTimes /> Baddd
-            <Example roles={badRoles} />
+            <Example isGood={false} roles={badRoles} />
         </HalfsiesItem>
     </HalfsiesContainer>
 );
