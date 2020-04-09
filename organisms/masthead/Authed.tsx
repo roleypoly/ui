@@ -11,28 +11,48 @@ import {
     MastheadLeft,
     MastheadRight,
 } from './Masthead.styled';
+import { Popover } from 'atoms/popover';
+import { UserPopover } from 'molecules/user-popover';
 
 type Props = {
     user: RoleypolyUser.AsObject;
 };
 
-export const Authed = (props: Props) => (
-    <MastheadBase>
-        <MastheadAlignment>
-            <MastheadLeft>
-                <Link href="/dashboard" passHref>
-                    <MastheadA>
-                        <Logomark height={40} />
-                    </MastheadA>
-                </Link>
-            </MastheadLeft>
-            <MastheadRight>
-                <InteractionBase>
-                    {props.user.discorduser && (
-                        <UserAvatarGroup user={props.user.discorduser} />
-                    )}
-                </InteractionBase>
-            </MastheadRight>
-        </MastheadAlignment>
-    </MastheadBase>
-);
+export const Authed = (props: Props) => {
+    const [popoverState, setPopoverState] = React.useState(false);
+
+    return (
+        <MastheadBase>
+            <MastheadAlignment>
+                <MastheadLeft>
+                    <Link href="/dashboard" passHref>
+                        <MastheadA>
+                            <Logomark height={40} />
+                        </MastheadA>
+                    </Link>
+                </MastheadLeft>
+                <MastheadRight>
+                    <InteractionBase
+                        onClick={() => setPopoverState(true)}
+                        hide={!popoverState}
+                    >
+                        {props.user.discorduser && (
+                            <UserAvatarGroup user={props.user.discorduser} />
+                        )}
+                    </InteractionBase>
+                    <Popover
+                        headContent={<></>}
+                        canDefocus
+                        position="top right"
+                        active={popoverState}
+                        onExit={() => setPopoverState(false)}
+                    >
+                        {props.user.discorduser && (
+                            <UserPopover user={props.user.discorduser} />
+                        )}
+                    </Popover>
+                </MastheadRight>
+            </MastheadAlignment>
+        </MastheadBase>
+    );
+};

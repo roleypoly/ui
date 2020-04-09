@@ -11,7 +11,7 @@ type UserPopoverProps = {
 
 export const UserPopover = (props: UserPopoverProps) => (
     <Base>
-        <UserAvatarGroup user={props.user} />
+        <UserAvatarGroup user={props.user} preventCollapse={true} />
         <NavAction>
             <Link href="/user/settings">
                 <>

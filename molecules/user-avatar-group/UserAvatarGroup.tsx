@@ -5,11 +5,12 @@ import { Group, Collapse, Discriminator } from './UserAvatarGroup.styled';
 
 type Props = {
     user: DiscordUser.AsObject;
+    preventCollapse?: boolean;
 };
 
 export const UserAvatarGroup = (props: Props) => (
     <Group>
-        <Collapse>
+        <Collapse preventCollapse={props.preventCollapse || false}>
             {props.user.username}
             <Discriminator>#{props.user.discriminator}</Discriminator>
             &nbsp;

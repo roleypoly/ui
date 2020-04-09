@@ -33,6 +33,9 @@ export const PopoverBase = styled.div<PopoverStyledProps>`
         left: 0;
         bottom: 0;
         right: 0;
+        min-width: unset;
+        width: 100vw;
+        height: 100vh;
     `)};
 `;
 
@@ -55,7 +58,6 @@ export const DefocusHandler = styled.div<PopoverStyledProps>`
 export const PopoverHead = styled.div`
     display: flex;
     align-items: center;
-    padding: 5px;
 `;
 
 export const PopoverHeadCloser = styled.div`

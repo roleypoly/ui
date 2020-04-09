@@ -47,12 +47,13 @@ export const MastheadInner = styled.div`
     align-items: center;
 `;
 
-export const InteractionBase = styled.div`
+export const InteractionBase = styled.div<{ hide: boolean }>`
     display: flex;
     align-items: center;
     height: 50px;
     padding: 0 5px;
-    transition: background-color ${transitions.actionable}s ease-in-out;
+    transition: * ${transitions.actionable}s ease-in-out;
+    opacity: ${(props) => (props.hide ? 1 : 0)};
 
     :hover {
         background-color: rgba(0, 0, 0, 0.15);

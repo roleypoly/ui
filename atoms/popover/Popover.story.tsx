@@ -16,7 +16,7 @@ story.add('Popover', () => {
                 {!isOpen ? 'Open' : 'Close'} me!
             </Button>
             <Popover
-                position="bottom left"
+                position="top right"
                 active={isOpen}
                 onExit={() => setIsOpen(false)}
                 canDefocus={canDefocus}

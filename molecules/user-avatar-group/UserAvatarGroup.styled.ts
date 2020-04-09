@@ -2,10 +2,12 @@ import styled, { css } from 'styled-components';
 import { onSmallScreen } from 'atoms/breakpoints';
 import { palette } from 'atoms/colors';
 
-export const Collapse = styled.div`
-    ${onSmallScreen(css`
-        display: none;
-    `)}
+export const Collapse = styled.div<{ preventCollapse: boolean }>`
+    ${(props) =>
+        !props.preventCollapse &&
+        onSmallScreen(css`
+            display: none;
+        `)}
 `;
 
 export const Group = styled.div`
