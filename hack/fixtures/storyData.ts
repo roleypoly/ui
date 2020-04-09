@@ -155,7 +155,7 @@ export const user: DiscordUser.AsObject = {
     username: 'okano cat',
     discriminator: '3266',
     avatar:
-        'https://cdn.discordapp.com/avatars/62601275618889728/1df826136060816cf7a7f4838c2dc11b.png',
+        'https://cdn.discordapp.com/avatars/62601275618889728/b1292bb974557337702cb941fc038085.png',
     bot: false,
 };
 
