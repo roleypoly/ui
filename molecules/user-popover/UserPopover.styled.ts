@@ -15,10 +15,11 @@ export const NavAction = styled.div`
     align-items: center;
     justify-content: flex-end;
     transition: color ${transitions.actionable}s ease-in-out;
+    color: ${palette.taupe500};
 
     &:hover {
-        color: ${palette.taupe600};
         cursor: pointer;
+        color: ${palette.taupe600};
     }
 
     svg {
