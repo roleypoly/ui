@@ -1,38 +1,38 @@
 import { RoleypolyUser } from '@roleypoly/rpc/shared';
-import { Avatar } from 'atoms/avatar';
 import { Logomark } from 'atoms/branding';
+import { UserAvatarGroup } from 'molecules/user-avatar-group';
 import Link from 'next/link';
 import * as React from 'react';
-import * as styled from './Masthead.styled';
+import {
+    InteractionBase,
+    MastheadA,
+    MastheadAlignment,
+    MastheadBase,
+    MastheadLeft,
+    MastheadRight,
+} from './Masthead.styled';
 
 type Props = {
     user: RoleypolyUser.AsObject;
 };
 
 export const Authed = (props: Props) => (
-    <styled.MastheadBase>
-        <styled.MastheadAlignment>
-            <styled.MastheadLeft>
+    <MastheadBase>
+        <MastheadAlignment>
+            <MastheadLeft>
                 <Link href="/dashboard" passHref>
-                    <styled.MastheadA>
+                    <MastheadA>
                         <Logomark height={40} />
-                    </styled.MastheadA>
+                    </MastheadA>
                 </Link>
-            </styled.MastheadLeft>
-            <styled.MastheadRight>
-                <styled.InteractionBase>
-                    <styled.MastheadInner>
-                        <styled.MastheadCollapse>
-                            {props.user.discorduser?.username}#
-                            {props.user.discorduser?.discriminator}
-                            &nbsp;&nbsp;
-                        </styled.MastheadCollapse>
-                        <Avatar size={34} src={props.user.discorduser?.avatar}>
-                            {props.user.discorduser?.username[0].toUpperCase()}
-                        </Avatar>
-                    </styled.MastheadInner>
-                </styled.InteractionBase>
-            </styled.MastheadRight>
-        </styled.MastheadAlignment>
-    </styled.MastheadBase>
+            </MastheadLeft>
+            <MastheadRight>
+                <InteractionBase>
+                    {props.user.discorduser && (
+                        <UserAvatarGroup user={props.user.discorduser} />
+                    )}
+                </InteractionBase>
+            </MastheadRight>
+        </MastheadAlignment>
+    </MastheadBase>
 );

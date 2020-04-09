@@ -5,6 +5,7 @@ import styled, { css } from 'styled-components';
 
 type PopoverStyledProps = {
     active: boolean;
+    preferredWidth?: number;
 };
 
 export const PopoverBase = styled.div<PopoverStyledProps>`
@@ -17,7 +18,7 @@ export const PopoverBase = styled.div<PopoverStyledProps>`
     z-index: 10;
     transition: opacity ${transitions.out2in}s ease-in,
         transform ${transitions.out2in}s ease-in;
-    min-width: 320px;
+    min-width: ${(props) => props.preferredWidth || 320}px;
     max-width: 100vw;
     ${(props) =>
         !props.active &&
