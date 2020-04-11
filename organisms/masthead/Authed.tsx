@@ -38,7 +38,10 @@ export const Authed = (props: Props) => {
                         </MastheadA>
                     </Link>
                     <InteractionBase
-                        onClick={() => setServerPopoverState(true)}
+                        onClick={() => {
+                            setServerPopoverState(true);
+                            setUserPopoverState(false);
+                        }}
                         hide={!serverPopoverState}
                     >
                         <NavSlug
@@ -61,7 +64,10 @@ export const Authed = (props: Props) => {
                 </MastheadLeft>
                 <MastheadRight>
                     <InteractionBase
-                        onClick={() => setUserPopoverState(true)}
+                        onClick={() => {
+                            setUserPopoverState(true);
+                            setServerPopoverState(false);
+                        }}
                         hide={!userPopoverState}
                     >
                         {props.user.discorduser && (
