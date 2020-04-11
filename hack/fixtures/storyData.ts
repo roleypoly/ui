@@ -1,5 +1,5 @@
 import { Member } from '@roleypoly/rpc/discord';
-import { Category, GuildData } from '@roleypoly/rpc/platform';
+import { Category, GuildData, GuildEnumeration } from '@roleypoly/rpc/platform';
 import {
     DiscordUser,
     Guild,
@@ -137,10 +137,40 @@ export const guild: Guild.AsObject = {
     name: 'emoji megaporium',
     id: 'aaa',
     icon:
-        'https://cdn.discordapp.com/icons/203493697696956418/ff08d36f5aee1ff48f8377b65d031ab0.png?size=256',
+        'https://cdn.discordapp.com/icons/421896162539470888/3372fd895ed913b55616c5e49cd50e60.png?size=256',
     ownerid: 'bbb',
     membercount: 23453,
     splash: '',
+};
+
+export const guildMap: { [x: string]: Guild.AsObject } = {
+    'emoji megaporium': guild,
+    Roleypoly: {
+        name: 'Roleypoly',
+        id: 'aaa',
+        icon:
+            'https://cdn.discordapp.com/icons/203493697696956418/ff08d36f5aee1ff48f8377b65d031ab0.png?size=256',
+        ownerid: 'bbb',
+        membercount: 23453,
+        splash: '',
+    },
+    'chamber of secrets': {
+        name: 'chamber of secrets',
+        id: 'aaa',
+        icon: '',
+        ownerid: 'bbb',
+        membercount: 23453,
+        splash: '',
+    },
+    Eclipse: {
+        name: 'Eclipse',
+        id: 'aaa',
+        icon:
+            'https://cdn.discordapp.com/icons/408821059161423873/49dfdd8b2456e2977e80a8b577b19c0d.png?size=256',
+        ownerid: 'bbb',
+        membercount: 23453,
+        splash: '',
+    },
 };
 
 export const guildData: GuildData.AsObject = {
@@ -168,4 +198,40 @@ export const member: Member.AsObject = {
 
 export const rpUser: RoleypolyUser.AsObject = {
     discorduser: user,
+};
+
+export const guildEnum: GuildEnumeration.AsObject = {
+    guildsList: [
+        {
+            id: 'aaa',
+            guild: guildMap['emoji megaporium'],
+            member,
+            data: guildData,
+            roles: guildRoles,
+        },
+        {
+            id: 'bbb',
+            guild: guildMap['Roleypoly'],
+            member: {
+                ...member,
+                rolesList: ['unsafe2'],
+            },
+            data: guildData,
+            roles: guildRoles,
+        },
+        {
+            id: 'ccc',
+            guild: guildMap['chamber of secrets'],
+            member,
+            data: guildData,
+            roles: guildRoles,
+        },
+        {
+            id: 'ddd',
+            guild: guildMap['Eclipse'],
+            member,
+            data: guildData,
+            roles: guildRoles,
+        },
+    ],
 };

@@ -17,6 +17,10 @@ stories.add('With Text', () => <Avatar size={48}>{initials()}</Avatar>);
 
 stories.add('Empty', () => <Avatar size={48}></Avatar>);
 
+stories.add('Deliberately Empty', () => (
+    <Avatar size={48} deliberatelyEmpty={true}></Avatar>
+));
+
 stories.add('With Broken Image', () => (
     <Avatar src="data:" size={48}>
         {initials()}

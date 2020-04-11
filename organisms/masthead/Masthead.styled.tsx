@@ -32,6 +32,7 @@ const sideBase = styled.div`
 export const MastheadLeft = styled(sideBase)``;
 
 export const MastheadRight = styled(sideBase)`
+    flex: 0;
     justify-content: flex-end;
 `;
 

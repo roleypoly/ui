@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { organismStories } from 'organisms/organisms.story';
 import { AppShell } from './AppShell';
-import { rpUser } from 'hack/fixtures/storyData';
+import { rpUser, guildEnum } from 'hack/fixtures/storyData';
 
 const story = organismStories('App Shell', module);
 
@@ -12,7 +12,7 @@ story.add('Guest', () => (
 ));
 
 story.add('Logged In', () => (
-    <AppShell user={rpUser}>
+    <AppShell user={rpUser} guildEnumeration={guildEnum}>
         <h1>Hello World</h1>
     </AppShell>
 ));

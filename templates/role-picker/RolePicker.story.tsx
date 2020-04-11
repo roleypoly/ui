@@ -1,7 +1,14 @@
 import * as React from 'react';
 import { templateStories } from 'templates/templates.story';
 import { RolePickerTemplate, RolePickerTemplateProps } from './RolePicker';
-import { guildData, member, guildRoles, guild, rpUser } from 'hack/fixtures/storyData';
+import {
+    guildData,
+    member,
+    guildRoles,
+    guild,
+    rpUser,
+    guildEnum,
+} from 'hack/fixtures/storyData';
 import { action } from '@storybook/addon-actions';
 import { boolean } from '@storybook/addon-knobs';
 
@@ -19,6 +26,8 @@ const props: RolePickerTemplateProps = {
     onSubmit: action('onSubmit'),
     editable: false,
     user: rpUser,
+    guildEnumeration: guildEnum,
+    activeGuildId: guild.id,
 };
 
 story.add('Role Picker', () => {
