@@ -65,11 +65,21 @@ export const PopoverHeadCloser = styled.div`
     font-size: 2em;
     cursor: pointer;
     margin-right: 10px;
+    border-radius: 2em;
+    min-width: 1.4em;
+    height: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     ${onTablet(
         css`
             display: none;
         `
     )}
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.1);
+    }
 `;
 
 export const PopoverContent = styled.div`

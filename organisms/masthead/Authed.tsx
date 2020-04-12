@@ -15,8 +15,11 @@ import {
     MastheadBase,
     MastheadLeft,
     MastheadRight,
+    GuildPopoverHead,
 } from './Masthead.styled';
 import { guildEnum } from 'hack/fixtures/storyData';
+import { GoOrganization, GoPerson } from 'react-icons/go';
+import { palette } from 'atoms/colors';
 
 type Props = {
     user: RoleypolyUser.AsObject;
@@ -26,7 +29,7 @@ type Props = {
 
 export const Authed = (props: Props) => {
     const [userPopoverState, setUserPopoverState] = React.useState(false);
-    const [serverPopoverState, setServerPopoverState] = React.useState(false);
+    const [serverPopoverState, setServerPopoverState] = React.useState(true);
 
     return (
         <MastheadBase>
@@ -53,7 +56,12 @@ export const Authed = (props: Props) => {
                         />
                     </InteractionBase>
                     <Popover
-                        headContent={<></>}
+                        headContent={
+                            <GuildPopoverHead>
+                                <GoOrganization />
+                                My Guilds
+                            </GuildPopoverHead>
+                        }
                         canDefocus
                         position="bottom left"
                         active={serverPopoverState}

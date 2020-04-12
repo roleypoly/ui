@@ -7,6 +7,7 @@ import { GoZap, GoStar } from 'react-icons/go';
 import { Role } from '@roleypoly/rpc/shared';
 import { GuildNavItem } from './GuildNav.styled';
 import ReactTooltip from 'react-tooltip';
+import Link from 'next/link';
 
 type Props = {
     guildEnumeration: GuildEnumeration.AsObject;
@@ -51,10 +52,12 @@ export const GuildNav = (props: Props) => (
             })),
             'nameLower'
         ).map(({ nameLower, ...guild }) => (
-            <GuildNavItem>
-                <NavSlug guild={guild.guild || null} key={guild.id} />
-                <Badges guild={guild} />
-            </GuildNavItem>
+            <Link href={`/s/${guild.id}`} passHref>
+                <GuildNavItem>
+                    <NavSlug guild={guild.guild || null} key={guild.id} />
+                    <Badges guild={guild} />
+                </GuildNavItem>
+            </Link>
         ))}
         <ReactTooltip id={tooltipId} />
     </div>

@@ -16,6 +16,7 @@ export const NavAction = styled.div`
     justify-content: flex-end;
     transition: color ${transitions.actionable}s ease-in-out;
     color: ${palette.taupe500};
+    box-sizing: border-box;
 
     &:hover {
         cursor: pointer;
@@ -23,8 +24,9 @@ export const NavAction = styled.div`
     }
 
     svg {
-        height: 120%;
-        padding: 5px 9px;
+        font-size: 120%;
+        box-sizing: content-box;
+        padding: 5px 8px;
         position: relative;
         top: 0.1em;
     }

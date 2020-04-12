@@ -12,6 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
         background-color: ${palette.taupe200};
         color: ${palette.grey600};
+        overflow-x: hidden;
     }
     * {
         box-sizing: border-box;

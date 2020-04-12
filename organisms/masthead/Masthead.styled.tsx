@@ -48,7 +48,9 @@ export const MastheadInner = styled.div`
     align-items: center;
 `;
 
-export const InteractionBase = styled.div<{ hide: boolean }>`
+export const InteractionBase = styled.div<{
+    hide: boolean;
+}>`
     display: flex;
     align-items: center;
     height: 50px;
@@ -67,4 +69,21 @@ export const MastheadA = styled.a`
     align-items: center;
     color: unset;
     text-decoration: unset;
+`;
+
+export const GuildPopoverHead = styled.div`
+    display: flex;
+    align-items: center;
+
+    svg {
+        color: ${palette.taupe500};
+        padding: 5px;
+        height: 1.4em;
+        font-size: 2em;
+        margin-right: 10px;
+        margin-left: 16px;
+        ${onSmallScreen(css`
+            margin-left: 0;
+        `)}
+    }
 `;
