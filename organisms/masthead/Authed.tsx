@@ -2,24 +2,23 @@ import { GuildEnumeration } from '@roleypoly/rpc/platform';
 import { RoleypolyUser } from '@roleypoly/rpc/shared';
 import { Logomark } from 'atoms/branding';
 import { Popover } from 'atoms/popover';
+import { guildEnum } from 'hack/fixtures/storyData';
 import { GuildNav } from 'molecules/guild-nav';
 import { NavSlug } from 'molecules/nav-slug';
 import { UserAvatarGroup } from 'molecules/user-avatar-group';
 import { UserPopover } from 'molecules/user-popover';
 import Link from 'next/link';
 import * as React from 'react';
+import { GoOrganization } from 'react-icons/go';
 import {
+    GuildPopoverHead,
     InteractionBase,
     MastheadA,
     MastheadAlignment,
     MastheadBase,
     MastheadLeft,
     MastheadRight,
-    GuildPopoverHead,
 } from './Masthead.styled';
-import { guildEnum } from 'hack/fixtures/storyData';
-import { GoOrganization, GoPerson } from 'react-icons/go';
-import { palette } from 'atoms/colors';
 
 type Props = {
     user: RoleypolyUser.AsObject;
@@ -29,7 +28,7 @@ type Props = {
 
 export const Authed = (props: Props) => {
     const [userPopoverState, setUserPopoverState] = React.useState(false);
-    const [serverPopoverState, setServerPopoverState] = React.useState(true);
+    const [serverPopoverState, setServerPopoverState] = React.useState(false);
 
     return (
         <MastheadBase>

@@ -48,14 +48,16 @@ export const MastheadInner = styled.div`
     align-items: center;
 `;
 
-export const InteractionBase = styled.div<{
+type InteractionBaseProps = {
     hide: boolean;
-}>`
+};
+export const InteractionBase = styled.div<InteractionBaseProps>`
     display: flex;
     align-items: center;
     height: 50px;
     padding: 0 5px;
-    transition: * ${transitions.actionable}s ease-in-out;
+    transition: opacity ${transitions.actionable}s ease-in-out,
+        background-color ${transitions.actionable}s ease-in-out;
     opacity: ${(props) => (props.hide ? 1 : 0)};
 
     :hover {

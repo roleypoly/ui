@@ -5,6 +5,7 @@ import { Footer } from 'molecules/footer';
 import { Content, GlobalStyles } from './AppShell.styled';
 import { GlobalStyleColors } from 'atoms/colors';
 import { GuildEnumeration } from '@roleypoly/rpc/platform';
+import { Scrollbars } from 'react-custom-scrollbars';
 
 type AppShellProps = {
     children: React.ReactNode;
@@ -28,7 +29,11 @@ export const AppShell = (props: AppShellProps) => (
         ) : (
             <Masthead.Guest />
         )}
-        <Content small={props.small}>{props.children}</Content>
+        <Content small={props.small}>
+            <Scrollbars style={{ height: 'calc(100vh - 50px)' }}>
+                {props.children}
+            </Scrollbars>
+        </Content>
         {props.showFooter && <Footer />}
     </>
 );
