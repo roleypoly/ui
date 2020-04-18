@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 import { text400, text300 } from 'atoms/typography';
 import { fontCSS } from 'atoms/fonts';
+import { palette } from 'atoms/colors';
 
 export const IconContainer = styled.div`
     margin-right: 0.6rem;
@@ -11,8 +12,8 @@ const base = styled.button`
     ${fontCSS}
     appearance: none;
     display: block;
-    background-color: var(--taupe300);
-    color: var(--grey900);
+    background-color: ${palette.taupe300};
+    color: ${palette.grey500};
     border-radius: 3px;
     border: 2px solid rgba(0, 0, 0, 0.55);
     transition: all 0.15s ease-in-out;
@@ -49,19 +50,19 @@ const base = styled.button`
 
 const colors = {
     primary: css`
-        background-color: var(--green400);
-        color: var(--taupe100);
+        background-color: ${palette.green400};
+        color: ${palette.taupe100};
     `,
     secondary: css``,
     discord: css`
-        background-color: var(--discord400);
-        border: 2px solid var(--discord200);
+        background-color: ${palette.discord400};
+        border: 2px solid ${palette.discord200};
     `,
     muted: css`
         border: 2px solid rgba(0, 0, 0, 0.15);
         background: none;
         :hover {
-            background-color: var(--taupe200);
+            background-color: ${palette.taupe200};
         }
     `,
 };
@@ -95,10 +96,8 @@ export type ButtonComposerOptions = {
     modifiers?: Array<keyof typeof modifiers>;
 };
 
-export const composeButton = (opts: ButtonComposerOptions) => {
-    return styled(base)`
-    ${sizes[opts.size]}
-    ${colors[opts.color]}
-    ${opts.modifiers && opts.modifiers.map((mod) => modifiers[mod]).join('\n')}
-  `;
-};
+export const Button = styled(base)<ButtonComposerOptions>`
+    ${(props) => props.size in sizes && sizes[props.size]}
+    ${(props) => props.color in colors && colors[props.color]}
+    ${(props) => props.modifiers?.map((m) => modifiers[m])}
+`;

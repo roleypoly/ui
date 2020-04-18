@@ -1,7 +1,11 @@
 import * as React from 'react';
-import * as styled from './Button.styled';
+import {
+    Button as StyledButton,
+    IconContainer,
+    ButtonComposerOptions,
+} from './Button.styled';
 
-export type ButtonProps = Partial<styled.ButtonComposerOptions> & {
+export type ButtonProps = Partial<ButtonComposerOptions> & {
     children: React.ReactNode;
     icon?: React.ReactNode;
     loading?: boolean;
@@ -18,16 +22,15 @@ export const Button = (props: ButtonProps) => {
         modifiers.push('withIcon');
     }
 
-    const BaseComponent = styled.composeButton({
-        size: props.size || 'large',
-        color: props.color || 'primary',
-        modifiers,
-    });
-
     return (
-        <BaseComponent onClick={props.onClick}>
-            {props.icon && <styled.IconContainer>{props.icon}</styled.IconContainer>}
+        <StyledButton
+            size={props.size || 'large'}
+            color={props.color || 'primary'}
+            modifiers={modifiers}
+            onClick={props.onClick}
+        >
+            {props.icon && <IconContainer>{props.icon}</IconContainer>}
             <div>{props.children}</div>
-        </BaseComponent>
+        </StyledButton>
     );
 };
