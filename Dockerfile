@@ -1,6 +1,4 @@
-ARG NODE_VERSION=12
-
-FROM node:${NODE_VERSION} AS base
+FROM node:12 AS base
 WORKDIR /src
 
 FROM base AS build
