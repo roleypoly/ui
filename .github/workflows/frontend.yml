@@ -82,20 +82,21 @@ jobs:
         needs:
             - build
         if: github.event_name == 'push'
-        defaults:
-            with:
-                new_tag: ${{ github.ref }}
-                app: ui
-                github_auth_token: ${{ secrets.GITOPS_TOKEN }}
         steps:
             - name: Deploy to Staging
               uses: roleypoly/actions/deploy@feat/deploy
               if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
               with:
                   environment: staging
+                  new_tag: ${{ github.ref }}
+                  app: ui
+                  github_auth_token: ${{ secrets.GITOPS_TOKEN }}
 
             - name: Deploy to Production
               uses: roleypoly/actions/deploy@feat/deploy
               if: github.ref == 'refs/heads/master'
               with:
                   environment: production
+                  new_tag: ${{ github.ref }}
+                  app: ui
+                  github_auth_token: ${{ secrets.GITOPS_TOKEN }}
