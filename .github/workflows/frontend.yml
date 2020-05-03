@@ -85,10 +85,10 @@ jobs:
         steps:
             - name: Deploy to Staging
               uses: roleypoly/actions/deploy@master
-              if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
+              if: github.ref == 'refs/heads/develop'
               with:
                   environment: staging
-                  new_tag: ${{ github.ref }}
+                  new_tag: ${{ github.sha }}
                   app: ui
                   github_auth_token: ${{ secrets.GITOPS_TOKEN }}
 
