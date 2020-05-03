@@ -84,7 +84,7 @@ jobs:
         if: github.event_name == 'push'
         steps:
             - name: Deploy to Staging
-              uses: roleypoly/actions/deploy@feat/deploy
+              uses: roleypoly/actions/deploy@master
               if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
               with:
                   environment: staging
@@ -93,10 +93,10 @@ jobs:
                   github_auth_token: ${{ secrets.GITOPS_TOKEN }}
 
             - name: Deploy to Production
-              uses: roleypoly/actions/deploy@feat/deploy
+              uses: roleypoly/actions/deploy@master
               if: github.ref == 'refs/heads/master'
               with:
                   environment: production
-                  new_tag: ${{ github.ref }}
+                  new_tag: ${{ github.sha }}
                   app: ui
                   github_auth_token: ${{ secrets.GITOPS_TOKEN }}
