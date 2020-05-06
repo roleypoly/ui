@@ -6,7 +6,8 @@ update_configs:
       update_schedule: live
       target_branch: develop
       automerged_updates:
-          - match: all
+          - match:
+            dependency_type: all
             update_type: semver:minor
 
     - package_manager: docker
@@ -14,5 +15,6 @@ update_configs:
       update_schedule: daily
       target_branch: develop
       automerged_updates:
-          - match: all
+          - match:
+            dependency_type: all
             update_type: semver:minor
