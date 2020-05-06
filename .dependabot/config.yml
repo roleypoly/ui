@@ -7,8 +7,8 @@ update_configs:
       target_branch: develop
       automerged_updates:
           - match:
-            dependency_type: all
-            update_type: semver:minor
+                dependency_type: all
+                update_type: semver:minor
 
     - package_manager: docker
       directory: /
@@ -16,5 +16,5 @@ update_configs:
       target_branch: develop
       automerged_updates:
           - match:
-            dependency_type: all
-            update_type: semver:minor
+                dependency_type: all
+                update_type: semver:minor
