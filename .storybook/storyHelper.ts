@@ -1,12 +1,10 @@
 import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
-import { withA11y } from '@storybook/addon-a11y';
 import { withColors } from '../atoms/colors/withColors';
 import { StoryApi } from '@storybook/addons';
 
 interface Options {
     withInfo: boolean;
-    withA11y: boolean;
     beforeDecorators: OptionFunc;
     afterDecorators: OptionFunc;
 }
@@ -30,7 +28,6 @@ export const makeFactory = (title: string, categoryOpts: Partial<Options> = {}) 
 
     builtStory.addDecorator(withColors);
     builtStory.addDecorator(withKnobs);
-    builtStory.addDecorator(withA11y);
 
     opts.afterDecorators && opts.afterDecorators(opts, builtStory);
     return builtStory;

@@ -1,5 +1,4 @@
 import { addParameters, configure } from '@storybook/react';
-// import { themes } from '@storybook/theming'
 import { roleypolyTheme } from './roleypoly-theme';
 import { requireContext } from './requireContext';
 
