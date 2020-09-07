@@ -21,7 +21,7 @@ export const makeFactory = (title: string, categoryOpts: Partial<Options> = {}) 
         ...storyOpts,
     };
 
-    const builtStory = storiesOf(`${title}|${moduleName}`, nodeModule);
+    const builtStory = storiesOf(`${title}/${moduleName}`, nodeModule);
 
     opts.beforeDecorators && opts.beforeDecorators(opts, builtStory);
 

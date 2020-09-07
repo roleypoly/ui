@@ -19,8 +19,9 @@ module.exports = ({ config }) => {
     });
     config.plugins.push(
         new ForkTsCheckerWebpackPlugin({
-            tslint: true,
-            tsConfig: __dirname + '/../hack/tsconfig.test.json',
+            typescript: {
+                configFile: __dirname + '/../hack/tsconfig.test.json',
+            },
         })
     );
     config.resolve.extensions.push('.ts', '.tsx');
