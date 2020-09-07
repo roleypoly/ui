@@ -99,5 +99,6 @@ export type ButtonComposerOptions = {
 export const Button = styled(base)<ButtonComposerOptions>`
     ${(props) => props.size in sizes && sizes[props.size]}
     ${(props) => props.color in colors && colors[props.color]}
-    ${(props) => props.modifiers?.map((m) => modifiers[m])}
+    ${(props) =>
+        props.modifiers?.map((m) => modifiers[m])}
 `;
