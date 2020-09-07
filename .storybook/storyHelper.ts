@@ -17,7 +17,6 @@ export const makeFactory = (title: string, categoryOpts: Partial<Options> = {}) 
     storyOpts: Partial<Options> = {}
 ) => {
     const opts = {
-        withA11y: false,
         ...categoryOpts,
         ...storyOpts,
     };
