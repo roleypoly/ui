@@ -8,7 +8,7 @@ export const IconContainer = styled.div`
     font-size: 1.75em;
 `;
 
-const base = styled.button`
+const base = css`
     ${fontCSS}
     appearance: none;
     display: block;
@@ -21,6 +21,7 @@ const base = styled.button`
     position: relative;
     user-select: none;
     cursor: pointer;
+    white-space: nowrap;
 
     ::after {
         content: '';
@@ -96,9 +97,11 @@ export type ButtonComposerOptions = {
     modifiers?: Array<keyof typeof modifiers>;
 };
 
-export const Button = styled(base)<ButtonComposerOptions>`
+export const Button = styled.button<ButtonComposerOptions>`
+    ${base}
     ${(props) => props.size in sizes && sizes[props.size]}
-    ${(props) => props.color in colors && colors[props.color]}
+    ${(props) =>
+        props.color in colors && colors[props.color]}
     ${(props) =>
         props.modifiers?.map((m) => modifiers[m])}
 `;

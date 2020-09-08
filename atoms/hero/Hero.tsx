@@ -15,6 +15,7 @@ const HeroContainer = styled.div<HeroContainerProps>`
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
     min-height: calc(100vh - ${(props) => props.topSpacing + props.bottomSpacing}px);
     margin-top: ${(props) => props.topSpacing}px;
 `;

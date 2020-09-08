@@ -29,11 +29,13 @@ export const AppShell = (props: AppShellProps) => (
         ) : (
             <Masthead.Guest />
         )}
-        <Content small={props.small}>
-            <Scrollbars style={{ height: 'calc(100vh - 50px)' }}>
-                {props.children}
-            </Scrollbars>
-        </Content>
-        {props.showFooter && <Footer />}
+        <Scrollbars
+            style={{ height: 'calc(100vh - 25px)', margin: 0, padding: 0 }}
+            autoHide
+            universal
+        >
+            <Content small={props.small}>{props.children}</Content>
+            {props.showFooter && <Footer />}
+        </Scrollbars>
     </>
 );
