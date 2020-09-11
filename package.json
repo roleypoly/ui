@@ -60,7 +60,7 @@
         "@storybook/addon-links": "^6.0.21",
         "@storybook/addon-viewport": "^6.0.21",
         "@storybook/react": "^6.0.21",
-        "@types/chroma-js": "^2.0.0",
+        "@types/chroma-js": "^2.0.1",
         "@types/enzyme": "^3.10.5",
         "@types/enzyme-adapter-react-16": "^1.0.6",
         "@types/google-protobuf": "^3.7.3",
