@@ -39,7 +39,7 @@
     },
     "dependencies": {
         "@improbable-eng/grpc-web-node-http-transport": "^0.13.0",
-        "@roleypoly/rpc": "^1.9.2",
+        "@roleypoly/rpc": "^1.9.3",
         "browser-headers": "^0.4.1",
         "chroma-js": "^2.1.0",
         "dotenv": "^8.2.0",
